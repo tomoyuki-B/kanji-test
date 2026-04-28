@@ -1,0 +1,32 @@
+[
+  {
+    "id": "g5-001",
+    "grade": 5,
+    "unit": "国語上 第1単元",
+    "kanji": "興奮",
+    "reading": "こうふん",
+    "type": "jukugo",
+    "example": "この本は{}する内容だ。",
+    "meaning": "気持ちが高ぶること"
+  },
+  {
+    "id": "g5-002",
+    "grade": 5,
+    "unit": "国語上 第1単元",
+    "kanji": "複雑",
+    "reading": "ふくざつ",
+    "type": "jukugo",
+    "example": "この問題は{}で難しい。",
+    "meaning": "物事が入り組んでいること"
+  },
+  {
+    "id": "g5-003",
+    "grade": 5,
+    "unit": "国語上 第1単元",
+    "kanji": "批判",
+    "reading": "ひはん",
+    "type": "jukugo",
+    "example": "友達の意見を{}してはいけない。",
+    "meaning": "良い点・悪い点を判断して評価すること"
+  }
+]

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ダブルタップズームとスクロールの意図しない干渉を抑制 */
+* {
+  touch-action: manipulation;
+}
+
+/* Canvas 要素は手書きのため touch-action をリセット */
+canvas {
+  touch-action: none;
+}
