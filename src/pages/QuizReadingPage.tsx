@@ -2,8 +2,11 @@ import { useState, useEffect, useRef } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import DrawingCanvas, { type DrawingCanvasHandle } from '../components/DrawingCanvas'
 import KanaKeyboard from '../components/KanaKeyboard'
+import ResultOverlay from '../components/ResultOverlay'
 import { loadKanjiData, type KanjiQuestion } from '../lib/kanjiLoader'
 import { type RecognitionCandidate } from '../lib/recognizer'
+import { getWeakKanji } from '../lib/db'
+import { type QuizAnswer, type ResultNavState } from '../lib/types'
 
 const ACCENT = '#534AB7'
 
@@ -11,6 +14,14 @@ interface LocationState {
   grade: 5 | 6
   range: { type: 'random' | 'unit' | 'weak'; unit?: string }
   questionCount: 5 | 10 | 20
+}
+
+interface OverlayState {
+  isCorrect: boolean
+  kanji: string
+  reading: string
+  answersSnapshot: QuizAnswer[]
+  nextIndex: number
 }
 
 const FALLBACK_STATE: LocationState = { grade: 5, range: { type: 'random' }, questionCount: 10 }
@@ -21,26 +32,31 @@ export default function QuizReadingPage() {
   const quizState: LocationState = (location.state as LocationState) ?? FALLBACK_STATE
 
   const [questions, setQuestions] = useState<KanjiQuestion[]>([])
-  const [currentIndex] = useState(0)
+  const [currentIndex, setCurrentIndex] = useState(0)
   const [cells, setCells] = useState<string[]>([])
   const [candidates, setCandidates] = useState<RecognitionCandidate[]>([])
   const [inputMode, setInputMode] = useState<'draw' | 'keyboard'>('draw')
   const [loading, setLoading] = useState(true)
+  const [overlayState, setOverlayState] = useState<OverlayState | null>(null)
+  const [answers, setAnswers] = useState<QuizAnswer[]>([])
+  const [startedAt] = useState(() => Date.now())
 
   const canvasRef = useRef<DrawingCanvasHandle>(null)
 
   const currentQuestion = questions[currentIndex] ?? null
-
-  // 次に入力されるマスのインデックス（常に左から最初の空きマス）
   const activeCell = cells.findIndex((c) => c === '')
 
-  // 問題ロード
   useEffect(() => {
-    loadKanjiData(quizState.grade)
-      .then((data) => {
+    const load = async () => {
+      try {
+        const data = await loadKanjiData(quizState.grade)
         let filtered = data
         if (quizState.range.type === 'unit' && quizState.range.unit) {
           filtered = data.filter((q) => q.unit === quizState.range.unit)
+        } else if (quizState.range.type === 'weak') {
+          const weakList = await getWeakKanji(100)
+          const weakIds = new Set(weakList.map((w) => w.questionId))
+          filtered = data.filter((q) => weakIds.has(q.id))
         }
         const shuffled = [...filtered].sort(() => Math.random() - 0.5)
         const picked = shuffled.slice(0, quizState.questionCount)
@@ -48,12 +64,13 @@ export default function QuizReadingPage() {
         if (picked.length > 0) {
           setCells(new Array(picked[0].reading.length).fill(''))
         }
+      } finally {
         setLoading(false)
-      })
-      .catch(() => setLoading(false))
+      }
+    }
+    load()
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
-  // 問題切り替え時にリセット
   useEffect(() => {
     if (!currentQuestion) return
     setCells(new Array(currentQuestion.reading.length).fill(''))
@@ -61,7 +78,6 @@ export default function QuizReadingPage() {
     canvasRef.current?.clear()
   }, [currentIndex]) // eslint-disable-line react-hooks/exhaustive-deps
 
-  // 次の空きマスに1文字追加する
   const appendChar = (char: string) => {
     const index = cells.findIndex((c) => c === '')
     if (index === -1) return
@@ -74,7 +90,6 @@ export default function QuizReadingPage() {
     canvasRef.current?.clear()
   }
 
-  // 末尾の入力済み文字を1つ削除する
   const deleteLastChar = () => {
     const indices = [...cells].map((c, i) => (c !== '' ? i : -1)).filter((i) => i !== -1)
     const lastFilled = indices[indices.length - 1]
@@ -86,7 +101,6 @@ export default function QuizReadingPage() {
     })
   }
 
-  // 認識ボタン押下後のコールバック
   const handleRecognized = (results: RecognitionCandidate[]) => {
     if (results.length === 0) return
     if (results.length === 1 || results[0].confidence >= 0.9) {
@@ -111,19 +125,48 @@ export default function QuizReadingPage() {
   const allFilled = cells.length > 0 && cells.every((c) => c !== '')
 
   const handleAnswer = () => {
-    navigate('/grading', {
-      state: {
-        question: currentQuestion,
-        userAnswer: cells.join(''),
-        currentIndex,
-        totalCount: questions.length,
-        questions,
-        quizState,
-      },
+    if (!currentQuestion) return
+    const userAnswer = cells.join('')
+    const isCorrect = userAnswer === currentQuestion.reading
+    const newAnswer: QuizAnswer = {
+      questionId: currentQuestion.id,
+      kanji: currentQuestion.kanji,
+      reading: currentQuestion.reading,
+      userAnswer,
+      isCorrect,
+      example: currentQuestion.example,
+      meaning: currentQuestion.meaning,
+    }
+    const newAnswers = [...answers, newAnswer]
+    setAnswers(newAnswers)
+    setOverlayState({
+      isCorrect,
+      kanji: currentQuestion.kanji,
+      reading: currentQuestion.reading,
+      answersSnapshot: newAnswers,
+      nextIndex: currentIndex + 1,
     })
   }
 
-  // ---- ローディング / エラー ----
+  const handleNext = () => {
+    if (!overlayState) return
+    const { nextIndex, answersSnapshot } = overlayState
+    setOverlayState(null)
+    if (nextIndex >= questions.length) {
+      const resultState: ResultNavState = {
+        answers: answersSnapshot,
+        mode: 'reading',
+        grade: quizState.grade,
+        questionCount: questions.length,
+        startedAt,
+        quizState,
+      }
+      navigate('/result', { state: resultState })
+    } else {
+      setCurrentIndex(nextIndex)
+    }
+  }
+
   if (loading) {
     return (
       <div className="min-h-screen bg-sky-50 flex items-center justify-center">
@@ -151,7 +194,16 @@ export default function QuizReadingPage() {
 
   return (
     <div className="min-h-screen bg-sky-50 flex flex-col">
-      {/* ヘッダー */}
+      {overlayState && (
+        <ResultOverlay
+          isCorrect={overlayState.isCorrect}
+          kanji={overlayState.kanji}
+          reading={overlayState.reading}
+          mode="reading"
+          onNext={handleNext}
+        />
+      )}
+
       <header
         className="flex items-center justify-between px-5 py-4 shadow-sm"
         style={{ background: ACCENT }}
@@ -164,7 +216,6 @@ export default function QuizReadingPage() {
 
       <div className="flex flex-col items-center px-4 py-5 gap-5 w-full max-w-xl mx-auto">
 
-        {/* 問題文 */}
         <div className="w-full bg-white rounded-2xl shadow px-6 py-5 flex flex-col gap-2">
           <p className="text-xl text-gray-700 text-center leading-relaxed">
             {exampleParts[0]}
@@ -181,8 +232,7 @@ export default function QuizReadingPage() {
           </p>
         </div>
 
-        {/* 解答マス — 入力は左から順に自動で埋まる */}
-        <div className="flex flex-wrap justify-center gap-3">
+        <div key={currentIndex} className="flex flex-wrap justify-center gap-3">
           {cells.map((char, i) => (
             <div key={i} className="flex flex-col items-center gap-1">
               <div
@@ -199,7 +249,6 @@ export default function QuizReadingPage() {
           ))}
         </div>
 
-        {/* 認識候補ボタン */}
         {candidates.length > 0 && (
           <div className="flex gap-3 items-center">
             <span className="text-sm text-gray-400">候補:</span>
@@ -215,7 +264,6 @@ export default function QuizReadingPage() {
           </div>
         )}
 
-        {/* 手書きキャンバス / ソフトキーボード */}
         {inputMode === 'draw' ? (
           <DrawingCanvas
             ref={canvasRef}
@@ -228,7 +276,6 @@ export default function QuizReadingPage() {
           <KanaKeyboard onInput={appendChar} onDelete={deleteLastChar} />
         )}
 
-        {/* 操作ボタン群 */}
         <div className="flex gap-3 w-full">
           <ActionButton
             onClick={handleClearCanvas}
@@ -243,7 +290,6 @@ export default function QuizReadingPage() {
           />
         </div>
 
-        {/* こたえるボタン */}
         <button
           onClick={handleAnswer}
           disabled={!allFilled}

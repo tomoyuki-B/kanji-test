@@ -1,20 +1,27 @@
-import { useRef, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useRef, useState, useEffect } from 'react'
+import { useNavigate, useLocation } from 'react-router-dom'
 import DrawingCanvas, { type DrawingCanvasHandle } from '../components/DrawingCanvas'
+import ResultOverlay from '../components/ResultOverlay'
 import { type RecognitionCandidate } from '../lib/recognizer'
+import { loadKanjiData, type KanjiQuestion } from '../lib/kanjiLoader'
+import { getWeakKanji } from '../lib/db'
+import { type QuizAnswer, type ResultNavState } from '../lib/types'
 
 const ACCENT = '#534AB7'
 
-// TODO: 実際の問題データをルートの state / context から受け取る
-const MOCK_QUESTION = {
-  id: 'g5-001',
-  grade: 5 as const,
-  unit: '国語上 第1単元',
-  kanji: '興奮',
-  reading: 'こうふん',
-  type: 'jukugo' as const,
-  example: 'この本は{}する内容だ。',
-  meaning: '気持ちが高ぶること',
+interface LocationState {
+  mode: 'writing' | 'reading'
+  grade: 5 | 6
+  range: { type: 'random' | 'unit' | 'weak'; unit?: string }
+  questionCount: 5 | 10 | 20
+}
+
+interface OverlayState {
+  isCorrect: boolean
+  kanji: string
+  reading: string
+  answersSnapshot: QuizAnswer[]
+  nextIndex: number
 }
 
 function splitReading(kanji: string, reading: string): string[] {
@@ -30,19 +37,61 @@ function splitReading(kanji: string, reading: string): string[] {
   })
 }
 
+const FALLBACK_STATE: LocationState = { mode: 'writing', grade: 5, range: { type: 'random' }, questionCount: 10 }
+
 export default function QuizWritingPage() {
   const navigate = useNavigate()
-  const chars = MOCK_QUESTION.kanji.split('')
-  const readingHints = splitReading(MOCK_QUESTION.kanji, MOCK_QUESTION.reading)
+  const location = useLocation()
+  const quizState: LocationState = (location.state as LocationState) ?? FALLBACK_STATE
 
-  const [recognizedChars, setRecognizedChars] = useState<(string | null)[]>(
-    () => new Array(chars.length).fill(null),
-  )
-  const [candidatesPerSlot, setCandidatesPerSlot] = useState<RecognitionCandidate[][]>(
-    () => new Array(chars.length).fill([]),
-  )
+  const [questions, setQuestions] = useState<KanjiQuestion[]>([])
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const [recognizedChars, setRecognizedChars] = useState<(string | null)[]>([])
+  const [candidatesPerSlot, setCandidatesPerSlot] = useState<RecognitionCandidate[][]>([])
+  const [loading, setLoading] = useState(true)
+  const [overlayState, setOverlayState] = useState<OverlayState | null>(null)
+  const [answers, setAnswers] = useState<QuizAnswer[]>([])
+  const [startedAt] = useState(() => Date.now())
 
   const canvasRefs = useRef<(DrawingCanvasHandle | null)[]>([])
+
+  const currentQuestion = questions[currentIndex] ?? null
+
+  useEffect(() => {
+    const load = async () => {
+      try {
+        const data = await loadKanjiData(quizState.grade)
+        let filtered = data
+        if (quizState.range.type === 'unit' && quizState.range.unit) {
+          filtered = data.filter((q) => q.unit === quizState.range.unit)
+        } else if (quizState.range.type === 'weak') {
+          const weakList = await getWeakKanji(100)
+          const weakIds = new Set(weakList.map((w) => w.questionId))
+          filtered = data.filter((q) => weakIds.has(q.id))
+        }
+        const shuffled = [...filtered].sort(() => Math.random() - 0.5)
+        const picked = shuffled.slice(0, quizState.questionCount)
+        setQuestions(picked)
+        if (picked.length > 0) {
+          setRecognizedChars(new Array(picked[0].kanji.length).fill(null))
+          setCandidatesPerSlot(new Array(picked[0].kanji.length).fill([]))
+        }
+      } finally {
+        setLoading(false)
+      }
+    }
+    load()
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(() => {
+    if (!currentQuestion) return
+    setRecognizedChars(new Array(currentQuestion.kanji.length).fill(null))
+    setCandidatesPerSlot(new Array(currentQuestion.kanji.length).fill([]))
+    canvasRefs.current.forEach((ref) => ref?.clear())
+  }, [currentIndex]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  const chars = currentQuestion?.kanji.split('') ?? []
+  const readingHints = currentQuestion ? splitReading(currentQuestion.kanji, currentQuestion.reading) : []
 
   const handleRecognized = (slotIndex: number) => (results: RecognitionCandidate[]) => {
     if (results.length === 0) return
@@ -64,7 +113,6 @@ export default function QuizWritingPage() {
       next[slotIndex] = char
       return next
     })
-    // 選んだ候補を先頭から除く
     setCandidatesPerSlot((prev) => {
       const next = [...prev]
       next[slotIndex] = next[slotIndex].filter((c) => c.char !== char)
@@ -72,38 +120,104 @@ export default function QuizWritingPage() {
     })
   }
 
-  const allFilled = recognizedChars.every((c) => c !== null)
-  const userAnswer = recognizedChars.join('')
-  const correct = userAnswer === MOCK_QUESTION.kanji
+  const allFilled = recognizedChars.length > 0 && recognizedChars.every((c) => c !== null)
+  const userAnswer = recognizedChars.map((c) => c ?? '').join('')
 
   const handleAnswer = () => {
-    navigate('/grading', {
-      state: {
-        question: MOCK_QUESTION,
-        userAnswer,
-        correct,
-      },
+    if (!currentQuestion) return
+    const isCorrect = userAnswer === currentQuestion.kanji
+    const newAnswer: QuizAnswer = {
+      questionId: currentQuestion.id,
+      kanji: currentQuestion.kanji,
+      reading: currentQuestion.reading,
+      userAnswer,
+      isCorrect,
+      example: currentQuestion.example,
+      meaning: currentQuestion.meaning,
+    }
+    const newAnswers = [...answers, newAnswer]
+    setAnswers(newAnswers)
+    setOverlayState({
+      isCorrect,
+      kanji: currentQuestion.kanji,
+      reading: currentQuestion.reading,
+      answersSnapshot: newAnswers,
+      nextIndex: currentIndex + 1,
     })
   }
 
-  const exampleParts = MOCK_QUESTION.example.split('{}')
+  const handleNext = () => {
+    if (!overlayState) return
+    const { nextIndex, answersSnapshot } = overlayState
+    setOverlayState(null)
+    if (nextIndex >= questions.length) {
+      const resultState: ResultNavState = {
+        answers: answersSnapshot,
+        mode: 'writing',
+        grade: quizState.grade,
+        questionCount: questions.length,
+        startedAt,
+        quizState,
+      }
+      navigate('/result', { state: resultState })
+    } else {
+      setCurrentIndex(nextIndex)
+    }
+  }
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-sky-50 flex items-center justify-center">
+        <p className="text-gray-500 text-xl">読み込み中...</p>
+      </div>
+    )
+  }
+
+  if (!currentQuestion) {
+    return (
+      <div className="min-h-screen bg-sky-50 flex flex-col items-center justify-center gap-4">
+        <p className="text-gray-600 text-xl">問題が見つかりませんでした</p>
+        <button
+          onClick={() => navigate('/')}
+          className="px-6 py-3 rounded-xl text-white font-bold"
+          style={{ background: ACCENT }}
+        >
+          ホームへ
+        </button>
+      </div>
+    )
+  }
+
+  const exampleParts = currentQuestion.example.split('{}')
 
   return (
     <div className="min-h-screen bg-sky-50 flex flex-col items-center p-5 gap-5">
-      <h2 className="text-2xl font-bold mt-4" style={{ color: ACCENT }}>書き取り</h2>
+      {overlayState && (
+        <ResultOverlay
+          isCorrect={overlayState.isCorrect}
+          kanji={overlayState.kanji}
+          reading={overlayState.reading}
+          mode="writing"
+          onNext={handleNext}
+        />
+      )}
 
-      {/* 例文 */}
+      <header className="w-full flex items-center justify-between px-1 pt-4">
+        <h2 className="text-2xl font-bold" style={{ color: ACCENT }}>書き取り</h2>
+        <span className="font-semibold text-lg" style={{ color: ACCENT }}>
+          {currentIndex + 1} / {questions.length}
+        </span>
+      </header>
+
       <p className="text-xl text-gray-700 bg-white rounded-xl px-6 py-4 shadow w-full max-w-2xl text-center">
         {exampleParts[0]}
-        <span className="text-red-500 font-bold">{MOCK_QUESTION.reading}</span>
-        {exampleParts[1]}
+        <span className="text-red-500 font-bold">{currentQuestion.reading}</span>
+        {exampleParts[1] ?? ''}
       </p>
 
-      {/* 解答スロット */}
-      <div className="flex flex-wrap justify-center gap-6">
+      <div key={currentIndex} className="flex flex-wrap justify-center gap-6">
         {chars.map((_, i) => (
           <div key={i} className="flex flex-col items-center gap-2">
-            {/* 認識結果表示 */}
             <div
               className="w-16 h-16 rounded-xl border-2 flex items-center justify-center text-3xl font-bold bg-white"
               style={{ borderColor: recognizedChars[i] ? ACCENT : '#e2e8f0' }}
@@ -111,8 +225,7 @@ export default function QuizWritingPage() {
               {recognizedChars[i] ?? ''}
             </div>
 
-            {/* 候補ボタン（2nd/3rd） */}
-            {candidatesPerSlot[i].length > 0 && (
+            {(candidatesPerSlot[i]?.length ?? 0) > 0 && (
               <div className="flex gap-1">
                 {candidatesPerSlot[i].map((c) => (
                   <button
@@ -126,7 +239,6 @@ export default function QuizWritingPage() {
               </div>
             )}
 
-            {/* 手書きキャンバス */}
             <DrawingCanvas
               ref={(el) => { canvasRefs.current[i] = el }}
               size={240}
@@ -138,7 +250,6 @@ export default function QuizWritingPage() {
         ))}
       </div>
 
-      {/* こたえるボタン */}
       <button
         onClick={handleAnswer}
         disabled={!allFilled}
