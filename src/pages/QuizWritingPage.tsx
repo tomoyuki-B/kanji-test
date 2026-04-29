@@ -203,6 +203,12 @@ export default function QuizWritingPage() {
       )}
 
       <header className="w-full flex items-center justify-between px-1 pt-4">
+        <button
+          onClick={() => navigate('/')}
+          className="flex items-center gap-1 text-violet-400 font-semibold text-base px-2 py-1 rounded-lg hover:bg-violet-50"
+        >
+          ← ホーム
+        </button>
         <h2 className="text-2xl font-bold" style={{ color: ACCENT }}>書き取り</h2>
         <span className="font-semibold text-lg" style={{ color: ACCENT }}>
           {currentIndex + 1} / {questions.length}

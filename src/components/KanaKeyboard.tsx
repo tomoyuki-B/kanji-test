@@ -3,32 +3,36 @@ interface Props {
   onDelete: () => void
 }
 
-const ROWS = [
-  ['あ', 'い', 'う', 'え', 'お'],
-  ['か', 'き', 'く', 'け', 'こ'],
-  ['さ', 'し', 'す', 'せ', 'そ'],
-  ['た', 'ち', 'つ', 'て', 'と'],
-  ['な', 'に', 'ぬ', 'ね', 'の'],
-  ['は', 'ひ', 'ふ', 'へ', 'ほ'],
-  ['ま', 'み', 'む', 'め', 'も'],
-  ['や', '', 'ゆ', '', 'よ'],
-  ['ら', 'り', 'る', 'れ', 'ろ'],
+// 行（列）× 段（行） — 縦にあいうえお順
+// 各列: あ行 か行 さ行 た行 な行 は行 ま行 や行 ら行 わ行
+const COLS = [
   ['わ', '', 'を', '', 'ん'],
-  ['っ', 'ー', '゛', '゜', ''],
+  ['ら', 'り', 'る', 'れ', 'ろ'],
+  ['や', '', 'ゆ', '', 'よ'],
+  ['ま', 'み', 'む', 'め', 'も'],
+  ['は', 'ひ', 'ふ', 'へ', 'ほ'],
+  ['な', 'に', 'ぬ', 'ね', 'の'],
+  ['た', 'ち', 'つ', 'て', 'と'],
+  ['さ', 'し', 'す', 'せ', 'そ'],
+  ['か', 'き', 'く', 'け', 'こ'],
+  ['あ', 'い', 'う', 'え', 'お'],
 ]
+
+const SPECIAL = ['っ', 'ー', '゛', '゜']
 
 export default function KanaKeyboard({ onInput, onDelete }: Props) {
   return (
-    <div className="flex flex-col items-center gap-2 w-full max-w-sm">
-      <div className="flex flex-col gap-1 w-full">
-        {ROWS.map((row, ri) => (
-          <div key={ri} className="flex gap-1 justify-center">
-            {row.map((char, ci) => (
+    <div className="flex flex-col gap-1 w-full">
+      {/* メイン: 5段 × 10列 */}
+      <div className="flex gap-1 w-full">
+        {COLS.map((col, ci) => (
+          <div key={ci} className="flex flex-col gap-1 flex-1">
+            {col.map((char, ri) => (
               <button
-                key={ci}
+                key={ri}
                 onClick={() => char && onInput(char)}
                 disabled={!char}
-                className="w-14 h-11 bg-white border border-gray-300 rounded-lg text-xl font-bold text-gray-700
+                className="h-11 w-full bg-white border border-gray-300 rounded-md text-lg font-bold text-gray-700
                   hover:bg-violet-50 active:bg-violet-100 disabled:invisible"
               >
                 {char}
@@ -38,12 +42,25 @@ export default function KanaKeyboard({ onInput, onDelete }: Props) {
         ))}
       </div>
 
-      <button
-        onClick={onDelete}
-        className="px-8 py-3 bg-red-50 border border-red-200 text-red-600 font-bold rounded-xl min-h-[48px] text-lg"
-      >
-        ← 消す
-      </button>
+      {/* 特殊キー行 */}
+      <div className="flex gap-1 w-full">
+        {SPECIAL.map((char) => (
+          <button
+            key={char}
+            onClick={() => onInput(char)}
+            className="flex-1 h-11 bg-white border border-gray-300 rounded-md text-lg font-bold text-gray-600
+              hover:bg-violet-50 active:bg-violet-100"
+          >
+            {char}
+          </button>
+        ))}
+        <button
+          onClick={onDelete}
+          className="flex-1 h-11 bg-red-50 border border-red-200 text-red-600 font-bold rounded-md text-base"
+        >
+          ← 消す
+        </button>
+      </div>
     </div>
   )
 }

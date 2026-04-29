@@ -78,6 +78,34 @@ export default function QuizReadingPage() {
     canvasRef.current?.clear()
   }, [currentIndex]) // eslint-disable-line react-hooks/exhaustive-deps
 
+  const DAKUTEN_MAP: Record<string, string> = {
+    'か': 'が', 'き': 'ぎ', 'く': 'ぐ', 'け': 'げ', 'こ': 'ご',
+    'さ': 'ざ', 'し': 'じ', 'す': 'ず', 'せ': 'ぜ', 'そ': 'ぞ',
+    'た': 'だ', 'ち': 'ぢ', 'つ': 'づ', 'て': 'で', 'と': 'ど',
+    'は': 'ば', 'ひ': 'び', 'ふ': 'ぶ', 'へ': 'べ', 'ほ': 'ぼ',
+  }
+  const HANDAKUTEN_MAP: Record<string, string> = {
+    'は': 'ぱ', 'ひ': 'ぴ', 'ふ': 'ぷ', 'へ': 'ぺ', 'ほ': 'ぽ',
+  }
+
+  const handleKeyboardInput = (char: string) => {
+    if (char === '゛' || char === '゜') {
+      const map = char === '゛' ? DAKUTEN_MAP : HANDAKUTEN_MAP
+      const filledIndices = cells.map((c, i) => (c !== '' ? i : -1)).filter((i) => i !== -1)
+      const lastIdx = filledIndices[filledIndices.length - 1]
+      if (lastIdx === undefined) return
+      const combined = map[cells[lastIdx]]
+      if (!combined) return
+      setCells((prev) => {
+        const next = [...prev]
+        next[lastIdx] = combined
+        return next
+      })
+      return
+    }
+    appendChar(char)
+  }
+
   const appendChar = (char: string) => {
     const index = cells.findIndex((c) => c === '')
     if (index === -1) return
@@ -208,6 +236,12 @@ export default function QuizReadingPage() {
         className="flex items-center justify-between px-5 py-4 shadow-sm"
         style={{ background: ACCENT }}
       >
+        <button
+          onClick={() => navigate('/')}
+          className="text-violet-200 font-semibold text-base px-2 py-1 rounded-lg"
+        >
+          ← ホーム
+        </button>
         <span className="text-white font-bold text-lg">{quizState.grade}年生 読み</span>
         <span className="text-violet-200 font-semibold text-lg">
           {currentIndex + 1} / {questions.length}
@@ -273,7 +307,7 @@ export default function QuizReadingPage() {
             onRecognized={handleRecognized}
           />
         ) : (
-          <KanaKeyboard onInput={appendChar} onDelete={deleteLastChar} />
+          <KanaKeyboard onInput={handleKeyboardInput} onDelete={deleteLastChar} />
         )}
 
         <div className="flex gap-3 w-full">
