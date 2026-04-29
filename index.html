@@ -13,7 +13,12 @@
     <title>漢字テスト</title>
   </head>
   <body>
+    <!-- KanjiCanvas: defer でパース後・モジュールスクリプトより先に実行 -->
+    <script defer src="/kanjicanvas/kanji-canvas.min.js"></script>
+    <script defer src="/kanjicanvas/ref-patterns.js"></script>
     <div id="root"></div>
+    <!-- 認識用の非表示 canvas -->
+    <canvas id="kc_recognizer" width="256" height="256" style="display:none"></canvas>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

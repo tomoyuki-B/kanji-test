@@ -1,16 +1,27 @@
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom'
+import { type KanjiQuestion } from '../lib/kanjiLoader'
 
-// TODO: 実際の認識結果・正解データを受け取る
-const MOCK_RESULT = {
-  question: '興奮',
-  answer: '興奮',
-  correct: true,
-  meaning: '気持ちが高ぶること',
-  example: 'この本は興奮する内容だ。',
+interface GradingState {
+  question: KanjiQuestion
+  userAnswer: string
+  correct: boolean
 }
 
 export default function GradingPage() {
   const navigate = useNavigate()
+  const location = useLocation()
+  const state = location.state as GradingState | null
+
+  if (!state) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <p className="text-gray-500">採点データがありません</p>
+      </div>
+    )
+  }
+
+  const { question, userAnswer, correct } = state
+  const exampleFilled = question.example.replace('{}', question.kanji)
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center p-6 gap-6">
@@ -18,13 +29,19 @@ export default function GradingPage() {
 
       <div className="w-full max-w-lg bg-white rounded-2xl shadow p-6 flex flex-col gap-4">
         <div className="flex items-center gap-3">
-          <span className={`text-4xl ${MOCK_RESULT.correct ? 'text-green-500' : 'text-red-500'}`}>
-            {MOCK_RESULT.correct ? '○' : '✕'}
+          <span className={`text-5xl ${correct ? 'text-green-500' : 'text-red-500'}`}>
+            {correct ? '○' : '✕'}
           </span>
-          <div>
-            <p className="text-3xl font-bold text-gray-800">{MOCK_RESULT.question}</p>
-            {!MOCK_RESULT.correct && (
-              <p className="text-lg text-gray-500">あなたの答え: {MOCK_RESULT.answer}</p>
+          <div className="flex flex-col gap-1">
+            <div className="flex items-center gap-2">
+              <span className="text-sm text-gray-400">正解</span>
+              <span className="text-3xl font-bold text-gray-800">{question.kanji}</span>
+            </div>
+            {!correct && (
+              <div className="flex items-center gap-2">
+                <span className="text-sm text-gray-400">あなた</span>
+                <span className="text-3xl font-bold text-red-400">{userAnswer}</span>
+              </div>
             )}
           </div>
         </div>
@@ -32,12 +49,16 @@ export default function GradingPage() {
         <hr />
 
         <p className="text-gray-700">
+          <span className="font-semibold">読み：</span>
+          {question.reading}
+        </p>
+        <p className="text-gray-700">
           <span className="font-semibold">意味：</span>
-          {MOCK_RESULT.meaning}
+          {question.meaning}
         </p>
         <p className="text-gray-700">
           <span className="font-semibold">例文：</span>
-          {MOCK_RESULT.example}
+          {exampleFilled}
         </p>
       </div>
 
