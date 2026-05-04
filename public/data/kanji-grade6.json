@@ -2428,5 +2428,195 @@
     "type": "jukugo",
     "example": "バスに乗るために{}を用意した。",
     "meaning": "少額の硬貨"
+  },
+  {
+    "id": "g6-244",
+    "grade": 6,
+    "unit": "",
+    "kanji": "株",
+    "reading": "かぶ",
+    "type": "single",
+    "example": "切りたおした木の{}が庭に残っていた。",
+    "meaning": "切った木の根元の部分"
+  },
+  {
+    "id": "g6-245",
+    "grade": 6,
+    "unit": "",
+    "kanji": "巻く",
+    "reading": "まく",
+    "type": "okurigana",
+    "example": "テープをつつに{}。",
+    "meaning": "ぐるぐると丸める、または包む"
+  },
+  {
+    "id": "g6-246",
+    "grade": 6,
+    "unit": "",
+    "kanji": "看板",
+    "reading": "かんばん",
+    "type": "jukugo",
+    "example": "お店の{}に大きな字で名前が書かれていた。",
+    "meaning": "店や建物の名前などを知らせるための板"
+  },
+  {
+    "id": "g6-247",
+    "grade": 6,
+    "unit": "",
+    "kanji": "簡単",
+    "reading": "かんたん",
+    "type": "jukugo",
+    "example": "{}な問題から始めて自信をつけた。",
+    "meaning": "やさしくて手間がかからないこと"
+  },
+  {
+    "id": "g6-248",
+    "grade": 6,
+    "unit": "",
+    "kanji": "難しい",
+    "reading": "むずかしい",
+    "type": "okurigana",
+    "example": "この問題は{}ので、先生に聞いた。",
+    "meaning": "理解したり解いたりするのが大変なこと"
+  },
+  {
+    "id": "g6-249",
+    "grade": 6,
+    "unit": "",
+    "kanji": "確認",
+    "reading": "かくにん",
+    "type": "jukugo",
+    "example": "答えを書いた後、もう一度{}した。",
+    "meaning": "まちがいないか調べて確かめること"
+  },
+  {
+    "id": "g6-250",
+    "grade": 6,
+    "unit": "",
+    "kanji": "納める",
+    "reading": "おさめる",
+    "type": "okurigana",
+    "example": "毎年、税金を国に{}。",
+    "meaning": "受け取るべき場所に入れること"
+  },
+  {
+    "id": "g6-251",
+    "grade": 6,
+    "unit": "",
+    "kanji": "班",
+    "reading": "はん",
+    "type": "single",
+    "example": "クラスを六つの{}に分けて活動した。",
+    "meaning": "グループや小さなまとまり"
+  },
+  {
+    "id": "g6-252",
+    "grade": 6,
+    "unit": "",
+    "kanji": "否定",
+    "reading": "ひてい",
+    "type": "jukugo",
+    "example": "相手の意見を{}するときは理由をそえる。",
+    "meaning": "ちがうと打ち消すこと"
+  },
+  {
+    "id": "g6-253",
+    "grade": 6,
+    "unit": "",
+    "kanji": "秘密",
+    "reading": "ひみつ",
+    "type": "jukugo",
+    "example": "二人だけの{}を守り続けた。",
+    "meaning": "他の人に知らせないこと"
+  },
+  {
+    "id": "g6-254",
+    "grade": 6,
+    "unit": "",
+    "kanji": "棒",
+    "reading": "ぼう",
+    "type": "single",
+    "example": "長い{}で地面に線を引いた。",
+    "meaning": "細くて長い形のもの"
+  },
+  {
+    "id": "g6-255",
+    "grade": 6,
+    "unit": "",
+    "kanji": "模型",
+    "reading": "もけい",
+    "type": "jukugo",
+    "example": "飛行機の{}を工作で作った。",
+    "meaning": "本物をまねて小さく作ったもの"
+  },
+  {
+    "id": "g6-256",
+    "grade": 6,
+    "unit": "",
+    "kanji": "訳す",
+    "reading": "やくす",
+    "type": "okurigana",
+    "example": "英語の文を日本語に{}。",
+    "meaning": "ある言語を別の言語に直すこと"
+  },
+  {
+    "id": "g6-257",
+    "grade": 6,
+    "unit": "",
+    "kanji": "欲しい",
+    "reading": "ほしい",
+    "type": "okurigana",
+    "example": "ずっと{}と思っていた本を買ってもらった。",
+    "meaning": "手に入れたいと思うようす"
+  },
+  {
+    "id": "g6-258",
+    "grade": 6,
+    "unit": "",
+    "kanji": "一覧",
+    "reading": "いちらん",
+    "type": "jukugo",
+    "example": "本の{}表を見て読みたいものを選んだ。",
+    "meaning": "全体をひとまとめに並べたもの"
+  },
+  {
+    "id": "g6-259",
+    "grade": 6,
+    "unit": "",
+    "kanji": "臨時",
+    "reading": "りんじ",
+    "type": "jukugo",
+    "example": "その日だけの{}集会が開かれた。",
+    "meaning": "その時だけのため、特別に行うこと"
+  },
+  {
+    "id": "g6-260",
+    "grade": 6,
+    "unit": "",
+    "kanji": "朗読",
+    "reading": "ろうどく",
+    "type": "jukugo",
+    "example": "詩を声に出して{}した。",
+    "meaning": "声に出してはっきりと読み上げること"
+  },
+  {
+    "id": "g6-261",
+    "grade": 6,
+    "unit": "",
+    "kanji": "議論",
+    "reading": "ぎろん",
+    "type": "jukugo",
+    "example": "クラスで環境問題について{}した。",
+    "meaning": "意見を述べ合って話し合うこと"
+  },
+  {
+    "id": "g6-262",
+    "grade": 6,
+    "unit": "",
+    "kanji": "機械",
+    "reading": "きかい",
+    "type": "jukugo",
+    "example": "工場で{}を使って製品を作る。",
+    "meaning": "動力を使って仕事をする装置やしくみ"
   }
 ]

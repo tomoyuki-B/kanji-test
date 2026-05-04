@@ -5,7 +5,11 @@
       "Bash(mkdir -p /Users/bannaitomoyuki/Projects/kanji-test/public/kanjicanvas)",
       "Bash(curl -sL \"https://raw.githubusercontent.com/asdfjkl/kanjicanvas/master/docs/resources/javascript/ref-patterns.js\" -o /Users/bannaitomoyuki/Projects/kanji-test/public/kanjicanvas/ref-patterns.js)",
       "Bash(npx tsc *)",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "WebSearch",
+      "WebFetch(domain:kanji.me)",
+      "WebFetch(domain:ja.wikipedia.org)",
+      "WebFetch(domain:jp-cos.github.io)"
     ]
   }
 }
