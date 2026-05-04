@@ -8,6 +8,7 @@ import { getWeakKanji } from '../lib/db'
 import { type QuizAnswer, type ResultNavState } from '../lib/types'
 
 const ACCENT = '#534AB7'
+const CANVAS_SIZE = 240
 
 interface LocationState {
   mode: 'writing' | 'reading'
@@ -24,6 +25,15 @@ interface OverlayState {
   nextIndex: number
 }
 
+interface Slot {
+  char: string
+  readingHint: string
+}
+
+function isHiragana(c: string) {
+  return c >= '\u3040' && c <= '\u309f'
+}
+
 function splitReading(kanji: string, reading: string): string[] {
   const kanjiLen = kanji.length
   if (kanjiLen === 1) return [reading]
@@ -35,6 +45,33 @@ function splitReading(kanji: string, reading: string): string[] {
     const len = base + (i < remainder ? 1 : 0)
     return kanaChars.slice(start, start + len).join('')
   })
+}
+
+function getOkurigana(kanji: string, type: string): string {
+  if (type !== 'okurigana') return ''
+  const chars = [...kanji]
+  const splitIdx = chars.findIndex(c => isHiragana(c))
+  return splitIdx === -1 ? '' : chars.slice(splitIdx).join('')
+}
+
+function buildSlots(kanji: string, reading: string, type: string): Slot[] {
+  const chars = [...kanji]
+
+  if (type !== 'okurigana') {
+    const hints = splitReading(kanji, reading)
+    return chars.map((c, i) => ({ char: c, readingHint: hints[i] }))
+  }
+
+  const splitIdx = chars.findIndex(c => isHiragana(c))
+  const kanjiPart = splitIdx === -1 ? chars : chars.slice(0, splitIdx)
+  const kanaLen = splitIdx === -1 ? 0 : chars.length - splitIdx
+  const kanjiReading = kanaLen > 0 ? reading.slice(0, reading.length - kanaLen) : reading
+
+  if (kanjiPart.length === 1) {
+    return [{ char: kanjiPart[0], readingHint: kanjiReading }]
+  }
+  const hints = splitReading(kanjiPart.join(''), kanjiReading)
+  return kanjiPart.map((c, i) => ({ char: c, readingHint: hints[i] }))
 }
 
 const FALLBACK_STATE: LocationState = { mode: 'writing', grade: 5, range: { type: 'random' }, questionCount: 10 }
@@ -56,6 +93,10 @@ export default function QuizWritingPage() {
   const canvasRefs = useRef<(DrawingCanvasHandle | null)[]>([])
 
   const currentQuestion = questions[currentIndex] ?? null
+  const slots = currentQuestion
+    ? buildSlots(currentQuestion.kanji, currentQuestion.reading, currentQuestion.type)
+    : []
+  const okurigana = currentQuestion ? getOkurigana(currentQuestion.kanji, currentQuestion.type) : ''
 
   useEffect(() => {
     const load = async () => {
@@ -73,8 +114,9 @@ export default function QuizWritingPage() {
         const picked = shuffled.slice(0, quizState.questionCount)
         setQuestions(picked)
         if (picked.length > 0) {
-          setRecognizedChars(new Array(picked[0].kanji.length).fill(null))
-          setCandidatesPerSlot(new Array(picked[0].kanji.length).fill([]))
+          const firstSlots = buildSlots(picked[0].kanji, picked[0].reading, picked[0].type)
+          setRecognizedChars(new Array(firstSlots.length).fill(null))
+          setCandidatesPerSlot(new Array(firstSlots.length).fill([]))
         }
       } finally {
         setLoading(false)
@@ -85,13 +127,11 @@ export default function QuizWritingPage() {
 
   useEffect(() => {
     if (!currentQuestion) return
-    setRecognizedChars(new Array(currentQuestion.kanji.length).fill(null))
-    setCandidatesPerSlot(new Array(currentQuestion.kanji.length).fill([]))
+    const s = buildSlots(currentQuestion.kanji, currentQuestion.reading, currentQuestion.type)
+    setRecognizedChars(new Array(s.length).fill(null))
+    setCandidatesPerSlot(new Array(s.length).fill([]))
     canvasRefs.current.forEach((ref) => ref?.clear())
   }, [currentIndex]) // eslint-disable-line react-hooks/exhaustive-deps
-
-  const chars = currentQuestion?.kanji.split('') ?? []
-  const readingHints = currentQuestion ? splitReading(currentQuestion.kanji, currentQuestion.reading) : []
 
   const handleRecognized = (slotIndex: number) => (results: RecognitionCandidate[]) => {
     if (results.length === 0) return
@@ -121,7 +161,7 @@ export default function QuizWritingPage() {
   }
 
   const allFilled = recognizedChars.length > 0 && recognizedChars.every((c) => c !== null)
-  const userAnswer = recognizedChars.map((c) => c ?? '').join('')
+  const userAnswer = recognizedChars.map((c) => c ?? '').join('') + okurigana
 
   const handleAnswer = () => {
     if (!currentQuestion) return
@@ -191,7 +231,10 @@ export default function QuizWritingPage() {
   const exampleParts = currentQuestion.example.split('{}')
 
   return (
-    <div className="min-h-screen bg-sky-50 flex flex-col items-center p-5 gap-5">
+    <div
+      className="min-h-screen bg-sky-50 flex flex-col items-center p-5 gap-5"
+      style={{ WebkitUserSelect: 'none', userSelect: 'none', WebkitTouchCallout: 'none' } as React.CSSProperties}
+    >
       {overlayState && (
         <ResultOverlay
           isCorrect={overlayState.isCorrect}
@@ -221,23 +264,31 @@ export default function QuizWritingPage() {
         {exampleParts[1] ?? ''}
       </p>
 
-      <div key={currentIndex} className="flex flex-wrap justify-center gap-6">
-        {chars.map((_, i) => (
+      {/* 解答スロット */}
+      <div key={currentIndex} className="flex flex-wrap justify-center items-end gap-4">
+        {slots.map((slot, i) => (
           <div key={i} className="flex flex-col items-center gap-2">
+            {/* 認識結果表示 */}
             <div
-              className="w-16 h-16 rounded-xl border-2 flex items-center justify-center text-3xl font-bold bg-white"
-              style={{ borderColor: recognizedChars[i] ? ACCENT : '#e2e8f0' }}
+              className="rounded-xl border-2 flex items-center justify-center font-bold bg-white"
+              style={{
+                width: 64,
+                height: 64,
+                fontSize: '30px',
+                borderColor: recognizedChars[i] ? ACCENT : '#e2e8f0',
+              }}
             >
               {recognizedChars[i] ?? ''}
             </div>
 
+            {/* 候補ボタン */}
             {(candidatesPerSlot[i]?.length ?? 0) > 0 && (
               <div className="flex gap-1">
                 {candidatesPerSlot[i].map((c) => (
                   <button
                     key={c.char}
                     onClick={() => handleSelectCandidate(i, c.char)}
-                    className="w-10 h-10 bg-violet-50 border border-violet-300 rounded-lg text-lg font-bold text-violet-700"
+                    className="w-9 h-9 bg-violet-50 border border-violet-300 rounded-lg text-base font-bold text-violet-700"
                   >
                     {c.char}
                   </button>
@@ -245,15 +296,23 @@ export default function QuizWritingPage() {
               </div>
             )}
 
+            {/* 手書きキャンバス */}
             <DrawingCanvas
               ref={(el) => { canvasRefs.current[i] = el }}
-              size={240}
-              readingHint={readingHints[i]}
+              size={CANVAS_SIZE}
+              readingHint={slot.readingHint}
               recognitionType="kanji"
               onRecognized={handleRecognized(i)}
             />
           </div>
         ))}
+
+        {/* 送り仮名（最初から表示） */}
+        {okurigana && (
+          <div className="flex flex-col items-center justify-end pb-16">
+            <span className="text-5xl font-bold text-gray-800">{okurigana}</span>
+          </div>
+        )}
       </div>
 
       <button
@@ -263,6 +322,7 @@ export default function QuizWritingPage() {
         style={{
           background: allFilled ? ACCENT : '#a5b4fc',
           cursor: allFilled ? 'pointer' : 'not-allowed',
+          touchAction: 'manipulation',
         }}
       >
         こたえる

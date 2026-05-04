@@ -38,6 +38,19 @@ const DrawingCanvas = forwardRef<DrawingCanvasHandle, Props>(function DrawingCan
     ctx.fillStyle = '#1e293b'
   }, [])
 
+  useEffect(() => {
+    const canvas = canvasRef.current
+    if (!canvas) return
+    // passive: false にして preventDefault() を呼ばないと iOS の拡大鏡が止まらない
+    const block = (e: TouchEvent) => e.preventDefault()
+    canvas.addEventListener('touchstart', block, { passive: false })
+    canvas.addEventListener('touchmove', block, { passive: false })
+    return () => {
+      canvas.removeEventListener('touchstart', block)
+      canvas.removeEventListener('touchmove', block)
+    }
+  }, [])
+
   const handleClear = () => {
     const canvas = canvasRef.current
     if (!canvas) return
@@ -74,11 +87,11 @@ const DrawingCanvas = forwardRef<DrawingCanvasHandle, Props>(function DrawingCan
   }
 
   const finishStroke = (e: React.PointerEvent<HTMLCanvasElement>) => {
+    // drawing.current の状態に関わらず常にキャプチャを解放する
+    try { e.currentTarget.releasePointerCapture(e.pointerId) } catch (_) {}
     if (!drawing.current) return
     drawing.current = false
     lastPos.current = null
-    // ポインターキャプチャを明示的に解放してボタンタップをブロックしない
-    try { e.currentTarget.releasePointerCapture(e.pointerId) } catch (_) {}
     if (currentStroke.current.length > 0) {
       allStrokes.current.push([...currentStroke.current])
       currentStroke.current = []
@@ -126,11 +139,15 @@ const DrawingCanvas = forwardRef<DrawingCanvasHandle, Props>(function DrawingCan
   }
 
   return (
-    <div className="flex flex-col items-center gap-2">
+    <div
+      className="flex flex-col items-center gap-2"
+      style={{ WebkitUserSelect: 'none', userSelect: 'none', WebkitTouchCallout: 'none' } as React.CSSProperties}
+    >
       {label && <span className="text-xs text-gray-400">{label}</span>}
       <div
         className="border-2 border-gray-300 rounded-xl bg-white relative overflow-hidden"
-        style={{ width: size, height: size }}
+        style={{ width: size, height: size, WebkitUserSelect: 'none', userSelect: 'none' } as React.CSSProperties}
+        onContextMenu={(e) => e.preventDefault()}
       >
         <svg className="absolute inset-0 pointer-events-none" width={size} height={size}>
           <line x1={size / 2} y1={0} x2={size / 2} y2={size} stroke="#e2e8f0" strokeWidth={1} />
@@ -165,6 +182,7 @@ const DrawingCanvas = forwardRef<DrawingCanvasHandle, Props>(function DrawingCan
         {showClearButton && (
           <button
             onClick={handleClear}
+            style={{ touchAction: 'manipulation' }}
             className="min-h-[44px] px-4 text-sm text-gray-500 font-medium
               border border-gray-300 rounded-lg bg-white hover:bg-gray-50 active:bg-gray-100"
           >
@@ -175,6 +193,7 @@ const DrawingCanvas = forwardRef<DrawingCanvasHandle, Props>(function DrawingCan
           <button
             onClick={handleRecognize}
             disabled={isRecognizing || !hasStrokes}
+            style={{ touchAction: 'manipulation' }}
             className="min-h-[44px] px-4 text-sm font-bold rounded-lg border-2 transition-colors
               disabled:border-gray-200 disabled:bg-gray-50 disabled:text-gray-300
               enabled:border-violet-500 enabled:bg-violet-500 enabled:text-white enabled:hover:bg-violet-600"

@@ -221,7 +221,10 @@ export default function QuizReadingPage() {
   const exampleParts = currentQuestion.example.split('{}')
 
   return (
-    <div className="min-h-screen bg-sky-50 flex flex-col">
+    <div
+      className="min-h-screen bg-sky-50 flex flex-col"
+      style={{ WebkitUserSelect: 'none', userSelect: 'none', WebkitTouchCallout: 'none' } as React.CSSProperties}
+    >
       {overlayState && (
         <ResultOverlay
           isCorrect={overlayState.isCorrect}

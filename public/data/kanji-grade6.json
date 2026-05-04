@@ -2,21 +2,2431 @@
   {
     "id": "g6-001",
     "grade": 6,
-    "unit": "国語上 第1単元",
-    "kanji": "討論",
-    "reading": "とうろん",
-    "type": "jukugo",
-    "example": "クラスで環境問題を{}した。",
-    "meaning": "ある問題について意見を出し合って議論すること"
+    "unit": "",
+    "kanji": "異なる",
+    "reading": "ことなる",
+    "type": "okurigana",
+    "example": "二つの意見は大きく{}。",
+    "meaning": "他のものとちがっていること"
   },
   {
     "id": "g6-002",
     "grade": 6,
-    "unit": "国語上 第1単元",
-    "kanji": "否定",
-    "reading": "ひてい",
+    "unit": "",
+    "kanji": "異常",
+    "reading": "いじょう",
     "type": "jukugo",
-    "example": "事実を{}することはできない。",
-    "meaning": "物事を認めないこと"
+    "example": "気温が{}に高い日が続いた。",
+    "meaning": "ふつうとちがっていること"
+  },
+  {
+    "id": "g6-003",
+    "grade": 6,
+    "unit": "",
+    "kanji": "遺産",
+    "reading": "いさん",
+    "type": "jukugo",
+    "example": "世界{}に登録された建物を見学した。",
+    "meaning": "後の世代に残される大切なもの"
+  },
+  {
+    "id": "g6-004",
+    "grade": 6,
+    "unit": "",
+    "kanji": "遺跡",
+    "reading": "いせき",
+    "type": "jukugo",
+    "example": "古代の{}を調査する研究者がいる。",
+    "meaning": "昔の文化や建物が残った場所"
+  },
+  {
+    "id": "g6-005",
+    "grade": 6,
+    "unit": "",
+    "kanji": "域",
+    "reading": "いき",
+    "type": "single",
+    "example": "この川は市の{}内を流れている。",
+    "meaning": "ある区切られた範囲や地域"
+  },
+  {
+    "id": "g6-006",
+    "grade": 6,
+    "unit": "",
+    "kanji": "宇宙",
+    "reading": "うちゅう",
+    "type": "jukugo",
+    "example": "{}に星が無数に輝いている。",
+    "meaning": "地球の外に広がる果てしない空間"
+  },
+  {
+    "id": "g6-007",
+    "grade": 6,
+    "unit": "",
+    "kanji": "映画",
+    "reading": "えいが",
+    "type": "jukugo",
+    "example": "家族で{}を見に行った。",
+    "meaning": "スクリーンに映し出される動く映像作品"
+  },
+  {
+    "id": "g6-008",
+    "grade": 6,
+    "unit": "",
+    "kanji": "映す",
+    "reading": "うつす",
+    "type": "okurigana",
+    "example": "鏡に自分の顔を{}。",
+    "meaning": "光などで物の形や様子を表すこと"
+  },
+  {
+    "id": "g6-009",
+    "grade": 6,
+    "unit": "",
+    "kanji": "延長",
+    "reading": "えんちょう",
+    "type": "jukugo",
+    "example": "試合が{}戦に入った。",
+    "meaning": "時間や長さをのばすこと"
+  },
+  {
+    "id": "g6-010",
+    "grade": 6,
+    "unit": "",
+    "kanji": "延びる",
+    "reading": "のびる",
+    "type": "okurigana",
+    "example": "道路が山の方向まで{}。",
+    "meaning": "長くなること、先へ続くこと"
+  },
+  {
+    "id": "g6-011",
+    "grade": 6,
+    "unit": "",
+    "kanji": "沿岸",
+    "reading": "えんがん",
+    "type": "jukugo",
+    "example": "台風が{}に近づいている。",
+    "meaning": "海や川・湖などの岸に沿った地域"
+  },
+  {
+    "id": "g6-012",
+    "grade": 6,
+    "unit": "",
+    "kanji": "沿う",
+    "reading": "そう",
+    "type": "okurigana",
+    "example": "川に{}道を歩いた。",
+    "meaning": "線や面に接して離れないようにすること"
+  },
+  {
+    "id": "g6-013",
+    "grade": 6,
+    "unit": "",
+    "kanji": "我慢",
+    "reading": "がまん",
+    "type": "jukugo",
+    "example": "つらいときでも{}して練習した。",
+    "meaning": "苦しいことや不満をこらえること"
+  },
+  {
+    "id": "g6-014",
+    "grade": 6,
+    "unit": "",
+    "kanji": "自我",
+    "reading": "じが",
+    "type": "jukugo",
+    "example": "{}に目覚める時期を思春期という。",
+    "meaning": "自分自身という意識"
+  },
+  {
+    "id": "g6-015",
+    "grade": 6,
+    "unit": "",
+    "kanji": "灰色",
+    "reading": "はいいろ",
+    "type": "jukugo",
+    "example": "空が{}の雲でおおわれた。",
+    "meaning": "白と黒の中間のような色"
+  },
+  {
+    "id": "g6-016",
+    "grade": 6,
+    "unit": "",
+    "kanji": "灰",
+    "reading": "はい",
+    "type": "single",
+    "example": "たき火の{}が風に飛ばされた。",
+    "meaning": "ものが燃えたあとに残る粉"
+  },
+  {
+    "id": "g6-017",
+    "grade": 6,
+    "unit": "",
+    "kanji": "拡大",
+    "reading": "かくだい",
+    "type": "jukugo",
+    "example": "地図を{}して細かい道を調べた。",
+    "meaning": "大きくすること、広げること"
+  },
+  {
+    "id": "g6-018",
+    "grade": 6,
+    "unit": "",
+    "kanji": "革命",
+    "reading": "かくめい",
+    "type": "jukugo",
+    "example": "産業{}が社会を大きく変えた。",
+    "meaning": "社会や国のしくみを根本から変えること"
+  },
+  {
+    "id": "g6-019",
+    "grade": 6,
+    "unit": "",
+    "kanji": "改革",
+    "reading": "かいかく",
+    "type": "jukugo",
+    "example": "学校の制度を{}する話し合いが行われた。",
+    "meaning": "悪い点を改めてよくすること"
+  },
+  {
+    "id": "g6-020",
+    "grade": 6,
+    "unit": "",
+    "kanji": "内閣",
+    "reading": "ないかく",
+    "type": "jukugo",
+    "example": "{}総理大臣が国会で話した。",
+    "meaning": "国の行政を担う最高の機関"
+  },
+  {
+    "id": "g6-021",
+    "grade": 6,
+    "unit": "",
+    "kanji": "割合",
+    "reading": "わりあい",
+    "type": "jukugo",
+    "example": "クラス全体に対する女子の{}を求めた。",
+    "meaning": "全体の中での部分の大きさを表した数"
+  },
+  {
+    "id": "g6-022",
+    "grade": 6,
+    "unit": "",
+    "kanji": "割る",
+    "reading": "わる",
+    "type": "okurigana",
+    "example": "コップを落として{}してしまった。",
+    "meaning": "ものを二つ以上に分けること、または壊すこと"
+  },
+  {
+    "id": "g6-023",
+    "grade": 6,
+    "unit": "",
+    "kanji": "干す",
+    "reading": "ほす",
+    "type": "okurigana",
+    "example": "洗たく物を外に{}。",
+    "meaning": "水分をとばすために日や風にあてること"
+  },
+  {
+    "id": "g6-024",
+    "grade": 6,
+    "unit": "",
+    "kanji": "干ばつ",
+    "reading": "かんばつ",
+    "type": "jukugo",
+    "example": "長い間雨が降らず{}が起きた。",
+    "meaning": "雨が降らず土地が極度に乾くこと"
+  },
+  {
+    "id": "g6-025",
+    "grade": 6,
+    "unit": "",
+    "kanji": "危険",
+    "reading": "きけん",
+    "type": "jukugo",
+    "example": "その場所は{}なので近づかないようにした。",
+    "meaning": "害や事故が起こりそうなこと"
+  },
+  {
+    "id": "g6-026",
+    "grade": 6,
+    "unit": "",
+    "kanji": "危ない",
+    "reading": "あぶない",
+    "type": "okurigana",
+    "example": "川のそばを一人で歩くのは{}。",
+    "meaning": "事故や害が起こりそうで心配なようす"
+  },
+  {
+    "id": "g6-027",
+    "grade": 6,
+    "unit": "",
+    "kanji": "机",
+    "reading": "つくえ",
+    "type": "single",
+    "example": "{}の上に教科書を並べた。",
+    "meaning": "勉強や仕事をするときに使うテーブル"
+  },
+  {
+    "id": "g6-028",
+    "grade": 6,
+    "unit": "",
+    "kanji": "発揮",
+    "reading": "はっき",
+    "type": "jukugo",
+    "example": "練習の成果を本番で{}した。",
+    "meaning": "持っている力や能力を十分に出すこと"
+  },
+  {
+    "id": "g6-029",
+    "grade": 6,
+    "unit": "",
+    "kanji": "指揮",
+    "reading": "しき",
+    "type": "jukugo",
+    "example": "先生が合唱団を{}した。",
+    "meaning": "人々をまとめて目的に向けて動かすこと"
+  },
+  {
+    "id": "g6-030",
+    "grade": 6,
+    "unit": "",
+    "kanji": "貴重",
+    "reading": "きちょう",
+    "type": "jukugo",
+    "example": "{}な体験ができてよかった。",
+    "meaning": "大変価値があって大切なこと"
+  },
+  {
+    "id": "g6-031",
+    "grade": 6,
+    "unit": "",
+    "kanji": "疑問",
+    "reading": "ぎもん",
+    "type": "jukugo",
+    "example": "授業中に{}が生まれたら手を挙げよう。",
+    "meaning": "本当かどうかわからないと思うこと"
+  },
+  {
+    "id": "g6-032",
+    "grade": 6,
+    "unit": "",
+    "kanji": "疑う",
+    "reading": "うたがう",
+    "type": "okurigana",
+    "example": "友達の言葉を{}のはよくない。",
+    "meaning": "本当かどうかわからないと思うこと"
+  },
+  {
+    "id": "g6-033",
+    "grade": 6,
+    "unit": "",
+    "kanji": "吸収",
+    "reading": "きゅうしゅう",
+    "type": "jukugo",
+    "example": "植物は根から水分を{}する。",
+    "meaning": "液体や気体などを取り込むこと"
+  },
+  {
+    "id": "g6-034",
+    "grade": 6,
+    "unit": "",
+    "kanji": "吸う",
+    "reading": "すう",
+    "type": "okurigana",
+    "example": "深く息を{}と落ち着く。",
+    "meaning": "空気や液体などを口や体内に取り込むこと"
+  },
+  {
+    "id": "g6-035",
+    "grade": 6,
+    "unit": "",
+    "kanji": "供給",
+    "reading": "きょうきゅう",
+    "type": "jukugo",
+    "example": "電気の{}が不安定になった。",
+    "meaning": "必要なものを求めに応じて渡すこと"
+  },
+  {
+    "id": "g6-036",
+    "grade": 6,
+    "unit": "",
+    "kanji": "胸",
+    "reading": "むね",
+    "type": "single",
+    "example": "発表の前は{}がどきどきした。",
+    "meaning": "体の前側の、心臓がある部分"
+  },
+  {
+    "id": "g6-037",
+    "grade": 6,
+    "unit": "",
+    "kanji": "郷土",
+    "reading": "きょうど",
+    "type": "jukugo",
+    "example": "{}の歴史について調べた。",
+    "meaning": "自分が生まれ育った地域"
+  },
+  {
+    "id": "g6-038",
+    "grade": 6,
+    "unit": "",
+    "kanji": "勤める",
+    "reading": "つとめる",
+    "type": "okurigana",
+    "example": "父は市役所に{}ている。",
+    "meaning": "仕事をすること、職についていること"
+  },
+  {
+    "id": "g6-039",
+    "grade": 6,
+    "unit": "",
+    "kanji": "勤労",
+    "reading": "きんろう",
+    "type": "jukugo",
+    "example": "{}感謝の日は働く人に感謝する日だ。",
+    "meaning": "まじめに働くこと"
+  },
+  {
+    "id": "g6-040",
+    "grade": 6,
+    "unit": "",
+    "kanji": "筋肉",
+    "reading": "きんにく",
+    "type": "jukugo",
+    "example": "運動すると{}が強くなる。",
+    "meaning": "体を動かすための肉のこと"
+  },
+  {
+    "id": "g6-041",
+    "grade": 6,
+    "unit": "",
+    "kanji": "系統",
+    "reading": "けいとう",
+    "type": "jukugo",
+    "example": "生物の{}を図に表した。",
+    "meaning": "つながりや順序立てたまとまり"
+  },
+  {
+    "id": "g6-042",
+    "grade": 6,
+    "unit": "",
+    "kanji": "体系",
+    "reading": "たいけい",
+    "type": "jukugo",
+    "example": "数学の知識を{}的に学んだ。",
+    "meaning": "まとまりのある順序立てた組み合わせ"
+  },
+  {
+    "id": "g6-043",
+    "grade": 6,
+    "unit": "",
+    "kanji": "敬語",
+    "reading": "けいご",
+    "type": "jukugo",
+    "example": "目上の人には{}を使う。",
+    "meaning": "相手を敬う気持ちを表した言葉遣い"
+  },
+  {
+    "id": "g6-044",
+    "grade": 6,
+    "unit": "",
+    "kanji": "敬う",
+    "reading": "うやまう",
+    "type": "okurigana",
+    "example": "先生を{}気持ちを大切にする。",
+    "meaning": "相手を尊いと思い礼儀正しく接すること"
+  },
+  {
+    "id": "g6-045",
+    "grade": 6,
+    "unit": "",
+    "kanji": "警察",
+    "reading": "けいさつ",
+    "type": "jukugo",
+    "example": "こまったことがあれば{}に相談する。",
+    "meaning": "社会の安全を守るための機関"
+  },
+  {
+    "id": "g6-046",
+    "grade": 6,
+    "unit": "",
+    "kanji": "劇場",
+    "reading": "げきじょう",
+    "type": "jukugo",
+    "example": "新しい{}でお芝居を観た。",
+    "meaning": "演劇などを上演するための建物"
+  },
+  {
+    "id": "g6-047",
+    "grade": 6,
+    "unit": "",
+    "kanji": "劇",
+    "reading": "げき",
+    "type": "single",
+    "example": "学芸会で{}の主役をやった。",
+    "meaning": "舞台で演じる芝居や演技"
+  },
+  {
+    "id": "g6-048",
+    "grade": 6,
+    "unit": "",
+    "kanji": "激しい",
+    "reading": "はげしい",
+    "type": "okurigana",
+    "example": "台風で{}雨が降った。",
+    "meaning": "勢いが強く程度が大きいようす"
+  },
+  {
+    "id": "g6-049",
+    "grade": 6,
+    "unit": "",
+    "kanji": "激増",
+    "reading": "げきぞう",
+    "type": "jukugo",
+    "example": "その地域の人口が{}した。",
+    "meaning": "急に大きく増えること"
+  },
+  {
+    "id": "g6-050",
+    "grade": 6,
+    "unit": "",
+    "kanji": "穴",
+    "reading": "あな",
+    "type": "single",
+    "example": "地面に{}を掘ってたねをまいた。",
+    "meaning": "くぼんで空いている場所"
+  },
+  {
+    "id": "g6-051",
+    "grade": 6,
+    "unit": "",
+    "kanji": "憲法",
+    "reading": "けんぽう",
+    "type": "jukugo",
+    "example": "日本国{}は国の最高の法律だ。",
+    "meaning": "国のあり方を定めた最高の法律"
+  },
+  {
+    "id": "g6-052",
+    "grade": 6,
+    "unit": "",
+    "kanji": "源",
+    "reading": "みなもと",
+    "type": "single",
+    "example": "この川の{}は山の中にある。",
+    "meaning": "川が流れ始める場所、物事のはじまり"
+  },
+  {
+    "id": "g6-053",
+    "grade": 6,
+    "unit": "",
+    "kanji": "資源",
+    "reading": "しげん",
+    "type": "jukugo",
+    "example": "石油は大切な{}だ。",
+    "meaning": "生活や産業に役立つ自然のもの"
+  },
+  {
+    "id": "g6-054",
+    "grade": 6,
+    "unit": "",
+    "kanji": "厳しい",
+    "reading": "きびしい",
+    "type": "okurigana",
+    "example": "コーチの練習は{}が実力がついた。",
+    "meaning": "ゆるさがなく程度が強いようす"
+  },
+  {
+    "id": "g6-055",
+    "grade": 6,
+    "unit": "",
+    "kanji": "厳格",
+    "reading": "げんかく",
+    "type": "jukugo",
+    "example": "祖父は{}な人で礼儀を大切にした。",
+    "meaning": "きびしくてゆるさがないようす"
+  },
+  {
+    "id": "g6-056",
+    "grade": 6,
+    "unit": "",
+    "kanji": "呼ぶ",
+    "reading": "よぶ",
+    "type": "okurigana",
+    "example": "友達を公園に{}。",
+    "meaning": "声をかけて来させること"
+  },
+  {
+    "id": "g6-057",
+    "grade": 6,
+    "unit": "",
+    "kanji": "呼吸",
+    "reading": "こきゅう",
+    "type": "jukugo",
+    "example": "深く{}して落ち着いた。",
+    "meaning": "息を吸ったり吐いたりすること"
+  },
+  {
+    "id": "g6-058",
+    "grade": 6,
+    "unit": "",
+    "kanji": "誤り",
+    "reading": "あやまり",
+    "type": "okurigana",
+    "example": "計算に{}があったので直した。",
+    "meaning": "まちがい"
+  },
+  {
+    "id": "g6-059",
+    "grade": 6,
+    "unit": "",
+    "kanji": "誤解",
+    "reading": "ごかい",
+    "type": "jukugo",
+    "example": "言葉が足りず相手に{}させてしまった。",
+    "meaning": "まちがってとらえること"
+  },
+  {
+    "id": "g6-060",
+    "grade": 6,
+    "unit": "",
+    "kanji": "皇后",
+    "reading": "こうごう",
+    "type": "jukugo",
+    "example": "天皇{}両陛下がお見えになった。",
+    "meaning": "天皇の妻"
+  },
+  {
+    "id": "g6-061",
+    "grade": 6,
+    "unit": "",
+    "kanji": "天皇",
+    "reading": "てんのう",
+    "type": "jukugo",
+    "example": "{}は日本国の象徴だ。",
+    "meaning": "日本の国の象徴とされる地位の人"
+  },
+  {
+    "id": "g6-062",
+    "grade": 6,
+    "unit": "",
+    "kanji": "孝行",
+    "reading": "こうこう",
+    "type": "jukugo",
+    "example": "親に{}することは大切だ。",
+    "meaning": "親を大切にしてよく仕えること"
+  },
+  {
+    "id": "g6-063",
+    "grade": 6,
+    "unit": "",
+    "kanji": "紅葉",
+    "reading": "こうよう",
+    "type": "jukugo",
+    "example": "秋になると山が{}で赤く染まる。",
+    "meaning": "秋に木の葉が赤や黄に色づくこと"
+  },
+  {
+    "id": "g6-064",
+    "grade": 6,
+    "unit": "",
+    "kanji": "紅",
+    "reading": "くれない",
+    "type": "single",
+    "example": "夕日が空を{}に染めた。",
+    "meaning": "深い赤色"
+  },
+  {
+    "id": "g6-065",
+    "grade": 6,
+    "unit": "",
+    "kanji": "降水",
+    "reading": "こうすい",
+    "type": "jukugo",
+    "example": "明日の{}量は多い予想だ。",
+    "meaning": "雨・雪・あられなどが降ること"
+  },
+  {
+    "id": "g6-066",
+    "grade": 6,
+    "unit": "",
+    "kanji": "降りる",
+    "reading": "おりる",
+    "type": "okurigana",
+    "example": "バスから{}と駅はすぐそこだった。",
+    "meaning": "上から下へ移ること"
+  },
+  {
+    "id": "g6-067",
+    "grade": 6,
+    "unit": "",
+    "kanji": "鋼鉄",
+    "reading": "こうてつ",
+    "type": "jukugo",
+    "example": "橋は{}でできている。",
+    "meaning": "鉄を加工した強くてかたい金属"
+  },
+  {
+    "id": "g6-068",
+    "grade": 6,
+    "unit": "",
+    "kanji": "刻む",
+    "reading": "きざむ",
+    "type": "okurigana",
+    "example": "木に名前を{}。",
+    "meaning": "細かく切ること、深く印をつけること"
+  },
+  {
+    "id": "g6-069",
+    "grade": 6,
+    "unit": "",
+    "kanji": "時刻",
+    "reading": "じこく",
+    "type": "jukugo",
+    "example": "電車の出発{}を確かめた。",
+    "meaning": "ある一点の時間"
+  },
+  {
+    "id": "g6-070",
+    "grade": 6,
+    "unit": "",
+    "kanji": "穀物",
+    "reading": "こくもつ",
+    "type": "jukugo",
+    "example": "米や麦などの{}は主食になる。",
+    "meaning": "米・麦・豆など食用になる実"
+  },
+  {
+    "id": "g6-071",
+    "grade": 6,
+    "unit": "",
+    "kanji": "骨格",
+    "reading": "こっかく",
+    "type": "jukugo",
+    "example": "人体の{}は二百本以上の骨でできている。",
+    "meaning": "体を支える骨の組み合わせ"
+  },
+  {
+    "id": "g6-072",
+    "grade": 6,
+    "unit": "",
+    "kanji": "骨",
+    "reading": "ほね",
+    "type": "single",
+    "example": "転んで{}を折ってしまった。",
+    "meaning": "体の中で体を支えているかたいもの"
+  },
+  {
+    "id": "g6-073",
+    "grade": 6,
+    "unit": "",
+    "kanji": "困る",
+    "reading": "こまる",
+    "type": "okurigana",
+    "example": "どうしたらよいかわからなくて{}。",
+    "meaning": "どうしたらよいかわからず苦しむこと"
+  },
+  {
+    "id": "g6-074",
+    "grade": 6,
+    "unit": "",
+    "kanji": "困り果てる",
+    "reading": "こまりはてる",
+    "type": "okurigana",
+    "example": "どうしたらいいか{}。",
+    "meaning": "すっかりどうにもできない状態になること"
+  },
+  {
+    "id": "g6-075",
+    "grade": 6,
+    "unit": "",
+    "kanji": "砂漠",
+    "reading": "さばく",
+    "type": "jukugo",
+    "example": "アフリカには広大な{}が広がっている。",
+    "meaning": "ほとんど雨が降らず砂や岩だらけの土地"
+  },
+  {
+    "id": "g6-076",
+    "grade": 6,
+    "unit": "",
+    "kanji": "砂",
+    "reading": "すな",
+    "type": "single",
+    "example": "海岸で{}遊びをした。",
+    "meaning": "岩が細かくくだけた粒"
+  },
+  {
+    "id": "g6-077",
+    "grade": 6,
+    "unit": "",
+    "kanji": "座る",
+    "reading": "すわる",
+    "type": "okurigana",
+    "example": "いすに{}て本を読んだ。",
+    "meaning": "腰をおろして体を安定させること"
+  },
+  {
+    "id": "g6-078",
+    "grade": 6,
+    "unit": "",
+    "kanji": "座席",
+    "reading": "ざせき",
+    "type": "jukugo",
+    "example": "電車の{}に荷物を置かない。",
+    "meaning": "人がすわるための場所"
+  },
+  {
+    "id": "g6-079",
+    "grade": 6,
+    "unit": "",
+    "kanji": "済む",
+    "reading": "すむ",
+    "type": "okurigana",
+    "example": "宿題が{}でから外に遊びに行った。",
+    "meaning": "物事が終わること"
+  },
+  {
+    "id": "g6-080",
+    "grade": 6,
+    "unit": "",
+    "kanji": "返済",
+    "reading": "へんさい",
+    "type": "jukugo",
+    "example": "借りたお金を{}した。",
+    "meaning": "借りたものを返すこと"
+  },
+  {
+    "id": "g6-081",
+    "grade": 6,
+    "unit": "",
+    "kanji": "裁判",
+    "reading": "さいばん",
+    "type": "jukugo",
+    "example": "事件の{}が始まった。",
+    "meaning": "法律に基づいて争いを解決すること"
+  },
+  {
+    "id": "g6-082",
+    "grade": 6,
+    "unit": "",
+    "kanji": "裁く",
+    "reading": "さばく",
+    "type": "okurigana",
+    "example": "犯罪を法律で{}。",
+    "meaning": "良いか悪いかを判断して決めること"
+  },
+  {
+    "id": "g6-083",
+    "grade": 6,
+    "unit": "",
+    "kanji": "策略",
+    "reading": "さくりゃく",
+    "type": "jukugo",
+    "example": "相手の{}にはまってしまった。",
+    "meaning": "目的を達成するためにたくらんだ計画"
+  },
+  {
+    "id": "g6-084",
+    "grade": 6,
+    "unit": "",
+    "kanji": "政策",
+    "reading": "せいさく",
+    "type": "jukugo",
+    "example": "国の環境{}について調べた。",
+    "meaning": "国や組織が目標に向けてとる方針と方法"
+  },
+  {
+    "id": "g6-085",
+    "grade": 6,
+    "unit": "",
+    "kanji": "冊子",
+    "reading": "さっし",
+    "type": "jukugo",
+    "example": "説明が書かれた{}をもらった。",
+    "meaning": "紙をとじてつくった小さな本"
+  },
+  {
+    "id": "g6-086",
+    "grade": 6,
+    "unit": "",
+    "kanji": "蚕",
+    "reading": "かいこ",
+    "type": "single",
+    "example": "{}は桑の葉を食べて糸を作る。",
+    "meaning": "絹の糸をとるために育てる虫"
+  },
+  {
+    "id": "g6-087",
+    "grade": 6,
+    "unit": "",
+    "kanji": "至る",
+    "reading": "いたる",
+    "type": "okurigana",
+    "example": "話し合いは合意に{}まで時間がかかった。",
+    "meaning": "ある場所や状態に達すること"
+  },
+  {
+    "id": "g6-088",
+    "grade": 6,
+    "unit": "",
+    "kanji": "至急",
+    "reading": "しきゅう",
+    "type": "jukugo",
+    "example": "{}連絡してほしいとメモが届いた。",
+    "meaning": "大変急いでいること"
+  },
+  {
+    "id": "g6-089",
+    "grade": 6,
+    "unit": "",
+    "kanji": "私立",
+    "reading": "しりつ",
+    "type": "jukugo",
+    "example": "{}学校は個人や団体が運営している。",
+    "meaning": "個人や民間団体が運営する学校や施設"
+  },
+  {
+    "id": "g6-090",
+    "grade": 6,
+    "unit": "",
+    "kanji": "私",
+    "reading": "わたし",
+    "type": "single",
+    "example": "{}は毎朝六時に起きる。",
+    "meaning": "自分自身を指す言葉"
+  },
+  {
+    "id": "g6-091",
+    "grade": 6,
+    "unit": "",
+    "kanji": "姿勢",
+    "reading": "しせい",
+    "type": "jukugo",
+    "example": "正しい{}で座ると体に良い。",
+    "meaning": "体の構え方、物事への取り組み方"
+  },
+  {
+    "id": "g6-092",
+    "grade": 6,
+    "unit": "",
+    "kanji": "姿",
+    "reading": "すがた",
+    "type": "single",
+    "example": "夕暮れの空に鳥の{}が見えた。",
+    "meaning": "体の形や外見"
+  },
+  {
+    "id": "g6-093",
+    "grade": 6,
+    "unit": "",
+    "kanji": "視野",
+    "reading": "しや",
+    "type": "jukugo",
+    "example": "旅行すると{}が広がる。",
+    "meaning": "見える範囲、物事を考える広さ"
+  },
+  {
+    "id": "g6-094",
+    "grade": 6,
+    "unit": "",
+    "kanji": "詞",
+    "reading": "し",
+    "type": "single",
+    "example": "曲の歌{}を覚えた。",
+    "meaning": "言葉、特に歌の言葉"
+  },
+  {
+    "id": "g6-095",
+    "grade": 6,
+    "unit": "",
+    "kanji": "雑誌",
+    "reading": "ざっし",
+    "type": "jukugo",
+    "example": "科学の{}を図書館で読んだ。",
+    "meaning": "いろいろな記事をまとめて定期的に出す本"
+  },
+  {
+    "id": "g6-096",
+    "grade": 6,
+    "unit": "",
+    "kanji": "磁石",
+    "reading": "じしゃく",
+    "type": "jukugo",
+    "example": "{}は鉄を引きつける性質がある。",
+    "meaning": "鉄などを引きつける力を持つもの"
+  },
+  {
+    "id": "g6-097",
+    "grade": 6,
+    "unit": "",
+    "kanji": "射る",
+    "reading": "いる",
+    "type": "okurigana",
+    "example": "弓で矢を{}。",
+    "meaning": "弓などで矢を勢いよく飛ばすこと"
+  },
+  {
+    "id": "g6-098",
+    "grade": 6,
+    "unit": "",
+    "kanji": "射撃",
+    "reading": "しゃげき",
+    "type": "jukugo",
+    "example": "オリンピックの{}競技を見た。",
+    "meaning": "銃などで的を狙って打つこと"
+  },
+  {
+    "id": "g6-099",
+    "grade": 6,
+    "unit": "",
+    "kanji": "捨てる",
+    "reading": "すてる",
+    "type": "okurigana",
+    "example": "ゴミは決められた場所に{}。",
+    "meaning": "いらないものをどこかに置いて離れること"
+  },
+  {
+    "id": "g6-100",
+    "grade": 6,
+    "unit": "",
+    "kanji": "尺度",
+    "reading": "しゃくど",
+    "type": "jukugo",
+    "example": "何を{}にして評価するか話し合った。",
+    "meaning": "物事を測ったり判断したりする基準"
+  },
+  {
+    "id": "g6-101",
+    "grade": 6,
+    "unit": "",
+    "kanji": "若い",
+    "reading": "わかい",
+    "type": "okurigana",
+    "example": "{}人がたくさん集まるお祭りだった。",
+    "meaning": "年齢が低い、元気がある"
+  },
+  {
+    "id": "g6-102",
+    "grade": 6,
+    "unit": "",
+    "kanji": "若者",
+    "reading": "わかもの",
+    "type": "jukugo",
+    "example": "{}が地域を元気にする活動をしている。",
+    "meaning": "年の若い人"
+  },
+  {
+    "id": "g6-103",
+    "grade": 6,
+    "unit": "",
+    "kanji": "樹木",
+    "reading": "じゅもく",
+    "type": "jukugo",
+    "example": "公園の{}が秋色に変わった。",
+    "meaning": "立ち木、木のこと"
+  },
+  {
+    "id": "g6-104",
+    "grade": 6,
+    "unit": "",
+    "kanji": "宗教",
+    "reading": "しゅうきょう",
+    "type": "jukugo",
+    "example": "世界にはさまざまな{}がある。",
+    "meaning": "神や仏などを信じ、教えを守る考え方"
+  },
+  {
+    "id": "g6-105",
+    "grade": 6,
+    "unit": "",
+    "kanji": "就職",
+    "reading": "しゅうしょく",
+    "type": "jukugo",
+    "example": "兄は先月{}が決まった。",
+    "meaning": "仕事につくこと"
+  },
+  {
+    "id": "g6-106",
+    "grade": 6,
+    "unit": "",
+    "kanji": "衆議院",
+    "reading": "しゅうぎいん",
+    "type": "jukugo",
+    "example": "{}と参議院で法律をつくる。",
+    "meaning": "国会の二つの議院のうちのひとつ"
+  },
+  {
+    "id": "g6-107",
+    "grade": 6,
+    "unit": "",
+    "kanji": "従う",
+    "reading": "したがう",
+    "type": "okurigana",
+    "example": "決まりに{}ことが大切だ。",
+    "meaning": "命令や規則などに逆らわず行動すること"
+  },
+  {
+    "id": "g6-108",
+    "grade": 6,
+    "unit": "",
+    "kanji": "縦",
+    "reading": "たて",
+    "type": "single",
+    "example": "{}十センチメートル、横五センチメートルの紙を切った。",
+    "meaning": "上下の方向"
+  },
+  {
+    "id": "g6-109",
+    "grade": 6,
+    "unit": "",
+    "kanji": "熟語",
+    "reading": "じゅくご",
+    "type": "jukugo",
+    "example": "漢字の{}の意味を辞書で調べた。",
+    "meaning": "二つ以上の漢字を組み合わせた語"
+  },
+  {
+    "id": "g6-110",
+    "grade": 6,
+    "unit": "",
+    "kanji": "純粋",
+    "reading": "じゅんすい",
+    "type": "jukugo",
+    "example": "彼の{}な気持ちが伝わった。",
+    "meaning": "まじりけがなく清らかなこと"
+  },
+  {
+    "id": "g6-111",
+    "grade": 6,
+    "unit": "",
+    "kanji": "処理",
+    "reading": "しょり",
+    "type": "jukugo",
+    "example": "コンピュータが大量のデータを{}した。",
+    "meaning": "物事をうまく対処して片づけること"
+  },
+  {
+    "id": "g6-112",
+    "grade": 6,
+    "unit": "",
+    "kanji": "署名",
+    "reading": "しょめい",
+    "type": "jukugo",
+    "example": "書類に{}した。",
+    "meaning": "自分の名前を書くこと"
+  },
+  {
+    "id": "g6-113",
+    "grade": 6,
+    "unit": "",
+    "kanji": "諸国",
+    "reading": "しょこく",
+    "type": "jukugo",
+    "example": "アジアの{}を旅した。",
+    "meaning": "いろいろな国々"
+  },
+  {
+    "id": "g6-114",
+    "grade": 6,
+    "unit": "",
+    "kanji": "除外",
+    "reading": "じょがい",
+    "type": "jukugo",
+    "example": "条件に合わないものを{}した。",
+    "meaning": "仲間やグループから外すこと"
+  },
+  {
+    "id": "g6-115",
+    "grade": 6,
+    "unit": "",
+    "kanji": "除く",
+    "reading": "のぞく",
+    "type": "okurigana",
+    "example": "いらないものを{}と整理できた。",
+    "meaning": "外したり取り除いたりすること"
+  },
+  {
+    "id": "g6-116",
+    "grade": 6,
+    "unit": "",
+    "kanji": "将来",
+    "reading": "しょうらい",
+    "type": "jukugo",
+    "example": "{}の夢について話し合った。",
+    "meaning": "これから先の時間、未来"
+  },
+  {
+    "id": "g6-117",
+    "grade": 6,
+    "unit": "",
+    "kanji": "傷つく",
+    "reading": "きずつく",
+    "type": "okurigana",
+    "example": "転んで膝を{}。",
+    "meaning": "体や心に痛みやダメージを受けること"
+  },
+  {
+    "id": "g6-118",
+    "grade": 6,
+    "unit": "",
+    "kanji": "障害",
+    "reading": "しょうがい",
+    "type": "jukugo",
+    "example": "目標への{}を乗りこえた。",
+    "meaning": "物事の進行をさまたげるもの"
+  },
+  {
+    "id": "g6-119",
+    "grade": 6,
+    "unit": "",
+    "kanji": "城",
+    "reading": "しろ",
+    "type": "single",
+    "example": "大阪{}は有名な観光地だ。",
+    "meaning": "昔、武士が住んだり守りの場所にした建物"
+  },
+  {
+    "id": "g6-120",
+    "grade": 6,
+    "unit": "",
+    "kanji": "蒸気",
+    "reading": "じょうき",
+    "type": "jukugo",
+    "example": "熱いお湯から{}が出た。",
+    "meaning": "水が熱されて気体になったもの"
+  },
+  {
+    "id": "g6-121",
+    "grade": 6,
+    "unit": "",
+    "kanji": "蒸す",
+    "reading": "むす",
+    "type": "okurigana",
+    "example": "野菜を{}と栄養がよく残る。",
+    "meaning": "水蒸気の熱で食べ物などを加熱すること"
+  },
+  {
+    "id": "g6-122",
+    "grade": 6,
+    "unit": "",
+    "kanji": "針",
+    "reading": "はり",
+    "type": "single",
+    "example": "時計の{}が十二を指した。",
+    "meaning": "細くとがったもの"
+  },
+  {
+    "id": "g6-123",
+    "grade": 6,
+    "unit": "",
+    "kanji": "仁義",
+    "reading": "じんぎ",
+    "type": "jukugo",
+    "example": "{}を大切にする武士の生き方を学んだ。",
+    "meaning": "人として守るべき道徳"
+  },
+  {
+    "id": "g6-124",
+    "grade": 6,
+    "unit": "",
+    "kanji": "垂直",
+    "reading": "すいちょく",
+    "type": "jukugo",
+    "example": "壁に{}な線を引いた。",
+    "meaning": "地面や基準の線に対して直角の方向"
+  },
+  {
+    "id": "g6-125",
+    "grade": 6,
+    "unit": "",
+    "kanji": "推理",
+    "reading": "すいり",
+    "type": "jukugo",
+    "example": "手がかりをもとに{}した。",
+    "meaning": "わかっていることから答えを考え出すこと"
+  },
+  {
+    "id": "g6-126",
+    "grade": 6,
+    "unit": "",
+    "kanji": "推測",
+    "reading": "すいそく",
+    "type": "jukugo",
+    "example": "表情から気持ちを{}した。",
+    "meaning": "手がかりから予想すること"
+  },
+  {
+    "id": "g6-127",
+    "grade": 6,
+    "unit": "",
+    "kanji": "寸法",
+    "reading": "すんぽう",
+    "type": "jukugo",
+    "example": "家具の{}を測って置けるか確かめた。",
+    "meaning": "物の大きさや長さを測った数"
+  },
+  {
+    "id": "g6-128",
+    "grade": 6,
+    "unit": "",
+    "kanji": "盛大",
+    "reading": "せいだい",
+    "type": "jukugo",
+    "example": "{}なお祝いのパーティーが開かれた。",
+    "meaning": "きぼが大きくにぎやかなようす"
+  },
+  {
+    "id": "g6-129",
+    "grade": 6,
+    "unit": "",
+    "kanji": "盛る",
+    "reading": "もる",
+    "type": "okurigana",
+    "example": "お皿にご飯を{}。",
+    "meaning": "たくさん積み重ねること"
+  },
+  {
+    "id": "g6-130",
+    "grade": 6,
+    "unit": "",
+    "kanji": "聖火",
+    "reading": "せいか",
+    "type": "jukugo",
+    "example": "オリンピックの{}が国中をリレーした。",
+    "meaning": "神聖な火、オリンピックの象徴の火"
+  },
+  {
+    "id": "g6-131",
+    "grade": 6,
+    "unit": "",
+    "kanji": "誠実",
+    "reading": "せいじつ",
+    "type": "jukugo",
+    "example": "{}な態度で相手に接した。",
+    "meaning": "うそがなく真剣に取り組むようす"
+  },
+  {
+    "id": "g6-132",
+    "grade": 6,
+    "unit": "",
+    "kanji": "舌",
+    "reading": "した",
+    "type": "single",
+    "example": "辛い食べ物を食べて{}がひりひりした。",
+    "meaning": "口の中にある味を感じる器官"
+  },
+  {
+    "id": "g6-133",
+    "grade": 6,
+    "unit": "",
+    "kanji": "宣言",
+    "reading": "せんげん",
+    "type": "jukugo",
+    "example": "独立{}が発表された。",
+    "meaning": "広く人々に知らせるために告げること"
+  },
+  {
+    "id": "g6-134",
+    "grade": 6,
+    "unit": "",
+    "kanji": "専門",
+    "reading": "せんもん",
+    "type": "jukugo",
+    "example": "{}家に相談することにした。",
+    "meaning": "一つのことを深く研究したり仕事にしたりすること"
+  },
+  {
+    "id": "g6-135",
+    "grade": 6,
+    "unit": "",
+    "kanji": "泉",
+    "reading": "いずみ",
+    "type": "single",
+    "example": "山の中に冷たい{}がわいていた。",
+    "meaning": "地面からわき出る水"
+  },
+  {
+    "id": "g6-136",
+    "grade": 6,
+    "unit": "",
+    "kanji": "洗濯",
+    "reading": "せんたく",
+    "type": "jukugo",
+    "example": "毎朝{}をするのが日課だ。",
+    "meaning": "衣類などを水で洗ってきれいにすること"
+  },
+  {
+    "id": "g6-137",
+    "grade": 6,
+    "unit": "",
+    "kanji": "染める",
+    "reading": "そめる",
+    "type": "okurigana",
+    "example": "布を赤い色に{}。",
+    "meaning": "色をしみこませること"
+  },
+  {
+    "id": "g6-138",
+    "grade": 6,
+    "unit": "",
+    "kanji": "善悪",
+    "reading": "ぜんあく",
+    "type": "jukugo",
+    "example": "物語の中で{}をテーマにしていた。",
+    "meaning": "よいことと悪いこと"
+  },
+  {
+    "id": "g6-139",
+    "grade": 6,
+    "unit": "",
+    "kanji": "奏でる",
+    "reading": "かなでる",
+    "type": "okurigana",
+    "example": "バイオリンで美しい音楽を{}。",
+    "meaning": "楽器を演奏すること"
+  },
+  {
+    "id": "g6-140",
+    "grade": 6,
+    "unit": "",
+    "kanji": "演奏",
+    "reading": "えんそう",
+    "type": "jukugo",
+    "example": "学校のホールで{}会が開かれた。",
+    "meaning": "楽器を使って音楽を演じること"
+  },
+  {
+    "id": "g6-141",
+    "grade": 6,
+    "unit": "",
+    "kanji": "窓口",
+    "reading": "まどぐち",
+    "type": "jukugo",
+    "example": "図書館の{}で本を受け取った。",
+    "meaning": "受け付けや応対をする場所"
+  },
+  {
+    "id": "g6-142",
+    "grade": 6,
+    "unit": "",
+    "kanji": "創作",
+    "reading": "そうさく",
+    "type": "jukugo",
+    "example": "自分で考えた物語を{}した。",
+    "meaning": "新しいものを自分で考えて作ること"
+  },
+  {
+    "id": "g6-143",
+    "grade": 6,
+    "unit": "",
+    "kanji": "装置",
+    "reading": "そうち",
+    "type": "jukugo",
+    "example": "火災を感知する{}が取り付けられた。",
+    "meaning": "ある目的のために組み立てられた機械やしかけ"
+  },
+  {
+    "id": "g6-144",
+    "grade": 6,
+    "unit": "",
+    "kanji": "地層",
+    "reading": "ちそう",
+    "type": "jukugo",
+    "example": "がけに{}が見えた。",
+    "meaning": "土や砂・石が重なってできた地面の層"
+  },
+  {
+    "id": "g6-145",
+    "grade": 6,
+    "unit": "",
+    "kanji": "操作",
+    "reading": "そうさ",
+    "type": "jukugo",
+    "example": "機械の{}を覚えるのに時間がかかった。",
+    "meaning": "機械などを動かすこと"
+  },
+  {
+    "id": "g6-146",
+    "grade": 6,
+    "unit": "",
+    "kanji": "蔵",
+    "reading": "くら",
+    "type": "single",
+    "example": "古い{}に昔の道具がしまってあった。",
+    "meaning": "ものをしまっておくための建物"
+  },
+  {
+    "id": "g6-147",
+    "grade": 6,
+    "unit": "",
+    "kanji": "臓器",
+    "reading": "ぞうき",
+    "type": "jukugo",
+    "example": "心臓は大切な{}のひとつだ。",
+    "meaning": "体の中にあってはたらきをもつ器官"
+  },
+  {
+    "id": "g6-148",
+    "grade": 6,
+    "unit": "",
+    "kanji": "存在",
+    "reading": "そんざい",
+    "type": "jukugo",
+    "example": "宇宙人が{}するかどうかは謎だ。",
+    "meaning": "あること、いること"
+  },
+  {
+    "id": "g6-149",
+    "grade": 6,
+    "unit": "",
+    "kanji": "尊重",
+    "reading": "そんちょう",
+    "type": "jukugo",
+    "example": "お互いの意見を{}することが大切だ。",
+    "meaning": "大切に思って重んじること"
+  },
+  {
+    "id": "g6-150",
+    "grade": 6,
+    "unit": "",
+    "kanji": "尊ぶ",
+    "reading": "とうとぶ",
+    "type": "okurigana",
+    "example": "命を{}気持ちを大切にした。",
+    "meaning": "とても価値があると思って大切にすること"
+  },
+  {
+    "id": "g6-151",
+    "grade": 6,
+    "unit": "",
+    "kanji": "宅配",
+    "reading": "たくはい",
+    "type": "jukugo",
+    "example": "{}便で荷物を送った。",
+    "meaning": "家まで届けるサービス"
+  },
+  {
+    "id": "g6-152",
+    "grade": 6,
+    "unit": "",
+    "kanji": "担当",
+    "reading": "たんとう",
+    "type": "jukugo",
+    "example": "この仕事を{}することになった。",
+    "meaning": "ある仕事や役割を受け持つこと"
+  },
+  {
+    "id": "g6-153",
+    "grade": 6,
+    "unit": "",
+    "kanji": "担う",
+    "reading": "になう",
+    "type": "okurigana",
+    "example": "若い世代が未来を{}。",
+    "meaning": "責任をもって引き受けること"
+  },
+  {
+    "id": "g6-154",
+    "grade": 6,
+    "unit": "",
+    "kanji": "探検",
+    "reading": "たんけん",
+    "type": "jukugo",
+    "example": "未知の場所を{}した。",
+    "meaning": "知らない場所に行って調べること"
+  },
+  {
+    "id": "g6-155",
+    "grade": 6,
+    "unit": "",
+    "kanji": "探す",
+    "reading": "さがす",
+    "type": "okurigana",
+    "example": "失くした鍵を{}。",
+    "meaning": "見つけようとしてあちこち調べること"
+  },
+  {
+    "id": "g6-156",
+    "grade": 6,
+    "unit": "",
+    "kanji": "誕生",
+    "reading": "たんじょう",
+    "type": "jukugo",
+    "example": "赤ちゃんが{}した。",
+    "meaning": "生まれること、新しくできること"
+  },
+  {
+    "id": "g6-157",
+    "grade": 6,
+    "unit": "",
+    "kanji": "段落",
+    "reading": "だんらく",
+    "type": "jukugo",
+    "example": "文章を{}に分けて読んだ。",
+    "meaning": "文章のひとまとまりの部分"
+  },
+  {
+    "id": "g6-158",
+    "grade": 6,
+    "unit": "",
+    "kanji": "暖かい",
+    "reading": "あたたかい",
+    "type": "okurigana",
+    "example": "春になって{}日が続いた。",
+    "meaning": "ちょうどよい温かさがあるようす"
+  },
+  {
+    "id": "g6-159",
+    "grade": 6,
+    "unit": "",
+    "kanji": "暖流",
+    "reading": "だんりゅう",
+    "type": "jukugo",
+    "example": "{}が流れる地域は冬も温和だ。",
+    "meaning": "温かい海水の流れ"
+  },
+  {
+    "id": "g6-160",
+    "grade": 6,
+    "unit": "",
+    "kanji": "価値",
+    "reading": "かち",
+    "type": "jukugo",
+    "example": "この絵は高い{}がある。",
+    "meaning": "そのものがどれだけ役に立つかの度合い"
+  },
+  {
+    "id": "g6-161",
+    "grade": 6,
+    "unit": "",
+    "kanji": "宙",
+    "reading": "ちゅう",
+    "type": "single",
+    "example": "ボールが{}に浮いた。",
+    "meaning": "空中、何もない空間"
+  },
+  {
+    "id": "g6-162",
+    "grade": 6,
+    "unit": "",
+    "kanji": "忠告",
+    "reading": "ちゅうこく",
+    "type": "jukugo",
+    "example": "友達から大切な{}をもらった。",
+    "meaning": "相手のためを思って注意や助言をすること"
+  },
+  {
+    "id": "g6-163",
+    "grade": 6,
+    "unit": "",
+    "kanji": "著者",
+    "reading": "ちょしゃ",
+    "type": "jukugo",
+    "example": "この本の{}はとても有名な人だ。",
+    "meaning": "本などを書いた人"
+  },
+  {
+    "id": "g6-164",
+    "grade": 6,
+    "unit": "",
+    "kanji": "著しい",
+    "reading": "いちじるしい",
+    "type": "okurigana",
+    "example": "成績が{}向上した。",
+    "meaning": "はっきりわかるほど目立つようす"
+  },
+  {
+    "id": "g6-165",
+    "grade": 6,
+    "unit": "",
+    "kanji": "庁舎",
+    "reading": "ちょうしゃ",
+    "type": "jukugo",
+    "example": "市の{}に手続きに行った。",
+    "meaning": "役所の建物"
+  },
+  {
+    "id": "g6-166",
+    "grade": 6,
+    "unit": "",
+    "kanji": "頂上",
+    "reading": "ちょうじょう",
+    "type": "jukugo",
+    "example": "山の{}から景色を眺めた。",
+    "meaning": "山などの一番高いところ"
+  },
+  {
+    "id": "g6-167",
+    "grade": 6,
+    "unit": "",
+    "kanji": "頂く",
+    "reading": "いただく",
+    "type": "okurigana",
+    "example": "先生からプレゼントを{}。",
+    "meaning": "もらうことの丁寧な言い方"
+  },
+  {
+    "id": "g6-168",
+    "grade": 6,
+    "unit": "",
+    "kanji": "満潮",
+    "reading": "まんちょう",
+    "type": "jukugo",
+    "example": "{}の時間に海岸が海水でおおわれた。",
+    "meaning": "潮が最も高くなった状態"
+  },
+  {
+    "id": "g6-169",
+    "grade": 6,
+    "unit": "",
+    "kanji": "賃金",
+    "reading": "ちんぎん",
+    "type": "jukugo",
+    "example": "働いた分の{}をもらった。",
+    "meaning": "仕事をした報酬としてもらうお金"
+  },
+  {
+    "id": "g6-170",
+    "grade": 6,
+    "unit": "",
+    "kanji": "痛い",
+    "reading": "いたい",
+    "type": "okurigana",
+    "example": "転んで膝が{}。",
+    "meaning": "体に苦しい感覚があるようす"
+  },
+  {
+    "id": "g6-171",
+    "grade": 6,
+    "unit": "",
+    "kanji": "頭痛",
+    "reading": "ずつう",
+    "type": "jukugo",
+    "example": "昨日から{}がして病院に行った。",
+    "meaning": "頭が痛いこと"
+  },
+  {
+    "id": "g6-172",
+    "grade": 6,
+    "unit": "",
+    "kanji": "発展",
+    "reading": "はってん",
+    "type": "jukugo",
+    "example": "この町は産業が{}してきた。",
+    "meaning": "物事がより大きく成長すること"
+  },
+  {
+    "id": "g6-173",
+    "grade": 6,
+    "unit": "",
+    "kanji": "討議",
+    "reading": "とうぎ",
+    "type": "jukugo",
+    "example": "クラスで環境問題を{}した。",
+    "meaning": "問題について意見を出し合って話し合うこと"
+  },
+  {
+    "id": "g6-174",
+    "grade": 6,
+    "unit": "",
+    "kanji": "政党",
+    "reading": "せいとう",
+    "type": "jukugo",
+    "example": "国会にはいくつかの{}がある。",
+    "meaning": "同じ政治の考えを持つ人々の集まり"
+  },
+  {
+    "id": "g6-175",
+    "grade": 6,
+    "unit": "",
+    "kanji": "砂糖",
+    "reading": "さとう",
+    "type": "jukugo",
+    "example": "コーヒーに{}を入れた。",
+    "meaning": "甘みをつけるために使う白い粉"
+  },
+  {
+    "id": "g6-176",
+    "grade": 6,
+    "unit": "",
+    "kanji": "届ける",
+    "reading": "とどける",
+    "type": "okurigana",
+    "example": "友達の家に荷物を{}。",
+    "meaning": "相手のところまで持っていくこと"
+  },
+  {
+    "id": "g6-177",
+    "grade": 6,
+    "unit": "",
+    "kanji": "届く",
+    "reading": "とどく",
+    "type": "okurigana",
+    "example": "手紙が家に{}。",
+    "meaning": "目的の場所や人に達すること"
+  },
+  {
+    "id": "g6-178",
+    "grade": 6,
+    "unit": "",
+    "kanji": "乳歯",
+    "reading": "にゅうし",
+    "type": "jukugo",
+    "example": "子供のころに{}が抜けて大人の歯になった。",
+    "meaning": "子供のうちに生えている歯"
+  },
+  {
+    "id": "g6-179",
+    "grade": 6,
+    "unit": "",
+    "kanji": "牛乳",
+    "reading": "ぎゅうにゅう",
+    "type": "jukugo",
+    "example": "毎朝{}を一杯飲む。",
+    "meaning": "牛からとったミルク"
+  },
+  {
+    "id": "g6-180",
+    "grade": 6,
+    "unit": "",
+    "kanji": "脳",
+    "reading": "のう",
+    "type": "single",
+    "example": "{}は体の司令塔のはたらきをしている。",
+    "meaning": "頭の中にある体を動かす大切な器官"
+  },
+  {
+    "id": "g6-181",
+    "grade": 6,
+    "unit": "",
+    "kanji": "派手",
+    "reading": "はで",
+    "type": "jukugo",
+    "example": "{}な色の服を着た。",
+    "meaning": "目立つほど華やかなようす"
+  },
+  {
+    "id": "g6-182",
+    "grade": 6,
+    "unit": "",
+    "kanji": "廃止",
+    "reading": "はいし",
+    "type": "jukugo",
+    "example": "古い制度を{}することにした。",
+    "meaning": "それまであったものをやめること"
+  },
+  {
+    "id": "g6-183",
+    "grade": 6,
+    "unit": "",
+    "kanji": "廃れる",
+    "reading": "すたれる",
+    "type": "okurigana",
+    "example": "古い習慣が次第に{}。",
+    "meaning": "使われなくなること、はやらなくなること"
+  },
+  {
+    "id": "g6-184",
+    "grade": 6,
+    "unit": "",
+    "kanji": "俳句",
+    "reading": "はいく",
+    "type": "jukugo",
+    "example": "五・七・五のリズムで{}を作った。",
+    "meaning": "五・七・五の十七音で作る短い詩"
+  },
+  {
+    "id": "g6-185",
+    "grade": 6,
+    "unit": "",
+    "kanji": "晩秋",
+    "reading": "ばんしゅう",
+    "type": "jukugo",
+    "example": "{}になると山が紅葉で美しくなる。",
+    "meaning": "秋の終わりごろ"
+  },
+  {
+    "id": "g6-186",
+    "grade": 6,
+    "unit": "",
+    "kanji": "今晩",
+    "reading": "こんばん",
+    "type": "jukugo",
+    "example": "{}の天気予報を見た。",
+    "meaning": "今日の夜"
+  },
+  {
+    "id": "g6-187",
+    "grade": 6,
+    "unit": "",
+    "kanji": "腹痛",
+    "reading": "ふくつう",
+    "type": "jukugo",
+    "example": "食べすぎて{}になった。",
+    "meaning": "お腹が痛いこと"
+  },
+  {
+    "id": "g6-188",
+    "grade": 6,
+    "unit": "",
+    "kanji": "腹",
+    "reading": "はら",
+    "type": "single",
+    "example": "おいしいものを食べて{}がいっぱいになった。",
+    "meaning": "体の胃や腸がある部分"
+  },
+  {
+    "id": "g6-189",
+    "grade": 6,
+    "unit": "",
+    "kanji": "奮発",
+    "reading": "ふんぱつ",
+    "type": "jukugo",
+    "example": "誕生日に{}して高いケーキを買った。",
+    "meaning": "思い切って力を出したり、お金を使ったりすること"
+  },
+  {
+    "id": "g6-190",
+    "grade": 6,
+    "unit": "",
+    "kanji": "並行",
+    "reading": "へいこう",
+    "type": "jukugo",
+    "example": "二つの作業を{}して進めた。",
+    "meaning": "二つのことが同時に進んでいること"
+  },
+  {
+    "id": "g6-191",
+    "grade": 6,
+    "unit": "",
+    "kanji": "並ぶ",
+    "reading": "ならぶ",
+    "type": "okurigana",
+    "example": "店の前に長い列が{}。",
+    "meaning": "同じ方向に列になること"
+  },
+  {
+    "id": "g6-192",
+    "grade": 6,
+    "unit": "",
+    "kanji": "閉幕",
+    "reading": "へいまく",
+    "type": "jukugo",
+    "example": "オリンピックが{}した。",
+    "meaning": "催しや会が終わること"
+  },
+  {
+    "id": "g6-193",
+    "grade": 6,
+    "unit": "",
+    "kanji": "閉じる",
+    "reading": "とじる",
+    "type": "okurigana",
+    "example": "本を読み終えて{}。",
+    "meaning": "開いているものをふさぐこと"
+  },
+  {
+    "id": "g6-194",
+    "grade": 6,
+    "unit": "",
+    "kanji": "陛下",
+    "reading": "へいか",
+    "type": "jukugo",
+    "example": "天皇{}がお言葉を述べられた。",
+    "meaning": "天皇や皇后などへの敬称"
+  },
+  {
+    "id": "g6-195",
+    "grade": 6,
+    "unit": "",
+    "kanji": "片道",
+    "reading": "かたみち",
+    "type": "jukugo",
+    "example": "駅まで{}二十分かかる。",
+    "meaning": "往復のうちの行きか帰りの一方"
+  },
+  {
+    "id": "g6-196",
+    "grade": 6,
+    "unit": "",
+    "kanji": "補う",
+    "reading": "おぎなう",
+    "type": "okurigana",
+    "example": "足りない栄養を食事で{}。",
+    "meaning": "足りないところを追加すること"
+  },
+  {
+    "id": "g6-197",
+    "grade": 6,
+    "unit": "",
+    "kanji": "補助",
+    "reading": "ほじょ",
+    "type": "jukugo",
+    "example": "自転車の{}輪で練習した。",
+    "meaning": "足りないところを補ってたすけること"
+  },
+  {
+    "id": "g6-198",
+    "grade": 6,
+    "unit": "",
+    "kanji": "暮れる",
+    "reading": "くれる",
+    "type": "okurigana",
+    "example": "空が赤く染まり日が{}。",
+    "meaning": "日が沈んで暗くなること"
+  },
+  {
+    "id": "g6-199",
+    "grade": 6,
+    "unit": "",
+    "kanji": "暮らし",
+    "reading": "くらし",
+    "type": "okurigana",
+    "example": "田舎での{}について調べた。",
+    "meaning": "毎日の生活のようす"
+  },
+  {
+    "id": "g6-200",
+    "grade": 6,
+    "unit": "",
+    "kanji": "宝物",
+    "reading": "たからもの",
+    "type": "jukugo",
+    "example": "家族の写真は私の{}だ。",
+    "meaning": "大切にしているものや価値のあるもの"
+  },
+  {
+    "id": "g6-201",
+    "grade": 6,
+    "unit": "",
+    "kanji": "訪問",
+    "reading": "ほうもん",
+    "type": "jukugo",
+    "example": "お世話になった先生の家を{}した。",
+    "meaning": "人の家などを訪ねること"
+  },
+  {
+    "id": "g6-202",
+    "grade": 6,
+    "unit": "",
+    "kanji": "訪れる",
+    "reading": "おとずれる",
+    "type": "okurigana",
+    "example": "春が{}と花が咲く。",
+    "meaning": "ある場所や時期がやってくること"
+  },
+  {
+    "id": "g6-203",
+    "grade": 6,
+    "unit": "",
+    "kanji": "亡くなる",
+    "reading": "なくなる",
+    "type": "okurigana",
+    "example": "大切なペットが{}。",
+    "meaning": "死ぬこと"
+  },
+  {
+    "id": "g6-204",
+    "grade": 6,
+    "unit": "",
+    "kanji": "死亡",
+    "reading": "しぼう",
+    "type": "jukugo",
+    "example": "事故による{}者数が報告された。",
+    "meaning": "死ぬこと"
+  },
+  {
+    "id": "g6-205",
+    "grade": 6,
+    "unit": "",
+    "kanji": "忘れる",
+    "reading": "わすれる",
+    "type": "okurigana",
+    "example": "宿題を家に{}てしまった。",
+    "meaning": "覚えていたことを思い出せなくなること"
+  },
+  {
+    "id": "g6-206",
+    "grade": 6,
+    "unit": "",
+    "kanji": "忘れ物",
+    "reading": "わすれもの",
+    "type": "jukugo",
+    "example": "電車に{}をしてしまった。",
+    "meaning": "置き忘れてきてしまったもの"
+  },
+  {
+    "id": "g6-207",
+    "grade": 6,
+    "unit": "",
+    "kanji": "枚数",
+    "reading": "まいすう",
+    "type": "jukugo",
+    "example": "配る紙の{}を数えた。",
+    "meaning": "紙や板など平たいものの数"
+  },
+  {
+    "id": "g6-208",
+    "grade": 6,
+    "unit": "",
+    "kanji": "幕府",
+    "reading": "ばくふ",
+    "type": "jukugo",
+    "example": "江戸{}は長く続いた。",
+    "meaning": "武士が政治を行った政府"
+  },
+  {
+    "id": "g6-209",
+    "grade": 6,
+    "unit": "",
+    "kanji": "密着",
+    "reading": "みっちゃく",
+    "type": "jukugo",
+    "example": "記者が選手に{}した。",
+    "meaning": "ぴったりとくっつくこと"
+  },
+  {
+    "id": "g6-210",
+    "grade": 6,
+    "unit": "",
+    "kanji": "密集",
+    "reading": "みっしゅう",
+    "type": "jukugo",
+    "example": "都市に人が{}して住んでいる。",
+    "meaning": "ものや人がすき間なく集まっていること"
+  },
+  {
+    "id": "g6-211",
+    "grade": 6,
+    "unit": "",
+    "kanji": "同盟",
+    "reading": "どうめい",
+    "type": "jukugo",
+    "example": "二つの国が{}を結んだ。",
+    "meaning": "共通の目的のために結ぶ約束や組み合わせ"
+  },
+  {
+    "id": "g6-212",
+    "grade": 6,
+    "unit": "",
+    "kanji": "優先",
+    "reading": "ゆうせん",
+    "type": "jukugo",
+    "example": "お年寄りを{}して席を譲った。",
+    "meaning": "他より先に扱うこと"
+  },
+  {
+    "id": "g6-213",
+    "grade": 6,
+    "unit": "",
+    "kanji": "優しい",
+    "reading": "やさしい",
+    "type": "okurigana",
+    "example": "{}人は周りから好かれる。",
+    "meaning": "人に対して思いやりがあり温かいようす"
+  },
+  {
+    "id": "g6-214",
+    "grade": 6,
+    "unit": "",
+    "kanji": "幼児",
+    "reading": "ようじ",
+    "type": "jukugo",
+    "example": "{}向けの絵本を読んだ。",
+    "meaning": "小さい子供"
+  },
+  {
+    "id": "g6-215",
+    "grade": 6,
+    "unit": "",
+    "kanji": "幼い",
+    "reading": "おさない",
+    "type": "okurigana",
+    "example": "{}ころの思い出を話した。",
+    "meaning": "年が小さいようす"
+  },
+  {
+    "id": "g6-216",
+    "grade": 6,
+    "unit": "",
+    "kanji": "翌日",
+    "reading": "よくじつ",
+    "type": "jukugo",
+    "example": "旅行の{}に学校があった。",
+    "meaning": "次の日"
+  },
+  {
+    "id": "g6-217",
+    "grade": 6,
+    "unit": "",
+    "kanji": "翌朝",
+    "reading": "よくあさ",
+    "type": "jukugo",
+    "example": "{}早く起きて出発した。",
+    "meaning": "次の日の朝"
+  },
+  {
+    "id": "g6-218",
+    "grade": 6,
+    "unit": "",
+    "kanji": "権利",
+    "reading": "けんり",
+    "type": "jukugo",
+    "example": "すべての人には学ぶ{}がある。",
+    "meaning": "あることをする資格や自由"
+  },
+  {
+    "id": "g6-219",
+    "grade": 6,
+    "unit": "",
+    "kanji": "絹",
+    "reading": "きぬ",
+    "type": "single",
+    "example": "{}の着物はつるつるしていてなめらかだ。",
+    "meaning": "蚕が作る糸を織った布"
+  },
+  {
+    "id": "g6-220",
+    "grade": 6,
+    "unit": "",
+    "kanji": "預ける",
+    "reading": "あずける",
+    "type": "okurigana",
+    "example": "銀行にお金を{}。",
+    "meaning": "人に頼んで保管してもらうこと"
+  },
+  {
+    "id": "g6-221",
+    "grade": 6,
+    "unit": "",
+    "kanji": "預金",
+    "reading": "よきん",
+    "type": "jukugo",
+    "example": "銀行に{}があるか調べた。",
+    "meaning": "銀行などに預けているお金"
+  },
+  {
+    "id": "g6-222",
+    "grade": 6,
+    "unit": "",
+    "kanji": "後",
+    "reading": "のち",
+    "type": "single",
+    "example": "雨の{}は晴れ間が広がった。",
+    "meaning": "ある時より後の時"
+  },
+  {
+    "id": "g6-223",
+    "grade": 6,
+    "unit": "",
+    "kanji": "皇太子",
+    "reading": "こうたいし",
+    "type": "jukugo",
+    "example": "{}が行事に出席した。",
+    "meaning": "天皇の位を受け継ぐ皇子"
+  },
+  {
+    "id": "g6-224",
+    "grade": 6,
+    "unit": "",
+    "kanji": "自己",
+    "reading": "じこ",
+    "type": "jukugo",
+    "example": "{}紹介で好きなことを話した。",
+    "meaning": "自分自身のこと"
+  },
+  {
+    "id": "g6-225",
+    "grade": 6,
+    "unit": "",
+    "kanji": "乱れる",
+    "reading": "みだれる",
+    "type": "okurigana",
+    "example": "引き出しの中が{}になった。",
+    "meaning": "整っていたものが崩れてバラバラになること"
+  },
+  {
+    "id": "g6-226",
+    "grade": 6,
+    "unit": "",
+    "kanji": "俵",
+    "reading": "たわら",
+    "type": "single",
+    "example": "米を{}に入れて運んだ。",
+    "meaning": "米や炭などを入れるわら製の大きな袋"
+  },
+  {
+    "id": "g6-227",
+    "grade": 6,
+    "unit": "",
+    "kanji": "入場券",
+    "reading": "にゅうじょうけん",
+    "type": "jukugo",
+    "example": "動物園の{}を買った。",
+    "meaning": "場所に入るための切符"
+  },
+  {
+    "id": "g6-228",
+    "grade": 6,
+    "unit": "",
+    "kanji": "卵",
+    "reading": "たまご",
+    "type": "single",
+    "example": "にわとりが{}を産んだ。",
+    "meaning": "動物が産む、ひなや子が育つ丸いもの"
+  },
+  {
+    "id": "g6-229",
+    "grade": 6,
+    "unit": "",
+    "kanji": "法律",
+    "reading": "ほうりつ",
+    "type": "jukugo",
+    "example": "社会のルールは{}で定められている。",
+    "meaning": "国が定めた守るべききまり"
+  },
+  {
+    "id": "g6-230",
+    "grade": 6,
+    "unit": "",
+    "kanji": "恩人",
+    "reading": "おんじん",
+    "type": "jukugo",
+    "example": "困ったときに助けてくれた{}に感謝した。",
+    "meaning": "世話になりお礼をしなければならない人"
+  },
+  {
+    "id": "g6-231",
+    "grade": 6,
+    "unit": "",
+    "kanji": "批判",
+    "reading": "ひはん",
+    "type": "jukugo",
+    "example": "相手の意見を{}するときは理由を言う。",
+    "meaning": "物事の良い点や悪い点を判断すること"
+  },
+  {
+    "id": "g6-232",
+    "grade": 6,
+    "unit": "",
+    "kanji": "承知",
+    "reading": "しょうち",
+    "type": "jukugo",
+    "example": "ご用件は{}しました。",
+    "meaning": "相手の話や頼みを聞いて、わかったと受け入れること。"
+  },
+  {
+    "id": "g6-233",
+    "grade": 6,
+    "unit": "",
+    "kanji": "拝む",
+    "reading": "おがむ",
+    "type": "okurigana",
+    "example": "神社で手を合わせて{}。",
+    "meaning": "神仏などに手を合わせて祈ること"
+  },
+  {
+    "id": "g6-234",
+    "grade": 6,
+    "unit": "",
+    "kanji": "敵",
+    "reading": "てき",
+    "type": "single",
+    "example": "試合では相手チームが{}だ。",
+    "meaning": "戦う相手、対立する者"
+  },
+  {
+    "id": "g6-235",
+    "grade": 6,
+    "unit": "",
+    "kanji": "縮む",
+    "reading": "ちぢむ",
+    "type": "okurigana",
+    "example": "洗たくしたら服が{}。",
+    "meaning": "小さくなること"
+  },
+  {
+    "id": "g6-236",
+    "grade": 6,
+    "unit": "",
+    "kanji": "肺",
+    "reading": "はい",
+    "type": "single",
+    "example": "{}は呼吸するための器官だ。",
+    "meaning": "空気を取り込んで血液に酸素を送る器官"
+  },
+  {
+    "id": "g6-237",
+    "grade": 6,
+    "unit": "",
+    "kanji": "胃",
+    "reading": "い",
+    "type": "single",
+    "example": "食べすぎて{}が痛くなった。",
+    "meaning": "食べた物を消化する体の器官"
+  },
+  {
+    "id": "g6-238",
+    "grade": 6,
+    "unit": "",
+    "kanji": "背中",
+    "reading": "せなか",
+    "type": "jukugo",
+    "example": "荷物を{}に背負って山を登った。",
+    "meaning": "体の後ろ側の部分"
+  },
+  {
+    "id": "g6-239",
+    "grade": 6,
+    "unit": "",
+    "kanji": "腸",
+    "reading": "ちょう",
+    "type": "single",
+    "example": "食べた物は{}で消化・吸収される。",
+    "meaning": "胃の下にある消化を助ける器官"
+  },
+  {
+    "id": "g6-240",
+    "grade": 6,
+    "unit": "",
+    "kanji": "裏側",
+    "reading": "うらがわ",
+    "type": "jukugo",
+    "example": "紙の{}にも字を書いた。",
+    "meaning": "表の反対の面"
+  },
+  {
+    "id": "g6-241",
+    "grade": 6,
+    "unit": "",
+    "kanji": "退場",
+    "reading": "たいじょう",
+    "type": "jukugo",
+    "example": "反則をした選手が{}を命じられた。",
+    "meaning": "その場から引き下がること"
+  },
+  {
+    "id": "g6-242",
+    "grade": 6,
+    "unit": "",
+    "kanji": "郵便",
+    "reading": "ゆうびん",
+    "type": "jukugo",
+    "example": "手紙を{}で送った。",
+    "meaning": "手紙や荷物を届けるサービス"
+  },
+  {
+    "id": "g6-243",
+    "grade": 6,
+    "unit": "",
+    "kanji": "小銭",
+    "reading": "こぜに",
+    "type": "jukugo",
+    "example": "バスに乗るために{}を用意した。",
+    "meaning": "少額の硬貨"
   }
 ]
