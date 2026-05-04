@@ -134,7 +134,7 @@ export default function QuizReadingPage() {
     if (results.length === 1 || results[0].confidence >= 0.9) {
       appendChar(results[0].char)
     } else {
-      setCandidates(results.slice(0, 3))
+      setCandidates(results)
     }
   }
 
@@ -287,12 +287,13 @@ export default function QuizReadingPage() {
         </div>
 
         {candidates.length > 0 && (
-          <div className="flex gap-3 items-center">
-            <span className="text-sm text-gray-400">候補:</span>
+          <div className="flex gap-2 items-center overflow-x-auto w-full pb-1">
+            <span className="text-sm text-gray-400 shrink-0">候補:</span>
             {candidates.map((c, i) => (
               <button
                 key={i}
                 onClick={() => appendChar(c.char)}
+                style={{ touchAction: 'manipulation', flexShrink: 0 }}
                 className="w-14 h-14 bg-violet-100 border-2 border-violet-400 rounded-xl text-2xl font-bold text-violet-800 hover:bg-violet-200"
               >
                 {c.char}

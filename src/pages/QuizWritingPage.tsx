@@ -281,13 +281,14 @@ export default function QuizWritingPage() {
               {recognizedChars[i] ?? ''}
             </div>
 
-            {/* 候補ボタン */}
+            {/* 候補ボタン（最大8件・横スクロール） */}
             {(candidatesPerSlot[i]?.length ?? 0) > 0 && (
-              <div className="flex gap-1">
+              <div className="flex gap-1 overflow-x-auto max-w-[260px] pb-1">
                 {candidatesPerSlot[i].map((c) => (
                   <button
                     key={c.char}
                     onClick={() => handleSelectCandidate(i, c.char)}
+                    style={{ touchAction: 'manipulation', flexShrink: 0 }}
                     className="w-9 h-9 bg-violet-50 border border-violet-300 rounded-lg text-base font-bold text-violet-700"
                   >
                     {c.char}

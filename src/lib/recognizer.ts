@@ -48,8 +48,8 @@ function runRecognition(
       const cp = ch.codePointAt(0) ?? 0
       return filter(cp)
     })
-    .slice(0, 3)
-    .map((char, i) => ({ char, confidence: 1.0 - i * 0.15 }))
+    .slice(0, 8)
+    .map((char, i) => ({ char, confidence: 1.0 - i * 0.08 }))
 }
 
 /** 漢字認識（U+4E00–U+9FFF + 拡張漢字 U+3400–U+4DBF） */
