@@ -9,7 +9,12 @@
       "WebSearch",
       "WebFetch(domain:kanji.me)",
       "WebFetch(domain:ja.wikipedia.org)",
-      "WebFetch(domain:jp-cos.github.io)"
+      "WebFetch(domain:jp-cos.github.io)",
+      "Read(//private/tmp/**)",
+      "Bash(sed -n '/^KanjiCanvas.refPatterns = \\\\[/,/^\\\\]/p' \"/Users/bannaitomoyuki/Projects/kanji-test/public/kanjicanvas/ref-patterns.js\")",
+      "WebFetch(domain:gakken-ep.jp)",
+      "WebFetch(domain:ieben.net)",
+      "WebFetch(domain:www.mori7.com)"
     ]
   }
 }
