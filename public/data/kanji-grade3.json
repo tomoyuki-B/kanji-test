@@ -1,0 +1,1992 @@
+[
+  {
+    "id": "g3-001",
+    "grade": 3,
+    "unit": "",
+    "kanji": "悪い",
+    "reading": "わるい",
+    "type": "okurigana",
+    "example": "気分が{}い。",
+    "meaning": "よくない"
+  },
+  {
+    "id": "g3-002",
+    "grade": 3,
+    "unit": "",
+    "kanji": "安全",
+    "reading": "あんぜん",
+    "type": "jukugo",
+    "example": "{}に気をつける。",
+    "meaning": "あぶなくないこと"
+  },
+  {
+    "id": "g3-003",
+    "grade": 3,
+    "unit": "",
+    "kanji": "暗い",
+    "reading": "くらい",
+    "type": "okurigana",
+    "example": "へやが{}い。",
+    "meaning": "光がなくて見えにくい"
+  },
+  {
+    "id": "g3-004",
+    "grade": 3,
+    "unit": "",
+    "kanji": "医者",
+    "reading": "いしゃ",
+    "type": "jukugo",
+    "example": "{}にみてもらう。",
+    "meaning": "病気をなおす人"
+  },
+  {
+    "id": "g3-005",
+    "grade": 3,
+    "unit": "",
+    "kanji": "委員",
+    "reading": "いいん",
+    "type": "jukugo",
+    "example": "学級{}になる。",
+    "meaning": "みんなのためにえらばれた人"
+  },
+  {
+    "id": "g3-006",
+    "grade": 3,
+    "unit": "",
+    "kanji": "意味",
+    "reading": "いみ",
+    "type": "jukugo",
+    "example": "ことばの{}を知る。",
+    "meaning": "あることばがあらわすこと"
+  },
+  {
+    "id": "g3-007",
+    "grade": 3,
+    "unit": "",
+    "kanji": "育てる",
+    "reading": "そだてる",
+    "type": "okurigana",
+    "example": "花を{}てる。",
+    "meaning": "せわをして大きくする"
+  },
+  {
+    "id": "g3-008",
+    "grade": 3,
+    "unit": "",
+    "kanji": "店員",
+    "reading": "てんいん",
+    "type": "jukugo",
+    "example": "お店の{}と話す。",
+    "meaning": "お店ではたらく人"
+  },
+  {
+    "id": "g3-009",
+    "grade": 3,
+    "unit": "",
+    "kanji": "病院",
+    "reading": "びょういん",
+    "type": "jukugo",
+    "example": "{}に行く。",
+    "meaning": "病気をみてもらう場所"
+  },
+  {
+    "id": "g3-010",
+    "grade": 3,
+    "unit": "",
+    "kanji": "飲む",
+    "reading": "のむ",
+    "type": "okurigana",
+    "example": "水を{}む。",
+    "meaning": "口から体の中に入れる"
+  },
+  {
+    "id": "g3-011",
+    "grade": 3,
+    "unit": "",
+    "kanji": "運ぶ",
+    "reading": "はこぶ",
+    "type": "okurigana",
+    "example": "にもつを{}ぶ。",
+    "meaning": "ものをほかの場所にもっていく"
+  },
+  {
+    "id": "g3-012",
+    "grade": 3,
+    "unit": "",
+    "kanji": "泳ぐ",
+    "reading": "およぐ",
+    "type": "okurigana",
+    "example": "プールで{}ぐ。",
+    "meaning": "水の中を進む"
+  },
+  {
+    "id": "g3-013",
+    "grade": 3,
+    "unit": "",
+    "kanji": "駅",
+    "reading": "えき",
+    "type": "single",
+    "example": "{}で電車を待つ。",
+    "meaning": "電車が止まる場所"
+  },
+  {
+    "id": "g3-014",
+    "grade": 3,
+    "unit": "",
+    "kanji": "中央",
+    "reading": "ちゅうおう",
+    "type": "jukugo",
+    "example": "へやの{}に立つ。",
+    "meaning": "まんなか"
+  },
+  {
+    "id": "g3-015",
+    "grade": 3,
+    "unit": "",
+    "kanji": "横",
+    "reading": "よこ",
+    "type": "single",
+    "example": "本を{}にする。",
+    "meaning": "左右の方向"
+  },
+  {
+    "id": "g3-016",
+    "grade": 3,
+    "unit": "",
+    "kanji": "屋根",
+    "reading": "やね",
+    "type": "jukugo",
+    "example": "家の{}に雪が積もる。",
+    "meaning": "家の上の部分"
+  },
+  {
+    "id": "g3-017",
+    "grade": 3,
+    "unit": "",
+    "kanji": "温かい",
+    "reading": "あたたかい",
+    "type": "okurigana",
+    "example": "{}いお茶を飲む。",
+    "meaning": "心地よい温度"
+  },
+  {
+    "id": "g3-018",
+    "grade": 3,
+    "unit": "",
+    "kanji": "化学",
+    "reading": "かがく",
+    "type": "jukugo",
+    "example": "{}の本を読む。",
+    "meaning": "ものの中身をしらべる勉強"
+  },
+  {
+    "id": "g3-019",
+    "grade": 3,
+    "unit": "",
+    "kanji": "荷物",
+    "reading": "にもつ",
+    "type": "jukugo",
+    "example": "重い{}を持つ。",
+    "meaning": "はこぶもの"
+  },
+  {
+    "id": "g3-020",
+    "grade": 3,
+    "unit": "",
+    "kanji": "開ける",
+    "reading": "あける",
+    "type": "okurigana",
+    "example": "まどを{}ける。",
+    "meaning": "とじていたものをひらく"
+  },
+  {
+    "id": "g3-021",
+    "grade": 3,
+    "unit": "",
+    "kanji": "階段",
+    "reading": "かいだん",
+    "type": "jukugo",
+    "example": "{}を上る。",
+    "meaning": "上の方へつながるだん"
+  },
+  {
+    "id": "g3-022",
+    "grade": 3,
+    "unit": "",
+    "kanji": "寒い",
+    "reading": "さむい",
+    "type": "okurigana",
+    "example": "今日は{}い。",
+    "meaning": "気温がひくい"
+  },
+  {
+    "id": "g3-023",
+    "grade": 3,
+    "unit": "",
+    "kanji": "感じる",
+    "reading": "かんじる",
+    "type": "okurigana",
+    "example": "風の音を{}じる。",
+    "meaning": "心や体で気づく"
+  },
+  {
+    "id": "g3-024",
+    "grade": 3,
+    "unit": "",
+    "kanji": "漢字",
+    "reading": "かんじ",
+    "type": "jukugo",
+    "example": "ノートに{}を書く。",
+    "meaning": "中国から来た文字"
+  },
+  {
+    "id": "g3-025",
+    "grade": 3,
+    "unit": "",
+    "kanji": "図書館",
+    "reading": "としょかん",
+    "type": "jukugo",
+    "example": "{}で本を借りる。",
+    "meaning": "たくさんの本がある場所"
+  },
+  {
+    "id": "g3-026",
+    "grade": 3,
+    "unit": "",
+    "kanji": "海岸",
+    "reading": "かいがん",
+    "type": "jukugo",
+    "example": "{}を歩く。",
+    "meaning": "海と土地のさかい"
+  },
+  {
+    "id": "g3-027",
+    "grade": 3,
+    "unit": "",
+    "kanji": "起きる",
+    "reading": "おきる",
+    "type": "okurigana",
+    "example": "朝六時に{}きる。",
+    "meaning": "ねむりからさめる"
+  },
+  {
+    "id": "g3-028",
+    "grade": 3,
+    "unit": "",
+    "kanji": "学期",
+    "reading": "がっき",
+    "type": "jukugo",
+    "example": "新しい{}が始まる。",
+    "meaning": "学校のきまった時期"
+  },
+  {
+    "id": "g3-029",
+    "grade": 3,
+    "unit": "",
+    "kanji": "客",
+    "reading": "きゃく",
+    "type": "single",
+    "example": "店に{}が来る。",
+    "meaning": "おとずれてくる人"
+  },
+  {
+    "id": "g3-030",
+    "grade": 3,
+    "unit": "",
+    "kanji": "研究",
+    "reading": "けんきゅう",
+    "type": "jukugo",
+    "example": "夏休みの{}をする。",
+    "meaning": "ふかくしらべること"
+  },
+  {
+    "id": "g3-031",
+    "grade": 3,
+    "unit": "",
+    "kanji": "急ぐ",
+    "reading": "いそぐ",
+    "type": "okurigana",
+    "example": "学校に{}ぐ。",
+    "meaning": "はやくする"
+  },
+  {
+    "id": "g3-032",
+    "grade": 3,
+    "unit": "",
+    "kanji": "学級",
+    "reading": "がっきゅう",
+    "type": "jukugo",
+    "example": "{}でうたを歌う。",
+    "meaning": "学校のクラス"
+  },
+  {
+    "id": "g3-033",
+    "grade": 3,
+    "unit": "",
+    "kanji": "宮",
+    "reading": "みや",
+    "type": "single",
+    "example": "{}にお参りする。",
+    "meaning": "神さまをまつる場所"
+  },
+  {
+    "id": "g3-034",
+    "grade": 3,
+    "unit": "",
+    "kanji": "野球",
+    "reading": "やきゅう",
+    "type": "jukugo",
+    "example": "兄と{}をする。",
+    "meaning": "ボールとバットでするスポーツ"
+  },
+  {
+    "id": "g3-035",
+    "grade": 3,
+    "unit": "",
+    "kanji": "去年",
+    "reading": "きょねん",
+    "type": "jukugo",
+    "example": "{}の夏は暑かった。",
+    "meaning": "今の年のひとつ前の年"
+  },
+  {
+    "id": "g3-036",
+    "grade": 3,
+    "unit": "",
+    "kanji": "橋",
+    "reading": "はし",
+    "type": "single",
+    "example": "川に{}をかける。",
+    "meaning": "川などをわたるためのもの"
+  },
+  {
+    "id": "g3-037",
+    "grade": 3,
+    "unit": "",
+    "kanji": "業",
+    "reading": "ぎょう",
+    "type": "single",
+    "example": "じゅ{}が始まる。",
+    "meaning": "やる仕事や勉強"
+  },
+  {
+    "id": "g3-038",
+    "grade": 3,
+    "unit": "",
+    "kanji": "曲がる",
+    "reading": "まがる",
+    "type": "okurigana",
+    "example": "右に{}がる。",
+    "meaning": "まっすぐではなくなる"
+  },
+  {
+    "id": "g3-039",
+    "grade": 3,
+    "unit": "",
+    "kanji": "薬局",
+    "reading": "やっきょく",
+    "type": "jukugo",
+    "example": "{}でくすりを買う。",
+    "meaning": "くすりを売る店"
+  },
+  {
+    "id": "g3-040",
+    "grade": 3,
+    "unit": "",
+    "kanji": "銀色",
+    "reading": "ぎんいろ",
+    "type": "jukugo",
+    "example": "{}に光る。",
+    "meaning": "ぎらりと光る白い色"
+  },
+  {
+    "id": "g3-041",
+    "grade": 3,
+    "unit": "",
+    "kanji": "区",
+    "reading": "く",
+    "type": "single",
+    "example": "東京の{}に住む。",
+    "meaning": "町の中の分けたところ"
+  },
+  {
+    "id": "g3-042",
+    "grade": 3,
+    "unit": "",
+    "kanji": "苦い",
+    "reading": "にがい",
+    "type": "okurigana",
+    "example": "コーヒーは{}い。",
+    "meaning": "あまくない、からい味"
+  },
+  {
+    "id": "g3-043",
+    "grade": 3,
+    "unit": "",
+    "kanji": "道具",
+    "reading": "どうぐ",
+    "type": "jukugo",
+    "example": "工作の{}を出す。",
+    "meaning": "何かをするときに使うもの"
+  },
+  {
+    "id": "g3-044",
+    "grade": 3,
+    "unit": "",
+    "kanji": "君",
+    "reading": "きみ",
+    "type": "single",
+    "example": "{}の話を聞く。",
+    "meaning": "親しい人へのよびかけ"
+  },
+  {
+    "id": "g3-045",
+    "grade": 3,
+    "unit": "",
+    "kanji": "係",
+    "reading": "かかり",
+    "type": "single",
+    "example": "図書{}になる。",
+    "meaning": "やくわり"
+  },
+  {
+    "id": "g3-046",
+    "grade": 3,
+    "unit": "",
+    "kanji": "軽い",
+    "reading": "かるい",
+    "type": "okurigana",
+    "example": "{}い荷物を持つ。",
+    "meaning": "重さがあまりない"
+  },
+  {
+    "id": "g3-047",
+    "grade": 3,
+    "unit": "",
+    "kanji": "血",
+    "reading": "ち",
+    "type": "single",
+    "example": "けがをして{}が出る。",
+    "meaning": "体の中を流れる赤いもの"
+  },
+  {
+    "id": "g3-048",
+    "grade": 3,
+    "unit": "",
+    "kanji": "決める",
+    "reading": "きめる",
+    "type": "okurigana",
+    "example": "やくそくを{}める。",
+    "meaning": "そうすると考えてはっきりさせる"
+  },
+  {
+    "id": "g3-049",
+    "grade": 3,
+    "unit": "",
+    "kanji": "県",
+    "reading": "けん",
+    "type": "single",
+    "example": "となりの{}に行く。",
+    "meaning": "国の中で土地を分けたところ"
+  },
+  {
+    "id": "g3-050",
+    "grade": 3,
+    "unit": "",
+    "kanji": "車庫",
+    "reading": "しゃこ",
+    "type": "jukugo",
+    "example": "{}に車を入れる。",
+    "meaning": "車をしまっておく場所"
+  },
+  {
+    "id": "g3-051",
+    "grade": 3,
+    "unit": "",
+    "kanji": "湖",
+    "reading": "みずうみ",
+    "type": "single",
+    "example": "{}でつりをする。",
+    "meaning": "土地にかこまれた大きな水のたまり"
+  },
+  {
+    "id": "g3-052",
+    "grade": 3,
+    "unit": "",
+    "kanji": "方向",
+    "reading": "ほうこう",
+    "type": "jukugo",
+    "example": "矢じるしの{}に進む。",
+    "meaning": "むかっているほう"
+  },
+  {
+    "id": "g3-053",
+    "grade": 3,
+    "unit": "",
+    "kanji": "幸せ",
+    "reading": "しあわせ",
+    "type": "okurigana",
+    "example": "毎日が{}せだ。",
+    "meaning": "うれしい気持ち"
+  },
+  {
+    "id": "g3-054",
+    "grade": 3,
+    "unit": "",
+    "kanji": "港",
+    "reading": "みなと",
+    "type": "single",
+    "example": "船が{}に入る。",
+    "meaning": "船がとまる場所"
+  },
+  {
+    "id": "g3-055",
+    "grade": 3,
+    "unit": "",
+    "kanji": "番号",
+    "reading": "ばんごう",
+    "type": "jukugo",
+    "example": "せきの{}を見る。",
+    "meaning": "じゅんばんを表す数字"
+  },
+  {
+    "id": "g3-056",
+    "grade": 3,
+    "unit": "",
+    "kanji": "根",
+    "reading": "ね",
+    "type": "single",
+    "example": "木の{}が広がる。",
+    "meaning": "土の中にのびる部分"
+  },
+  {
+    "id": "g3-057",
+    "grade": 3,
+    "unit": "",
+    "kanji": "祭り",
+    "reading": "まつり",
+    "type": "okurigana",
+    "example": "夏{}に行く。",
+    "meaning": "町などでにぎやかに行う行事"
+  },
+  {
+    "id": "g3-058",
+    "grade": 3,
+    "unit": "",
+    "kanji": "皿",
+    "reading": "さら",
+    "type": "single",
+    "example": "{}にりょうりをのせる。",
+    "meaning": "食べものをのせるひらたいうつわ"
+  },
+  {
+    "id": "g3-059",
+    "grade": 3,
+    "unit": "",
+    "kanji": "仕事",
+    "reading": "しごと",
+    "type": "jukugo",
+    "example": "父の{}を見る。",
+    "meaning": "はたらいてやること"
+  },
+  {
+    "id": "g3-060",
+    "grade": 3,
+    "unit": "",
+    "kanji": "死ぬ",
+    "reading": "しぬ",
+    "type": "okurigana",
+    "example": "草花が{}ぬ。",
+    "meaning": "命が終わる"
+  },
+  {
+    "id": "g3-061",
+    "grade": 3,
+    "unit": "",
+    "kanji": "使う",
+    "reading": "つかう",
+    "type": "okurigana",
+    "example": "はさみを{}う。",
+    "meaning": "もちいる"
+  },
+  {
+    "id": "g3-062",
+    "grade": 3,
+    "unit": "",
+    "kanji": "始める",
+    "reading": "はじめる",
+    "type": "okurigana",
+    "example": "じゅぎょうを{}める。",
+    "meaning": "やり出す"
+  },
+  {
+    "id": "g3-063",
+    "grade": 3,
+    "unit": "",
+    "kanji": "指",
+    "reading": "ゆび",
+    "type": "single",
+    "example": "{}でつまむ。",
+    "meaning": "手や足のさきの部分"
+  },
+  {
+    "id": "g3-064",
+    "grade": 3,
+    "unit": "",
+    "kanji": "歯",
+    "reading": "は",
+    "type": "single",
+    "example": "{}をみがく。",
+    "meaning": "口の中にあって食べものをかむもの"
+  },
+  {
+    "id": "g3-065",
+    "grade": 3,
+    "unit": "",
+    "kanji": "詩",
+    "reading": "し",
+    "type": "single",
+    "example": "{}を作る。",
+    "meaning": "気持ちをみじかいことばであらわした作品"
+  },
+  {
+    "id": "g3-066",
+    "grade": 3,
+    "unit": "",
+    "kanji": "次",
+    "reading": "つぎ",
+    "type": "single",
+    "example": "{}の人にわたす。",
+    "meaning": "すぐあと"
+  },
+  {
+    "id": "g3-067",
+    "grade": 3,
+    "unit": "",
+    "kanji": "持つ",
+    "reading": "もつ",
+    "type": "okurigana",
+    "example": "本を{}つ。",
+    "meaning": "手につかむ"
+  },
+  {
+    "id": "g3-068",
+    "grade": 3,
+    "unit": "",
+    "kanji": "形式",
+    "reading": "けいしき",
+    "type": "jukugo",
+    "example": "正しい{}で書く。",
+    "meaning": "決まった形"
+  },
+  {
+    "id": "g3-069",
+    "grade": 3,
+    "unit": "",
+    "kanji": "実",
+    "reading": "み",
+    "type": "single",
+    "example": "木の{}を食べる。",
+    "meaning": "草や木にできる、食べられる部分"
+  },
+  {
+    "id": "g3-070",
+    "grade": 3,
+    "unit": "",
+    "kanji": "写す",
+    "reading": "うつす",
+    "type": "okurigana",
+    "example": "ノートに{}す。",
+    "meaning": "見たままを書く"
+  },
+  {
+    "id": "g3-071",
+    "grade": 3,
+    "unit": "",
+    "kanji": "走者",
+    "reading": "そうしゃ",
+    "type": "jukugo",
+    "example": "リレーの{}になる。",
+    "meaning": "走る人"
+  },
+  {
+    "id": "g3-072",
+    "grade": 3,
+    "unit": "",
+    "kanji": "主人",
+    "reading": "しゅじん",
+    "type": "jukugo",
+    "example": "家の{}に会う。",
+    "meaning": "家でいちばん中心になる人"
+  },
+  {
+    "id": "g3-073",
+    "grade": 3,
+    "unit": "",
+    "kanji": "守る",
+    "reading": "まもる",
+    "type": "okurigana",
+    "example": "やくそくを{}る。",
+    "meaning": "決まりに合わせる"
+  },
+  {
+    "id": "g3-074",
+    "grade": 3,
+    "unit": "",
+    "kanji": "取る",
+    "reading": "とる",
+    "type": "okurigana",
+    "example": "本を手に{}る。",
+    "meaning": "手でつかむ"
+  },
+  {
+    "id": "g3-075",
+    "grade": 3,
+    "unit": "",
+    "kanji": "酒",
+    "reading": "さけ",
+    "type": "single",
+    "example": "おとなが{}を飲む。",
+    "meaning": "おとなだけが飲む飲みもの"
+  },
+  {
+    "id": "g3-076",
+    "grade": 3,
+    "unit": "",
+    "kanji": "受ける",
+    "reading": "うける",
+    "type": "okurigana",
+    "example": "テストを{}ける。",
+    "meaning": "あたえられたものをとる"
+  },
+  {
+    "id": "g3-077",
+    "grade": 3,
+    "unit": "",
+    "kanji": "州",
+    "reading": "しゅう",
+    "type": "single",
+    "example": "アメリカの五十の{}。",
+    "meaning": "国の中の地いきの分け方"
+  },
+  {
+    "id": "g3-078",
+    "grade": 3,
+    "unit": "",
+    "kanji": "拾う",
+    "reading": "ひろう",
+    "type": "okurigana",
+    "example": "ごみを{}う。",
+    "meaning": "下にあるものを取る"
+  },
+  {
+    "id": "g3-079",
+    "grade": 3,
+    "unit": "",
+    "kanji": "終わる",
+    "reading": "おわる",
+    "type": "okurigana",
+    "example": "じゅぎょうが{}わる。",
+    "meaning": "おしまいになる"
+  },
+  {
+    "id": "g3-080",
+    "grade": 3,
+    "unit": "",
+    "kanji": "習う",
+    "reading": "ならう",
+    "type": "okurigana",
+    "example": "ピアノを{}う。",
+    "meaning": "教えてもらって学ぶ"
+  },
+  {
+    "id": "g3-081",
+    "grade": 3,
+    "unit": "",
+    "kanji": "集める",
+    "reading": "あつめる",
+    "type": "okurigana",
+    "example": "切手を{}める。",
+    "meaning": "ひとつのところにする"
+  },
+  {
+    "id": "g3-082",
+    "grade": 3,
+    "unit": "",
+    "kanji": "住む",
+    "reading": "すむ",
+    "type": "okurigana",
+    "example": "海の近くに{}む。",
+    "meaning": "そこでくらす"
+  },
+  {
+    "id": "g3-083",
+    "grade": 3,
+    "unit": "",
+    "kanji": "重い",
+    "reading": "おもい",
+    "type": "okurigana",
+    "example": "石は{}い。",
+    "meaning": "ずっしりとした感じ"
+  },
+  {
+    "id": "g3-084",
+    "grade": 3,
+    "unit": "",
+    "kanji": "宿題",
+    "reading": "しゅくだい",
+    "type": "jukugo",
+    "example": "毎日{}をやる。",
+    "meaning": "学校から出される家でやる勉強"
+  },
+  {
+    "id": "g3-085",
+    "grade": 3,
+    "unit": "",
+    "kanji": "場所",
+    "reading": "ばしょ",
+    "type": "jukugo",
+    "example": "本の{}を聞く。",
+    "meaning": "ものがあるところ"
+  },
+  {
+    "id": "g3-086",
+    "grade": 3,
+    "unit": "",
+    "kanji": "暑い",
+    "reading": "あつい",
+    "type": "okurigana",
+    "example": "夏は{}い。",
+    "meaning": "気温が高い"
+  },
+  {
+    "id": "g3-087",
+    "grade": 3,
+    "unit": "",
+    "kanji": "助ける",
+    "reading": "たすける",
+    "type": "okurigana",
+    "example": "母の仕事を{}ける。",
+    "meaning": "人の力になる"
+  },
+  {
+    "id": "g3-088",
+    "grade": 3,
+    "unit": "",
+    "kanji": "昭和",
+    "reading": "しょうわ",
+    "type": "jukugo",
+    "example": "{}の時代の話。",
+    "meaning": "むかしの年号のひとつ"
+  },
+  {
+    "id": "g3-089",
+    "grade": 3,
+    "unit": "",
+    "kanji": "消す",
+    "reading": "けす",
+    "type": "okurigana",
+    "example": "電気を{}す。",
+    "meaning": "見えなくする"
+  },
+  {
+    "id": "g3-090",
+    "grade": 3,
+    "unit": "",
+    "kanji": "商店",
+    "reading": "しょうてん",
+    "type": "jukugo",
+    "example": "町の{}街を歩く。",
+    "meaning": "ものを売る店"
+  },
+  {
+    "id": "g3-091",
+    "grade": 3,
+    "unit": "",
+    "kanji": "文章",
+    "reading": "ぶんしょう",
+    "type": "jukugo",
+    "example": "短い{}を書く。",
+    "meaning": "ことばがつながった文の集まり"
+  },
+  {
+    "id": "g3-092",
+    "grade": 3,
+    "unit": "",
+    "kanji": "勝つ",
+    "reading": "かつ",
+    "type": "okurigana",
+    "example": "ゲームに{}つ。",
+    "meaning": "あいてに負けない"
+  },
+  {
+    "id": "g3-093",
+    "grade": 3,
+    "unit": "",
+    "kanji": "乗る",
+    "reading": "のる",
+    "type": "okurigana",
+    "example": "電車に{}る。",
+    "meaning": "上にあがる"
+  },
+  {
+    "id": "g3-094",
+    "grade": 3,
+    "unit": "",
+    "kanji": "植える",
+    "reading": "うえる",
+    "type": "okurigana",
+    "example": "木を{}える。",
+    "meaning": "土の中に入れて育てる"
+  },
+  {
+    "id": "g3-095",
+    "grade": 3,
+    "unit": "",
+    "kanji": "申し出る",
+    "reading": "もうしでる",
+    "type": "okurigana",
+    "example": "やくいんを{}し出る。",
+    "meaning": "自分から言って出る"
+  },
+  {
+    "id": "g3-096",
+    "grade": 3,
+    "unit": "",
+    "kanji": "身長",
+    "reading": "しんちょう",
+    "type": "jukugo",
+    "example": "{}をはかる。",
+    "meaning": "せの高さ"
+  },
+  {
+    "id": "g3-097",
+    "grade": 3,
+    "unit": "",
+    "kanji": "神",
+    "reading": "かみ",
+    "type": "single",
+    "example": "{}さまにお参りする。",
+    "meaning": "目に見えない、おそれおおいそんざい"
+  },
+  {
+    "id": "g3-098",
+    "grade": 3,
+    "unit": "",
+    "kanji": "真ん中",
+    "reading": "まんなか",
+    "type": "okurigana",
+    "example": "へやの{}ん中に立つ。",
+    "meaning": "ちょうど中央"
+  },
+  {
+    "id": "g3-099",
+    "grade": 3,
+    "unit": "",
+    "kanji": "深い",
+    "reading": "ふかい",
+    "type": "okurigana",
+    "example": "{}い川であそばない。",
+    "meaning": "ふかさが大きい"
+  },
+  {
+    "id": "g3-100",
+    "grade": 3,
+    "unit": "",
+    "kanji": "進む",
+    "reading": "すすむ",
+    "type": "okurigana",
+    "example": "前に{}む。",
+    "meaning": "前のほうに行く"
+  },
+  {
+    "id": "g3-101",
+    "grade": 3,
+    "unit": "",
+    "kanji": "世界",
+    "reading": "せかい",
+    "type": "jukugo",
+    "example": "広い{}を見る。",
+    "meaning": "地球全体"
+  },
+  {
+    "id": "g3-102",
+    "grade": 3,
+    "unit": "",
+    "kanji": "整える",
+    "reading": "ととのえる",
+    "type": "okurigana",
+    "example": "つくえを{}える。",
+    "meaning": "きちんとならべる"
+  },
+  {
+    "id": "g3-103",
+    "grade": 3,
+    "unit": "",
+    "kanji": "昔",
+    "reading": "むかし",
+    "type": "single",
+    "example": "{}の人の話。",
+    "meaning": "今よりずっと前"
+  },
+  {
+    "id": "g3-104",
+    "grade": 3,
+    "unit": "",
+    "kanji": "全部",
+    "reading": "ぜんぶ",
+    "type": "jukugo",
+    "example": "本を{}読む。",
+    "meaning": "のこらず"
+  },
+  {
+    "id": "g3-105",
+    "grade": 3,
+    "unit": "",
+    "kanji": "相手",
+    "reading": "あいて",
+    "type": "jukugo",
+    "example": "話す{}を見る。",
+    "meaning": "ペアになる人"
+  },
+  {
+    "id": "g3-106",
+    "grade": 3,
+    "unit": "",
+    "kanji": "送る",
+    "reading": "おくる",
+    "type": "okurigana",
+    "example": "ともだちを駅まで{}る。",
+    "meaning": "目的地まで行かせる"
+  },
+  {
+    "id": "g3-107",
+    "grade": 3,
+    "unit": "",
+    "kanji": "想",
+    "reading": "そう",
+    "type": "single",
+    "example": "感{}を書く。",
+    "meaning": "考えや思い"
+  },
+  {
+    "id": "g3-108",
+    "grade": 3,
+    "unit": "",
+    "kanji": "息",
+    "reading": "いき",
+    "type": "single",
+    "example": "{}を大きくすう。",
+    "meaning": "口や鼻から出し入れする空気"
+  },
+  {
+    "id": "g3-109",
+    "grade": 3,
+    "unit": "",
+    "kanji": "速い",
+    "reading": "はやい",
+    "type": "okurigana",
+    "example": "走るのが{}い。",
+    "meaning": "うごきが早い"
+  },
+  {
+    "id": "g3-110",
+    "grade": 3,
+    "unit": "",
+    "kanji": "家族",
+    "reading": "かぞく",
+    "type": "jukugo",
+    "example": "{}でしょくじをする。",
+    "meaning": "おやと子ども、きょうだいなど"
+  },
+  {
+    "id": "g3-111",
+    "grade": 3,
+    "unit": "",
+    "kanji": "他",
+    "reading": "ほか",
+    "type": "single",
+    "example": "{}の方ほうをためす。",
+    "meaning": "それ以がい"
+  },
+  {
+    "id": "g3-112",
+    "grade": 3,
+    "unit": "",
+    "kanji": "打つ",
+    "reading": "うつ",
+    "type": "okurigana",
+    "example": "ボールを{}つ。",
+    "meaning": "強くたたく"
+  },
+  {
+    "id": "g3-113",
+    "grade": 3,
+    "unit": "",
+    "kanji": "反対",
+    "reading": "はんたい",
+    "type": "jukugo",
+    "example": "{}の意見を聞く。",
+    "meaning": "ぎゃくむき。あいてに合わせない"
+  },
+  {
+    "id": "g3-114",
+    "grade": 3,
+    "unit": "",
+    "kanji": "待つ",
+    "reading": "まつ",
+    "type": "okurigana",
+    "example": "ともだちを{}つ。",
+    "meaning": "来るのを楽しみに思う"
+  },
+  {
+    "id": "g3-115",
+    "grade": 3,
+    "unit": "",
+    "kanji": "時代",
+    "reading": "じだい",
+    "type": "jukugo",
+    "example": "むかしの{}を学ぶ。",
+    "meaning": "ある期間"
+  },
+  {
+    "id": "g3-116",
+    "grade": 3,
+    "unit": "",
+    "kanji": "第",
+    "reading": "だい",
+    "type": "single",
+    "example": "{}一の点。",
+    "meaning": "じゅんばんを表すことば"
+  },
+  {
+    "id": "g3-117",
+    "grade": 3,
+    "unit": "",
+    "kanji": "問題",
+    "reading": "もんだい",
+    "type": "jukugo",
+    "example": "算数の{}をとく。",
+    "meaning": "答えをもとめるもの"
+  },
+  {
+    "id": "g3-118",
+    "grade": 3,
+    "unit": "",
+    "kanji": "炭",
+    "reading": "すみ",
+    "type": "single",
+    "example": "{}火でやく。",
+    "meaning": "木をやいて作る黒いもの"
+  },
+  {
+    "id": "g3-119",
+    "grade": 3,
+    "unit": "",
+    "kanji": "短い",
+    "reading": "みじかい",
+    "type": "okurigana",
+    "example": "{}い話。",
+    "meaning": "長くないこと"
+  },
+  {
+    "id": "g3-120",
+    "grade": 3,
+    "unit": "",
+    "kanji": "相談",
+    "reading": "そうだん",
+    "type": "jukugo",
+    "example": "先生に{}する。",
+    "meaning": "話し合っていけんを聞くこと"
+  },
+  {
+    "id": "g3-121",
+    "grade": 3,
+    "unit": "",
+    "kanji": "着る",
+    "reading": "きる",
+    "type": "okurigana",
+    "example": "ふくを{}る。",
+    "meaning": "ふくを身につける"
+  },
+  {
+    "id": "g3-122",
+    "grade": 3,
+    "unit": "",
+    "kanji": "注意",
+    "reading": "ちゅうい",
+    "type": "jukugo",
+    "example": "車に{}する。",
+    "meaning": "気をつけること"
+  },
+  {
+    "id": "g3-123",
+    "grade": 3,
+    "unit": "",
+    "kanji": "柱",
+    "reading": "はしら",
+    "type": "single",
+    "example": "家の{}を立てる。",
+    "meaning": "家をささえる長い木"
+  },
+  {
+    "id": "g3-124",
+    "grade": 3,
+    "unit": "",
+    "kanji": "丁",
+    "reading": "ちょう",
+    "type": "single",
+    "example": "二{}目に住む。",
+    "meaning": "町の中の小さな分けかた"
+  },
+  {
+    "id": "g3-125",
+    "grade": 3,
+    "unit": "",
+    "kanji": "手帳",
+    "reading": "てちょう",
+    "type": "jukugo",
+    "example": "{}に書きこむ。",
+    "meaning": "持ちあるく小さなノート"
+  },
+  {
+    "id": "g3-126",
+    "grade": 3,
+    "unit": "",
+    "kanji": "調べる",
+    "reading": "しらべる",
+    "type": "okurigana",
+    "example": "本で{}べる。",
+    "meaning": "わからないことをはっきりさせる"
+  },
+  {
+    "id": "g3-127",
+    "grade": 3,
+    "unit": "",
+    "kanji": "追う",
+    "reading": "おう",
+    "type": "okurigana",
+    "example": "犬がねこを{}う。",
+    "meaning": "あとからついて行く"
+  },
+  {
+    "id": "g3-128",
+    "grade": 3,
+    "unit": "",
+    "kanji": "定める",
+    "reading": "さだめる",
+    "type": "okurigana",
+    "example": "やくそくを{}める。",
+    "meaning": "決める"
+  },
+  {
+    "id": "g3-129",
+    "grade": 3,
+    "unit": "",
+    "kanji": "庭",
+    "reading": "にわ",
+    "type": "single",
+    "example": "家の{}に花がさく。",
+    "meaning": "家の外の土地"
+  },
+  {
+    "id": "g3-130",
+    "grade": 3,
+    "unit": "",
+    "kanji": "笛",
+    "reading": "ふえ",
+    "type": "single",
+    "example": "{}をふく。",
+    "meaning": "口でふいて音を出す道具"
+  },
+  {
+    "id": "g3-131",
+    "grade": 3,
+    "unit": "",
+    "kanji": "鉄",
+    "reading": "てつ",
+    "type": "single",
+    "example": "{}でできた門。",
+    "meaning": "かたい金ぞく"
+  },
+  {
+    "id": "g3-132",
+    "grade": 3,
+    "unit": "",
+    "kanji": "転ぶ",
+    "reading": "ころぶ",
+    "type": "okurigana",
+    "example": "石につまずいて{}ぶ。",
+    "meaning": "たおれる"
+  },
+  {
+    "id": "g3-133",
+    "grade": 3,
+    "unit": "",
+    "kanji": "都市",
+    "reading": "とし",
+    "type": "jukugo",
+    "example": "大きな{}に住む。",
+    "meaning": "人がたくさん集まる町"
+  },
+  {
+    "id": "g3-134",
+    "grade": 3,
+    "unit": "",
+    "kanji": "今度",
+    "reading": "こんど",
+    "type": "jukugo",
+    "example": "{}は早く来る。",
+    "meaning": "つぎのきかい"
+  },
+  {
+    "id": "g3-135",
+    "grade": 3,
+    "unit": "",
+    "kanji": "投げる",
+    "reading": "なげる",
+    "type": "okurigana",
+    "example": "ボールを{}げる。",
+    "meaning": "手から強くはなして遠くへやる"
+  },
+  {
+    "id": "g3-136",
+    "grade": 3,
+    "unit": "",
+    "kanji": "豆",
+    "reading": "まめ",
+    "type": "single",
+    "example": "{}を食べる。",
+    "meaning": "小さくて丸い植物の実"
+  },
+  {
+    "id": "g3-137",
+    "grade": 3,
+    "unit": "",
+    "kanji": "島",
+    "reading": "しま",
+    "type": "single",
+    "example": "海の中の{}に行く。",
+    "meaning": "海でかこまれた土地"
+  },
+  {
+    "id": "g3-138",
+    "grade": 3,
+    "unit": "",
+    "kanji": "湯",
+    "reading": "ゆ",
+    "type": "single",
+    "example": "あつい{}を入れる。",
+    "meaning": "あたたかい水"
+  },
+  {
+    "id": "g3-139",
+    "grade": 3,
+    "unit": "",
+    "kanji": "登る",
+    "reading": "のぼる",
+    "type": "okurigana",
+    "example": "山に{}る。",
+    "meaning": "高い方へ進む"
+  },
+  {
+    "id": "g3-140",
+    "grade": 3,
+    "unit": "",
+    "kanji": "等しい",
+    "reading": "ひとしい",
+    "type": "okurigana",
+    "example": "二つの数が{}しい。",
+    "meaning": "同じ"
+  },
+  {
+    "id": "g3-141",
+    "grade": 3,
+    "unit": "",
+    "kanji": "動く",
+    "reading": "うごく",
+    "type": "okurigana",
+    "example": "車が{}く。",
+    "meaning": "場所がかわる"
+  },
+  {
+    "id": "g3-142",
+    "grade": 3,
+    "unit": "",
+    "kanji": "童話",
+    "reading": "どうわ",
+    "type": "jukugo",
+    "example": "妹に{}を読む。",
+    "meaning": "子どものためのお話"
+  },
+  {
+    "id": "g3-143",
+    "grade": 3,
+    "unit": "",
+    "kanji": "農家",
+    "reading": "のうか",
+    "type": "jukugo",
+    "example": "{}の手つだいをする。",
+    "meaning": "畑や田を作って仕事をする家"
+  },
+  {
+    "id": "g3-144",
+    "grade": 3,
+    "unit": "",
+    "kanji": "波",
+    "reading": "なみ",
+    "type": "single",
+    "example": "海の{}が高い。",
+    "meaning": "水の上下のうごき"
+  },
+  {
+    "id": "g3-145",
+    "grade": 3,
+    "unit": "",
+    "kanji": "配る",
+    "reading": "くばる",
+    "type": "okurigana",
+    "example": "プリントを{}る。",
+    "meaning": "みんなにわたす"
+  },
+  {
+    "id": "g3-146",
+    "grade": 3,
+    "unit": "",
+    "kanji": "倍",
+    "reading": "ばい",
+    "type": "single",
+    "example": "二{}に大きくなる。",
+    "meaning": "同じ数だけかさねること"
+  },
+  {
+    "id": "g3-147",
+    "grade": 3,
+    "unit": "",
+    "kanji": "箱",
+    "reading": "はこ",
+    "type": "single",
+    "example": "{}にしまう。",
+    "meaning": "ものを入れるいれもの"
+  },
+  {
+    "id": "g3-148",
+    "grade": 3,
+    "unit": "",
+    "kanji": "畑",
+    "reading": "はたけ",
+    "type": "single",
+    "example": "{}でやさいを作る。",
+    "meaning": "やさいなどを作る土地"
+  },
+  {
+    "id": "g3-149",
+    "grade": 3,
+    "unit": "",
+    "kanji": "発表",
+    "reading": "はっぴょう",
+    "type": "jukugo",
+    "example": "クラスで{}する。",
+    "meaning": "みんなの前で見せること"
+  },
+  {
+    "id": "g3-150",
+    "grade": 3,
+    "unit": "",
+    "kanji": "反す",
+    "reading": "かえす",
+    "type": "okurigana",
+    "example": "本をうら{}す。",
+    "meaning": "ひっくり返す"
+  },
+  {
+    "id": "g3-151",
+    "grade": 3,
+    "unit": "",
+    "kanji": "板",
+    "reading": "いた",
+    "type": "single",
+    "example": "木の{}を切る。",
+    "meaning": "うすくて平らな木のもの"
+  },
+  {
+    "id": "g3-152",
+    "grade": 3,
+    "unit": "",
+    "kanji": "皮",
+    "reading": "かわ",
+    "type": "single",
+    "example": "りんごの{}をむく。",
+    "meaning": "ものの表をおおうもの"
+  },
+  {
+    "id": "g3-153",
+    "grade": 3,
+    "unit": "",
+    "kanji": "悲しい",
+    "reading": "かなしい",
+    "type": "okurigana",
+    "example": "話を聞いて{}しい。",
+    "meaning": "つらくて泣きそうな気持ち"
+  },
+  {
+    "id": "g3-154",
+    "grade": 3,
+    "unit": "",
+    "kanji": "美しい",
+    "reading": "うつくしい",
+    "type": "okurigana",
+    "example": "{}い花。",
+    "meaning": "見ていてきれい"
+  },
+  {
+    "id": "g3-155",
+    "grade": 3,
+    "unit": "",
+    "kanji": "鼻",
+    "reading": "はな",
+    "type": "single",
+    "example": "{}でにおいをかぐ。",
+    "meaning": "顔のまん中にあるにおいをかぐところ"
+  },
+  {
+    "id": "g3-156",
+    "grade": 3,
+    "unit": "",
+    "kanji": "筆",
+    "reading": "ふで",
+    "type": "single",
+    "example": "{}で字を書く。",
+    "meaning": "字や絵をかく道具"
+  },
+  {
+    "id": "g3-157",
+    "grade": 3,
+    "unit": "",
+    "kanji": "氷",
+    "reading": "こおり",
+    "type": "single",
+    "example": "コップに{}を入れる。",
+    "meaning": "水がつめたくなって、かたくなったもの"
+  },
+  {
+    "id": "g3-158",
+    "grade": 3,
+    "unit": "",
+    "kanji": "表",
+    "reading": "ひょう",
+    "type": "single",
+    "example": "数字の{}を作る。",
+    "meaning": "ものをならべて見せたもの"
+  },
+  {
+    "id": "g3-159",
+    "grade": 3,
+    "unit": "",
+    "kanji": "秒",
+    "reading": "びょう",
+    "type": "single",
+    "example": "三十{}まつ。",
+    "meaning": "短い時間のたんい"
+  },
+  {
+    "id": "g3-160",
+    "grade": 3,
+    "unit": "",
+    "kanji": "病気",
+    "reading": "びょうき",
+    "type": "jukugo",
+    "example": "{}でやすむ。",
+    "meaning": "体の調子がわるいこと"
+  },
+  {
+    "id": "g3-161",
+    "grade": 3,
+    "unit": "",
+    "kanji": "品物",
+    "reading": "しなもの",
+    "type": "jukugo",
+    "example": "店の{}を見る。",
+    "meaning": "売っているもの"
+  },
+  {
+    "id": "g3-162",
+    "grade": 3,
+    "unit": "",
+    "kanji": "負ける",
+    "reading": "まける",
+    "type": "okurigana",
+    "example": "しあいに{}ける。",
+    "meaning": "あいてに勝てない"
+  },
+  {
+    "id": "g3-163",
+    "grade": 3,
+    "unit": "",
+    "kanji": "部分",
+    "reading": "ぶぶん",
+    "type": "jukugo",
+    "example": "上の{}を見る。",
+    "meaning": "全体の中の一つひとつ"
+  },
+  {
+    "id": "g3-164",
+    "grade": 3,
+    "unit": "",
+    "kanji": "服",
+    "reading": "ふく",
+    "type": "single",
+    "example": "新しい{}を買う。",
+    "meaning": "体に着るもの"
+  },
+  {
+    "id": "g3-165",
+    "grade": 3,
+    "unit": "",
+    "kanji": "幸福",
+    "reading": "こうふく",
+    "type": "jukugo",
+    "example": "毎日が{}だ。",
+    "meaning": "うれしい気持ちの毎日"
+  },
+  {
+    "id": "g3-166",
+    "grade": 3,
+    "unit": "",
+    "kanji": "物",
+    "reading": "もの",
+    "type": "single",
+    "example": "新しい{}を買う。",
+    "meaning": "あるもの"
+  },
+  {
+    "id": "g3-167",
+    "grade": 3,
+    "unit": "",
+    "kanji": "平ら",
+    "reading": "たいら",
+    "type": "okurigana",
+    "example": "{}らな道。",
+    "meaning": "高さがそろっていること"
+  },
+  {
+    "id": "g3-168",
+    "grade": 3,
+    "unit": "",
+    "kanji": "返す",
+    "reading": "かえす",
+    "type": "okurigana",
+    "example": "本を{}す。",
+    "meaning": "もとの所にもどす"
+  },
+  {
+    "id": "g3-169",
+    "grade": 3,
+    "unit": "",
+    "kanji": "勉強",
+    "reading": "べんきょう",
+    "type": "jukugo",
+    "example": "毎日{}する。",
+    "meaning": "学ぶこと"
+  },
+  {
+    "id": "g3-170",
+    "grade": 3,
+    "unit": "",
+    "kanji": "放す",
+    "reading": "はなす",
+    "type": "okurigana",
+    "example": "とりを{}す。",
+    "meaning": "自由にする"
+  },
+  {
+    "id": "g3-171",
+    "grade": 3,
+    "unit": "",
+    "kanji": "味",
+    "reading": "あじ",
+    "type": "single",
+    "example": "{}がいいりょうり。",
+    "meaning": "口で感じる感じ"
+  },
+  {
+    "id": "g3-172",
+    "grade": 3,
+    "unit": "",
+    "kanji": "命",
+    "reading": "いのち",
+    "type": "single",
+    "example": "{}を大切にする。",
+    "meaning": "生きていること"
+  },
+  {
+    "id": "g3-173",
+    "grade": 3,
+    "unit": "",
+    "kanji": "面",
+    "reading": "めん",
+    "type": "single",
+    "example": "新しい{}が見える。",
+    "meaning": "ある一つの方ほう"
+  },
+  {
+    "id": "g3-174",
+    "grade": 3,
+    "unit": "",
+    "kanji": "問う",
+    "reading": "とう",
+    "type": "okurigana",
+    "example": "意見を{}う。",
+    "meaning": "たずねる"
+  },
+  {
+    "id": "g3-175",
+    "grade": 3,
+    "unit": "",
+    "kanji": "役",
+    "reading": "やく",
+    "type": "single",
+    "example": "重い{}をする。",
+    "meaning": "やるべき仕事"
+  },
+  {
+    "id": "g3-176",
+    "grade": 3,
+    "unit": "",
+    "kanji": "薬",
+    "reading": "くすり",
+    "type": "single",
+    "example": "{}を飲む。",
+    "meaning": "病気をなおすもの"
+  },
+  {
+    "id": "g3-177",
+    "grade": 3,
+    "unit": "",
+    "kanji": "理由",
+    "reading": "りゆう",
+    "type": "jukugo",
+    "example": "おくれた{}を話す。",
+    "meaning": "なぜそうなったかのわけ"
+  },
+  {
+    "id": "g3-178",
+    "grade": 3,
+    "unit": "",
+    "kanji": "石油",
+    "reading": "せきゆ",
+    "type": "jukugo",
+    "example": "{}を運ぶ船。",
+    "meaning": "地中からとれる、もえるあぶら"
+  },
+  {
+    "id": "g3-179",
+    "grade": 3,
+    "unit": "",
+    "kanji": "有名",
+    "reading": "ゆうめい",
+    "type": "jukugo",
+    "example": "{}な歌手の歌。",
+    "meaning": "多くの人に知られていること"
+  },
+  {
+    "id": "g3-180",
+    "grade": 3,
+    "unit": "",
+    "kanji": "遊ぶ",
+    "reading": "あそぶ",
+    "type": "okurigana",
+    "example": "公園で{}ぶ。",
+    "meaning": "楽しいことをする"
+  },
+  {
+    "id": "g3-181",
+    "grade": 3,
+    "unit": "",
+    "kanji": "予定",
+    "reading": "よてい",
+    "type": "jukugo",
+    "example": "明日の{}を立てる。",
+    "meaning": "前から決めたこと"
+  },
+  {
+    "id": "g3-182",
+    "grade": 3,
+    "unit": "",
+    "kanji": "羊",
+    "reading": "ひつじ",
+    "type": "single",
+    "example": "{}が草を食べる。",
+    "meaning": "白い毛のけもの"
+  },
+  {
+    "id": "g3-183",
+    "grade": 3,
+    "unit": "",
+    "kanji": "西洋",
+    "reading": "せいよう",
+    "type": "jukugo",
+    "example": "{}のおかし。",
+    "meaning": "ヨーロッパやアメリカ"
+  },
+  {
+    "id": "g3-184",
+    "grade": 3,
+    "unit": "",
+    "kanji": "葉",
+    "reading": "は",
+    "type": "single",
+    "example": "木の{}が落ちる。",
+    "meaning": "くきや木のえだに出る、平らなもの"
+  },
+  {
+    "id": "g3-185",
+    "grade": 3,
+    "unit": "",
+    "kanji": "太陽",
+    "reading": "たいよう",
+    "type": "jukugo",
+    "example": "{}が空に上がる。",
+    "meaning": "空にうかぶ大きく光るもの"
+  },
+  {
+    "id": "g3-186",
+    "grade": 3,
+    "unit": "",
+    "kanji": "様子",
+    "reading": "ようす",
+    "type": "jukugo",
+    "example": "外の{}を見る。",
+    "meaning": "そのときのありさま"
+  },
+  {
+    "id": "g3-187",
+    "grade": 3,
+    "unit": "",
+    "kanji": "落ちる",
+    "reading": "おちる",
+    "type": "okurigana",
+    "example": "りんごが{}ちる。",
+    "meaning": "上から下へくる"
+  },
+  {
+    "id": "g3-188",
+    "grade": 3,
+    "unit": "",
+    "kanji": "流れる",
+    "reading": "ながれる",
+    "type": "okurigana",
+    "example": "川の水が{}れる。",
+    "meaning": "水などが進んで行く"
+  },
+  {
+    "id": "g3-189",
+    "grade": 3,
+    "unit": "",
+    "kanji": "旅",
+    "reading": "たび",
+    "type": "single",
+    "example": "{}に出る。",
+    "meaning": "遠くへ出かけること"
+  },
+  {
+    "id": "g3-190",
+    "grade": 3,
+    "unit": "",
+    "kanji": "両手",
+    "reading": "りょうて",
+    "type": "jukugo",
+    "example": "{}を上げる。",
+    "meaning": "右と左の手"
+  },
+  {
+    "id": "g3-191",
+    "grade": 3,
+    "unit": "",
+    "kanji": "緑",
+    "reading": "みどり",
+    "type": "single",
+    "example": "{}の木がならぶ。",
+    "meaning": "草や木のような色"
+  },
+  {
+    "id": "g3-192",
+    "grade": 3,
+    "unit": "",
+    "kanji": "礼",
+    "reading": "れい",
+    "type": "single",
+    "example": "おじぎをして{}をする。",
+    "meaning": "あいさつ。おれい"
+  },
+  {
+    "id": "g3-193",
+    "grade": 3,
+    "unit": "",
+    "kanji": "列",
+    "reading": "れつ",
+    "type": "single",
+    "example": "{}にならぶ。",
+    "meaning": "ならんだもの"
+  },
+  {
+    "id": "g3-194",
+    "grade": 3,
+    "unit": "",
+    "kanji": "練習",
+    "reading": "れんしゅう",
+    "type": "jukugo",
+    "example": "毎日{}する。",
+    "meaning": "じょうずになるように何回もやること"
+  },
+  {
+    "id": "g3-195",
+    "grade": 3,
+    "unit": "",
+    "kanji": "道路",
+    "reading": "どうろ",
+    "type": "jukugo",
+    "example": "広い{}を歩く。",
+    "meaning": "車や人が通る道"
+  },
+  {
+    "id": "g3-196",
+    "grade": 3,
+    "unit": "",
+    "kanji": "和食",
+    "reading": "わしょく",
+    "type": "jukugo",
+    "example": "{}を食べる。",
+    "meaning": "日本のりょうり"
+  },
+  {
+    "id": "g3-197",
+    "grade": 3,
+    "unit": "",
+    "kanji": "全員",
+    "reading": "ぜんいん",
+    "type": "jukugo",
+    "example": "クラスの{}があつまる。",
+    "meaning": "みんな"
+  },
+  {
+    "id": "g3-198",
+    "grade": 3,
+    "unit": "",
+    "kanji": "返事",
+    "reading": "へんじ",
+    "type": "jukugo",
+    "example": "大きな声で{}する。",
+    "meaning": "よばれたときに答えること"
+  },
+  {
+    "id": "g3-199",
+    "grade": 3,
+    "unit": "",
+    "kanji": "意見",
+    "reading": "いけん",
+    "type": "jukugo",
+    "example": "自分の{}を言う。",
+    "meaning": "自分の考え"
+  }
+]
