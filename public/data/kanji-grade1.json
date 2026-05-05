@@ -136,7 +136,7 @@
     "kanji": "休む",
     "reading": "やすむ",
     "type": "okurigana",
-    "example": "がっこうを {}む。",
+    "example": "がっこうを {}。",
     "meaning": "しごとや べんきょうを とめる"
   },
   {
@@ -196,7 +196,7 @@
     "kanji": "見る",
     "reading": "みる",
     "type": "okurigana",
-    "example": "テレビを {}る。",
+    "example": "テレビを {}。",
     "meaning": "めで わかる"
   },
   {
@@ -356,7 +356,7 @@
     "kanji": "出る",
     "reading": "でる",
     "type": "okurigana",
-    "example": "いえを {}る。",
+    "example": "いえを {}。",
     "meaning": "なかから そとへ いく"
   },
   {
@@ -376,7 +376,7 @@
     "kanji": "小さい",
     "reading": "ちいさい",
     "type": "okurigana",
-    "example": "{}い いぬ。",
+    "example": "{} いぬ。",
     "meaning": "おおきく ない"
   },
   {
@@ -426,7 +426,7 @@
     "kanji": "正しい",
     "reading": "ただしい",
     "type": "okurigana",
-    "example": "{}い こたえ。",
+    "example": "{} こたえ。",
     "meaning": "まちがいの ない"
   },
   {
@@ -446,7 +446,7 @@
     "kanji": "青い",
     "reading": "あおい",
     "type": "okurigana",
-    "example": "{}い そら。",
+    "example": "{} そら。",
     "meaning": "そらや うみのような いろ"
   },
   {
@@ -476,7 +476,7 @@
     "kanji": "赤い",
     "reading": "あかい",
     "type": "okurigana",
-    "example": "{}い はな。",
+    "example": "{} はな。",
     "meaning": "ひの ような いろ"
   },
   {
@@ -556,7 +556,7 @@
     "kanji": "大きい",
     "reading": "おおきい",
     "type": "okurigana",
-    "example": "{}い いぬ。",
+    "example": "{} いぬ。",
     "meaning": "ちいさく ない"
   },
   {
@@ -666,7 +666,7 @@
     "kanji": "入る",
     "reading": "はいる",
     "type": "okurigana",
-    "example": "へやに {}る。",
+    "example": "へやに {}。",
     "meaning": "そとから なかへ いく"
   },
   {
@@ -686,7 +686,7 @@
     "kanji": "白い",
     "reading": "しろい",
     "type": "okurigana",
-    "example": "{}い ゆき。",
+    "example": "{} ゆき。",
     "meaning": "ゆきの ような いろ"
   },
   {
@@ -766,7 +766,7 @@
     "kanji": "立つ",
     "reading": "たつ",
     "type": "okurigana",
-    "example": "いすから {}つ。",
+    "example": "いすから {}。",
     "meaning": "あしで まっすぐに する"
   },
   {

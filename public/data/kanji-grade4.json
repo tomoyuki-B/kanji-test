@@ -86,7 +86,7 @@
     "kanji": "栄える",
     "reading": "さかえる",
     "type": "okurigana",
-    "example": "町が大きく{}える。",
+    "example": "町が大きく{}。",
     "meaning": "ゆたかになる。さかんになる"
   },
   {
@@ -136,7 +136,7 @@
     "kanji": "加える",
     "reading": "くわえる",
     "type": "okurigana",
-    "example": "さとうを少し{}える。",
+    "example": "さとうを少し{}。",
     "meaning": "ふやす。たす"
   },
   {
@@ -196,7 +196,7 @@
     "kanji": "改める",
     "reading": "あらためる",
     "type": "okurigana",
-    "example": "わるいくせを{}める。",
+    "example": "わるいくせを{}。",
     "meaning": "よい方にかえる。直す"
   },
   {
@@ -246,7 +246,7 @@
     "kanji": "覚える",
     "reading": "おぼえる",
     "type": "okurigana",
-    "example": "新しい歌を{}える。",
+    "example": "新しい歌を{}。",
     "meaning": "学んで頭の中に入れる"
   },
   {
@@ -316,7 +316,7 @@
     "kanji": "願う",
     "reading": "ねがう",
     "type": "okurigana",
-    "example": "明日は晴れて{}う。",
+    "example": "明日は晴れて{}。",
     "meaning": "こうなってほしいと思う"
   },
   {
@@ -396,7 +396,7 @@
     "kanji": "求める",
     "reading": "もとめる",
     "type": "okurigana",
-    "example": "答えを{}める。",
+    "example": "答えを{}。",
     "meaning": "ほしいと思ってさがす"
   },
   {
@@ -406,7 +406,7 @@
     "kanji": "泣く",
     "reading": "なく",
     "type": "okurigana",
-    "example": "妹が大声で{}く。",
+    "example": "妹が大声で{}。",
     "meaning": "なみだを出すこと"
   },
   {
@@ -426,7 +426,7 @@
     "kanji": "挙げる",
     "reading": "あげる",
     "type": "okurigana",
-    "example": "教室で手を{}げる。",
+    "example": "教室で手を{}。",
     "meaning": "上の方へうごかす"
   },
   {
@@ -536,7 +536,7 @@
     "kanji": "群れ",
     "reading": "むれ",
     "type": "okurigana",
-    "example": "魚の{}れがおよぐ。",
+    "example": "魚の{}がおよぐ。",
     "meaning": "たくさん集まったもの"
   },
   {
@@ -576,7 +576,7 @@
     "kanji": "欠ける",
     "reading": "かける",
     "type": "okurigana",
-    "example": "皿のはしが{}ける。",
+    "example": "皿のはしが{}。",
     "meaning": "一部分がなくなる"
   },
   {
@@ -586,7 +586,7 @@
     "kanji": "結ぶ",
     "reading": "むすぶ",
     "type": "okurigana",
-    "example": "ひもを{}ぶ。",
+    "example": "ひもを{}。",
     "meaning": "ひもなどをつなぐ"
   },
   {
@@ -596,7 +596,7 @@
     "kanji": "建てる",
     "reading": "たてる",
     "type": "okurigana",
-    "example": "新しい家を{}てる。",
+    "example": "新しい家を{}。",
     "meaning": "つくり上げる"
   },
   {
@@ -626,7 +626,7 @@
     "kanji": "固い",
     "reading": "かたい",
     "type": "okurigana",
-    "example": "石のように{}い。",
+    "example": "石のように{}。",
     "meaning": "しっかりしていてやわらかくない"
   },
   {
@@ -646,7 +646,7 @@
     "kanji": "好き",
     "reading": "すき",
     "type": "okurigana",
-    "example": "音楽が{}きだ。",
+    "example": "音楽が{}だ。",
     "meaning": "気に入っていること"
   },
   {
@@ -686,7 +686,7 @@
     "kanji": "告げる",
     "reading": "つげる",
     "type": "okurigana",
-    "example": "別れを{}げる。",
+    "example": "別れを{}。",
     "meaning": "話して知らせる"
   },
   {
@@ -826,7 +826,7 @@
     "kanji": "残る",
     "reading": "のこる",
     "type": "okurigana",
-    "example": "ごはんが{}る。",
+    "example": "ごはんが{}。",
     "meaning": "あとにこる"
   },
   {
@@ -896,7 +896,7 @@
     "kanji": "治る",
     "reading": "なおる",
     "type": "okurigana",
-    "example": "かぜが{}る。",
+    "example": "かぜが{}。",
     "meaning": "病気がよくなる"
   },
   {
@@ -936,7 +936,7 @@
     "kanji": "失う",
     "reading": "うしなう",
     "type": "okurigana",
-    "example": "大切な物を{}う。",
+    "example": "大切な物を{}。",
     "meaning": "なくす"
   },
   {
@@ -946,7 +946,7 @@
     "kanji": "借りる",
     "reading": "かりる",
     "type": "okurigana",
-    "example": "本を{}りる。",
+    "example": "本を{}。",
     "meaning": "あとで返すやくそくでもらう"
   },
   {
@@ -966,7 +966,7 @@
     "kanji": "周り",
     "reading": "まわり",
     "type": "okurigana",
-    "example": "池の{}りを歩く。",
+    "example": "池の{}を歩く。",
     "meaning": "そばのぐるり"
   },
   {
@@ -976,7 +976,7 @@
     "kanji": "祝う",
     "reading": "いわう",
     "type": "okurigana",
-    "example": "たんじょう日を{}う。",
+    "example": "たんじょう日を{}。",
     "meaning": "よろこびの気持ちを表す"
   },
   {
@@ -1016,7 +1016,7 @@
     "kanji": "笑う",
     "reading": "わらう",
     "type": "okurigana",
-    "example": "本を読んで{}う。",
+    "example": "本を読んで{}。",
     "meaning": "おかしくて声を出すこと"
   },
   {
@@ -1036,7 +1036,7 @@
     "kanji": "焼く",
     "reading": "やく",
     "type": "okurigana",
-    "example": "魚を{}く。",
+    "example": "魚を{}。",
     "meaning": "火で熱を通す"
   },
   {
@@ -1056,7 +1056,7 @@
     "kanji": "照らす",
     "reading": "てらす",
     "type": "okurigana",
-    "example": "月が道を{}らす。",
+    "example": "月が道を{}。",
     "meaning": "光を当てて明るくする"
   },
   {
@@ -1086,7 +1086,7 @@
     "kanji": "信じる",
     "reading": "しんじる",
     "type": "okurigana",
-    "example": "友だちを{}じる。",
+    "example": "友だちを{}。",
     "meaning": "本当だと思う"
   },
   {
@@ -1126,7 +1126,7 @@
     "kanji": "清い",
     "reading": "きよい",
     "type": "okurigana",
-    "example": "{}い水が流れる。",
+    "example": "{}水が流れる。",
     "meaning": "きれいですみきっている"
   },
   {
@@ -1136,7 +1136,7 @@
     "kanji": "静か",
     "reading": "しずか",
     "type": "okurigana",
-    "example": "夜は{}かだ。",
+    "example": "夜は{}だ。",
     "meaning": "音がしないこと"
   },
   {
@@ -1166,7 +1166,7 @@
     "kanji": "折る",
     "reading": "おる",
     "type": "okurigana",
-    "example": "紙を二つに{}る。",
+    "example": "紙を二つに{}。",
     "meaning": "まげて切れ目をつける"
   },
   {
@@ -1186,7 +1186,7 @@
     "kanji": "浅い",
     "reading": "あさい",
     "type": "okurigana",
-    "example": "{}い川であそぶ。",
+    "example": "{}川であそぶ。",
     "meaning": "深くないこと"
   },
   {
@@ -1206,7 +1206,7 @@
     "kanji": "選ぶ",
     "reading": "えらぶ",
     "type": "okurigana",
-    "example": "好きな本を{}ぶ。",
+    "example": "好きな本を{}。",
     "meaning": "いくつかの中からとり出す"
   },
   {
@@ -1226,7 +1226,7 @@
     "kanji": "争う",
     "reading": "あらそう",
     "type": "okurigana",
-    "example": "一とうを{}う。",
+    "example": "一とうを{}。",
     "meaning": "勝ち負けをきそう"
   },
   {
@@ -1276,7 +1276,7 @@
     "kanji": "続く",
     "reading": "つづく",
     "type": "okurigana",
-    "example": "雨が{}く。",
+    "example": "雨が{}。",
     "meaning": "切れずにずっとある"
   },
   {
@@ -1326,7 +1326,7 @@
     "kanji": "達する",
     "reading": "たっする",
     "type": "okurigana",
-    "example": "山のいただきに{}する。",
+    "example": "山のいただきに{}。",
     "meaning": "目あての場所まで行く"
   },
   {
@@ -1346,7 +1346,7 @@
     "kanji": "置く",
     "reading": "おく",
     "type": "okurigana",
-    "example": "本を机の上に{}く。",
+    "example": "本を机の上に{}。",
     "meaning": "ものをそこにすえる"
   },
   {
@@ -1386,7 +1386,7 @@
     "kanji": "低い",
     "reading": "ひくい",
     "type": "okurigana",
-    "example": "せが{}い人。",
+    "example": "せが{}人。",
     "meaning": "高くないこと"
   },
   {
@@ -1426,7 +1426,7 @@
     "kanji": "伝える",
     "reading": "つたえる",
     "type": "okurigana",
-    "example": "話を{}える。",
+    "example": "話を{}。",
     "meaning": "話して知らせる"
   },
   {
@@ -1466,7 +1466,7 @@
     "kanji": "働く",
     "reading": "はたらく",
     "type": "okurigana",
-    "example": "父は会社で{}く。",
+    "example": "父は会社で{}。",
     "meaning": "仕事をする"
   },
   {
@@ -1516,7 +1516,7 @@
     "kanji": "熱い",
     "reading": "あつい",
     "type": "okurigana",
-    "example": "お茶が{}い。",
+    "example": "お茶が{}。",
     "meaning": "とても温度が高い"
   },
   {
@@ -1576,7 +1576,7 @@
     "kanji": "飛ぶ",
     "reading": "とぶ",
     "type": "okurigana",
-    "example": "鳥が空を{}ぶ。",
+    "example": "鳥が空を{}。",
     "meaning": "空中を進む"
   },
   {
@@ -1586,7 +1586,7 @@
     "kanji": "必ず",
     "reading": "かならず",
     "type": "okurigana",
-    "example": "{}ず明日来る。",
+    "example": "{}明日来る。",
     "meaning": "ぜったいに"
   },
   {
@@ -1636,7 +1636,7 @@
     "kanji": "付ける",
     "reading": "つける",
     "type": "okurigana",
-    "example": "名札を{}ける。",
+    "example": "名札を{}。",
     "meaning": "ぴったりとくっつける"
   },
   {
@@ -1686,7 +1686,7 @@
     "kanji": "別れる",
     "reading": "わかれる",
     "type": "okurigana",
-    "example": "友だちと駅で{}れる。",
+    "example": "友だちと駅で{}。",
     "meaning": "はなればなれになる"
   },
   {
@@ -1706,7 +1706,7 @@
     "kanji": "変わる",
     "reading": "かわる",
     "type": "okurigana",
-    "example": "色が{}る。",
+    "example": "色が{}。",
     "meaning": "前とちがうようになる"
   },
   {
@@ -1726,7 +1726,7 @@
     "kanji": "包む",
     "reading": "つつむ",
     "type": "okurigana",
-    "example": "プレゼントを紙で{}む。",
+    "example": "プレゼントを紙で{}。",
     "meaning": "ぐるりとおおう"
   },
   {
@@ -1766,7 +1766,7 @@
     "kanji": "満ちる",
     "reading": "みちる",
     "type": "okurigana",
-    "example": "コップに水が{}ちる。",
+    "example": "コップに水が{}。",
     "meaning": "いっぱいになる"
   },
   {
@@ -1836,7 +1836,7 @@
     "kanji": "養う",
     "reading": "やしなう",
     "type": "okurigana",
-    "example": "家ぞくを{}う。",
+    "example": "家ぞくを{}。",
     "meaning": "食べさせて育てる"
   },
   {
@@ -1866,7 +1866,7 @@
     "kanji": "良い",
     "reading": "よい",
     "type": "okurigana",
-    "example": "{}い天気だ。",
+    "example": "{}天気だ。",
     "meaning": "わるくない。すぐれている"
   },
   {
@@ -1876,7 +1876,7 @@
     "kanji": "重さ",
     "reading": "おもさ",
     "type": "okurigana",
-    "example": "石の{}さをはかる。",
+    "example": "石の{}をはかる。",
     "meaning": "ものの重い、軽いのていど"
   },
   {
@@ -1916,7 +1916,7 @@
     "kanji": "冷たい",
     "reading": "つめたい",
     "type": "okurigana",
-    "example": "{}たい水を飲む。",
+    "example": "{}水を飲む。",
     "meaning": "温度がひくい"
   },
   {
