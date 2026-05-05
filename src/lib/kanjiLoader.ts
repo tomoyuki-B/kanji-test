@@ -1,6 +1,6 @@
 export interface KanjiQuestion {
   id: string
-  grade: 5 | 6
+  grade: 1 | 2 | 3 | 4 | 5 | 6
   unit: string
   kanji: string
   reading: string
@@ -11,7 +11,7 @@ export interface KanjiQuestion {
 
 let cache: Record<number, KanjiQuestion[]> = {}
 
-export async function loadKanjiData(grade: 5 | 6): Promise<KanjiQuestion[]> {
+export async function loadKanjiData(grade: 1 | 2 | 3 | 4 | 5 | 6): Promise<KanjiQuestion[]> {
   if (cache[grade]) return cache[grade]
   const res = await fetch(`/data/kanji-grade${grade}.json`)
   if (!res.ok) throw new Error(`Failed to load kanji data for grade ${grade}`)
