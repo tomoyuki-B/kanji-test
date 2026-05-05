@@ -1,0 +1,802 @@
+[
+  {
+    "id": "g1-001",
+    "grade": 1,
+    "unit": "",
+    "kanji": "一",
+    "reading": "いち",
+    "type": "single",
+    "example": "ねこが{}ひきいる。",
+    "meaning": "数のひとつ"
+  },
+  {
+    "id": "g1-002",
+    "grade": 1,
+    "unit": "",
+    "kanji": "右",
+    "reading": "みぎ",
+    "type": "single",
+    "example": "{}にまがる。",
+    "meaning": "ひだりの はんたい"
+  },
+  {
+    "id": "g1-003",
+    "grade": 1,
+    "unit": "",
+    "kanji": "雨",
+    "reading": "あめ",
+    "type": "single",
+    "example": "きょうは {}が ふる。",
+    "meaning": "そらから ふる みず"
+  },
+  {
+    "id": "g1-004",
+    "grade": 1,
+    "unit": "",
+    "kanji": "円",
+    "reading": "えん",
+    "type": "single",
+    "example": "ひゃく{}の おかし。",
+    "meaning": "おかねの たんい"
+  },
+  {
+    "id": "g1-005",
+    "grade": 1,
+    "unit": "",
+    "kanji": "王",
+    "reading": "おう",
+    "type": "single",
+    "example": "むかしの {}さま。",
+    "meaning": "くにを おさめる ひと"
+  },
+  {
+    "id": "g1-006",
+    "grade": 1,
+    "unit": "",
+    "kanji": "音",
+    "reading": "おと",
+    "type": "single",
+    "example": "ピアノの {}。",
+    "meaning": "みみで きこえるもの"
+  },
+  {
+    "id": "g1-007",
+    "grade": 1,
+    "unit": "",
+    "kanji": "下",
+    "reading": "した",
+    "type": "single",
+    "example": "つくえの {}。",
+    "meaning": "うえの はんたい"
+  },
+  {
+    "id": "g1-008",
+    "grade": 1,
+    "unit": "",
+    "kanji": "火",
+    "reading": "ひ",
+    "type": "single",
+    "example": "{}が もえる。",
+    "meaning": "あつくて あかい もの"
+  },
+  {
+    "id": "g1-009",
+    "grade": 1,
+    "unit": "",
+    "kanji": "花",
+    "reading": "はな",
+    "type": "single",
+    "example": "あかい {}が さく。",
+    "meaning": "くさや きに さく きれいな もの"
+  },
+  {
+    "id": "g1-010",
+    "grade": 1,
+    "unit": "",
+    "kanji": "貝",
+    "reading": "かい",
+    "type": "single",
+    "example": "うみで {}を ひろう。",
+    "meaning": "うみに いる かたい からの いきもの"
+  },
+  {
+    "id": "g1-011",
+    "grade": 1,
+    "unit": "",
+    "kanji": "学校",
+    "reading": "がっこう",
+    "type": "jukugo",
+    "example": "あさ {}に いく。",
+    "meaning": "べんきょうを する ところ"
+  },
+  {
+    "id": "g1-012",
+    "grade": 1,
+    "unit": "",
+    "kanji": "気",
+    "reading": "き",
+    "type": "single",
+    "example": "げん{}が いい。",
+    "meaning": "こころの ようす"
+  },
+  {
+    "id": "g1-013",
+    "grade": 1,
+    "unit": "",
+    "kanji": "九",
+    "reading": "きゅう",
+    "type": "single",
+    "example": "{}じに ねる。",
+    "meaning": "数の ここのつ"
+  },
+  {
+    "id": "g1-014",
+    "grade": 1,
+    "unit": "",
+    "kanji": "休む",
+    "reading": "やすむ",
+    "type": "okurigana",
+    "example": "がっこうを {}む。",
+    "meaning": "しごとや べんきょうを とめる"
+  },
+  {
+    "id": "g1-015",
+    "grade": 1,
+    "unit": "",
+    "kanji": "玉",
+    "reading": "たま",
+    "type": "single",
+    "example": "まるい {}。",
+    "meaning": "まるい かたちの もの"
+  },
+  {
+    "id": "g1-016",
+    "grade": 1,
+    "unit": "",
+    "kanji": "金",
+    "reading": "きん",
+    "type": "single",
+    "example": "{}の メダル。",
+    "meaning": "きいろく ひかる たかい もの"
+  },
+  {
+    "id": "g1-017",
+    "grade": 1,
+    "unit": "",
+    "kanji": "空",
+    "reading": "そら",
+    "type": "single",
+    "example": "あおい {}。",
+    "meaning": "あたまの うえに ある ひろい ところ"
+  },
+  {
+    "id": "g1-018",
+    "grade": 1,
+    "unit": "",
+    "kanji": "月",
+    "reading": "つき",
+    "type": "single",
+    "example": "よるの {}。",
+    "meaning": "よるの そらに 出る まるい もの"
+  },
+  {
+    "id": "g1-019",
+    "grade": 1,
+    "unit": "",
+    "kanji": "犬",
+    "reading": "いぬ",
+    "type": "single",
+    "example": "{}を かう。",
+    "meaning": "ワンと なく どうぶつ"
+  },
+  {
+    "id": "g1-020",
+    "grade": 1,
+    "unit": "",
+    "kanji": "見る",
+    "reading": "みる",
+    "type": "okurigana",
+    "example": "テレビを {}る。",
+    "meaning": "めで わかる"
+  },
+  {
+    "id": "g1-021",
+    "grade": 1,
+    "unit": "",
+    "kanji": "五",
+    "reading": "ご",
+    "type": "single",
+    "example": "{}じに かえる。",
+    "meaning": "数の いつつ"
+  },
+  {
+    "id": "g1-022",
+    "grade": 1,
+    "unit": "",
+    "kanji": "口",
+    "reading": "くち",
+    "type": "single",
+    "example": "{}を あける。",
+    "meaning": "たべものを 入れる ところ"
+  },
+  {
+    "id": "g1-023",
+    "grade": 1,
+    "unit": "",
+    "kanji": "校",
+    "reading": "こう",
+    "type": "single",
+    "example": "{}ていで あそぶ。",
+    "meaning": "がっこうの こと"
+  },
+  {
+    "id": "g1-024",
+    "grade": 1,
+    "unit": "",
+    "kanji": "左",
+    "reading": "ひだり",
+    "type": "single",
+    "example": "{}の手を あげる。",
+    "meaning": "みぎの はんたい"
+  },
+  {
+    "id": "g1-025",
+    "grade": 1,
+    "unit": "",
+    "kanji": "三",
+    "reading": "さん",
+    "type": "single",
+    "example": "{}にんで あそぶ。",
+    "meaning": "数の みっつ"
+  },
+  {
+    "id": "g1-026",
+    "grade": 1,
+    "unit": "",
+    "kanji": "山",
+    "reading": "やま",
+    "type": "single",
+    "example": "たかい {}。",
+    "meaning": "たかい つちの もり"
+  },
+  {
+    "id": "g1-027",
+    "grade": 1,
+    "unit": "",
+    "kanji": "子",
+    "reading": "こ",
+    "type": "single",
+    "example": "ちいさな {}ども。",
+    "meaning": "おやから うまれた もの"
+  },
+  {
+    "id": "g1-028",
+    "grade": 1,
+    "unit": "",
+    "kanji": "四",
+    "reading": "し",
+    "type": "single",
+    "example": "{}つ かどの こうえん。",
+    "meaning": "数の よっつ"
+  },
+  {
+    "id": "g1-029",
+    "grade": 1,
+    "unit": "",
+    "kanji": "糸",
+    "reading": "いと",
+    "type": "single",
+    "example": "あかい {}。",
+    "meaning": "ほそながい ひも"
+  },
+  {
+    "id": "g1-030",
+    "grade": 1,
+    "unit": "",
+    "kanji": "字",
+    "reading": "じ",
+    "type": "single",
+    "example": "ノートに {}を かく。",
+    "meaning": "ことばを 書いた もの"
+  },
+  {
+    "id": "g1-031",
+    "grade": 1,
+    "unit": "",
+    "kanji": "耳",
+    "reading": "みみ",
+    "type": "single",
+    "example": "{}で きく。",
+    "meaning": "おとを きく ところ"
+  },
+  {
+    "id": "g1-032",
+    "grade": 1,
+    "unit": "",
+    "kanji": "七",
+    "reading": "なな",
+    "type": "single",
+    "example": "{}つの ほし。",
+    "meaning": "数の ななつ"
+  },
+  {
+    "id": "g1-033",
+    "grade": 1,
+    "unit": "",
+    "kanji": "車",
+    "reading": "くるま",
+    "type": "single",
+    "example": "あかい {}。",
+    "meaning": "のる ための もの"
+  },
+  {
+    "id": "g1-034",
+    "grade": 1,
+    "unit": "",
+    "kanji": "手",
+    "reading": "て",
+    "type": "single",
+    "example": "{}を あらう。",
+    "meaning": "ものを もつ ところ"
+  },
+  {
+    "id": "g1-035",
+    "grade": 1,
+    "unit": "",
+    "kanji": "十",
+    "reading": "じゅう",
+    "type": "single",
+    "example": "{}にん あつまる。",
+    "meaning": "数の とお"
+  },
+  {
+    "id": "g1-036",
+    "grade": 1,
+    "unit": "",
+    "kanji": "出る",
+    "reading": "でる",
+    "type": "okurigana",
+    "example": "いえを {}る。",
+    "meaning": "なかから そとへ いく"
+  },
+  {
+    "id": "g1-037",
+    "grade": 1,
+    "unit": "",
+    "kanji": "女",
+    "reading": "おんな",
+    "type": "single",
+    "example": "{}の子。",
+    "meaning": "おとこの はんたい"
+  },
+  {
+    "id": "g1-038",
+    "grade": 1,
+    "unit": "",
+    "kanji": "小さい",
+    "reading": "ちいさい",
+    "type": "okurigana",
+    "example": "{}い いぬ。",
+    "meaning": "おおきく ない"
+  },
+  {
+    "id": "g1-039",
+    "grade": 1,
+    "unit": "",
+    "kanji": "上",
+    "reading": "うえ",
+    "type": "single",
+    "example": "つくえの {}。",
+    "meaning": "したの はんたい"
+  },
+  {
+    "id": "g1-040",
+    "grade": 1,
+    "unit": "",
+    "kanji": "森",
+    "reading": "もり",
+    "type": "single",
+    "example": "ふかい {}。",
+    "meaning": "きが たくさん ある ところ"
+  },
+  {
+    "id": "g1-041",
+    "grade": 1,
+    "unit": "",
+    "kanji": "人",
+    "reading": "ひと",
+    "type": "single",
+    "example": "{}が あつまる。",
+    "meaning": "わたしや あなたの こと"
+  },
+  {
+    "id": "g1-042",
+    "grade": 1,
+    "unit": "",
+    "kanji": "水",
+    "reading": "みず",
+    "type": "single",
+    "example": "{}を のむ。",
+    "meaning": "コップに 入れる つめたい もの"
+  },
+  {
+    "id": "g1-043",
+    "grade": 1,
+    "unit": "",
+    "kanji": "正しい",
+    "reading": "ただしい",
+    "type": "okurigana",
+    "example": "{}い こたえ。",
+    "meaning": "まちがいの ない"
+  },
+  {
+    "id": "g1-044",
+    "grade": 1,
+    "unit": "",
+    "kanji": "生",
+    "reading": "せい",
+    "type": "single",
+    "example": "{}かつかを する。",
+    "meaning": "いきる、うまれる こと"
+  },
+  {
+    "id": "g1-045",
+    "grade": 1,
+    "unit": "",
+    "kanji": "青い",
+    "reading": "あおい",
+    "type": "okurigana",
+    "example": "{}い そら。",
+    "meaning": "そらや うみのような いろ"
+  },
+  {
+    "id": "g1-046",
+    "grade": 1,
+    "unit": "",
+    "kanji": "夕",
+    "reading": "ゆう",
+    "type": "single",
+    "example": "{}がたに かえる。",
+    "meaning": "ひるの あとの くらく なる とき"
+  },
+  {
+    "id": "g1-047",
+    "grade": 1,
+    "unit": "",
+    "kanji": "石",
+    "reading": "いし",
+    "type": "single",
+    "example": "ちいさな {}。",
+    "meaning": "かたい つちの かたまり"
+  },
+  {
+    "id": "g1-048",
+    "grade": 1,
+    "unit": "",
+    "kanji": "赤い",
+    "reading": "あかい",
+    "type": "okurigana",
+    "example": "{}い はな。",
+    "meaning": "ひの ような いろ"
+  },
+  {
+    "id": "g1-049",
+    "grade": 1,
+    "unit": "",
+    "kanji": "千",
+    "reading": "せん",
+    "type": "single",
+    "example": "{}えんで かう。",
+    "meaning": "数の ひゃくの十ばい"
+  },
+  {
+    "id": "g1-050",
+    "grade": 1,
+    "unit": "",
+    "kanji": "川",
+    "reading": "かわ",
+    "type": "single",
+    "example": "おおきな {}。",
+    "meaning": "みずが ながれる ところ"
+  },
+  {
+    "id": "g1-051",
+    "grade": 1,
+    "unit": "",
+    "kanji": "先生",
+    "reading": "せんせい",
+    "type": "jukugo",
+    "example": "がっこうの {}。",
+    "meaning": "おしえて くれる ひと"
+  },
+  {
+    "id": "g1-052",
+    "grade": 1,
+    "unit": "",
+    "kanji": "早い",
+    "reading": "はやい",
+    "type": "okurigana",
+    "example": "あさ {}く おきる。",
+    "meaning": "じかんが すこしか たって いない"
+  },
+  {
+    "id": "g1-053",
+    "grade": 1,
+    "unit": "",
+    "kanji": "草",
+    "reading": "くさ",
+    "type": "single",
+    "example": "{}が はえる。",
+    "meaning": "じめんに はえる みどりの もの"
+  },
+  {
+    "id": "g1-054",
+    "grade": 1,
+    "unit": "",
+    "kanji": "足",
+    "reading": "あし",
+    "type": "single",
+    "example": "{}で あるく。",
+    "meaning": "あるく ための もの"
+  },
+  {
+    "id": "g1-055",
+    "grade": 1,
+    "unit": "",
+    "kanji": "村",
+    "reading": "むら",
+    "type": "single",
+    "example": "ちいさな {}。",
+    "meaning": "ひとが あつまって すむ ちいさな ところ"
+  },
+  {
+    "id": "g1-056",
+    "grade": 1,
+    "unit": "",
+    "kanji": "大きい",
+    "reading": "おおきい",
+    "type": "okurigana",
+    "example": "{}い いぬ。",
+    "meaning": "ちいさく ない"
+  },
+  {
+    "id": "g1-057",
+    "grade": 1,
+    "unit": "",
+    "kanji": "男",
+    "reading": "おとこ",
+    "type": "single",
+    "example": "{}の子。",
+    "meaning": "おんなの はんたい"
+  },
+  {
+    "id": "g1-058",
+    "grade": 1,
+    "unit": "",
+    "kanji": "竹",
+    "reading": "たけ",
+    "type": "single",
+    "example": "ながい {}。",
+    "meaning": "まっすぐで ながい くさのような き"
+  },
+  {
+    "id": "g1-059",
+    "grade": 1,
+    "unit": "",
+    "kanji": "中",
+    "reading": "なか",
+    "type": "single",
+    "example": "はこの {}。",
+    "meaning": "ものの うちがわ"
+  },
+  {
+    "id": "g1-060",
+    "grade": 1,
+    "unit": "",
+    "kanji": "虫",
+    "reading": "むし",
+    "type": "single",
+    "example": "{}を つかまえる。",
+    "meaning": "ちいさな いきもの"
+  },
+  {
+    "id": "g1-061",
+    "grade": 1,
+    "unit": "",
+    "kanji": "町",
+    "reading": "まち",
+    "type": "single",
+    "example": "おおきな {}。",
+    "meaning": "ひとが たくさん すむ ところ"
+  },
+  {
+    "id": "g1-062",
+    "grade": 1,
+    "unit": "",
+    "kanji": "天",
+    "reading": "てん",
+    "type": "single",
+    "example": "{}き が いい。",
+    "meaning": "そらや くも"
+  },
+  {
+    "id": "g1-063",
+    "grade": 1,
+    "unit": "",
+    "kanji": "田",
+    "reading": "た",
+    "type": "single",
+    "example": "{}んぼで こめを つくる。",
+    "meaning": "こめを つくる ところ"
+  },
+  {
+    "id": "g1-064",
+    "grade": 1,
+    "unit": "",
+    "kanji": "土",
+    "reading": "つち",
+    "type": "single",
+    "example": "{}に たねを まく。",
+    "meaning": "ちめんの こと"
+  },
+  {
+    "id": "g1-065",
+    "grade": 1,
+    "unit": "",
+    "kanji": "二",
+    "reading": "に",
+    "type": "single",
+    "example": "{}じに あそぶ。",
+    "meaning": "数の ふたつ"
+  },
+  {
+    "id": "g1-066",
+    "grade": 1,
+    "unit": "",
+    "kanji": "日",
+    "reading": "ひ",
+    "type": "single",
+    "example": "あさの {}。",
+    "meaning": "そらに かがやく あかるいもの"
+  },
+  {
+    "id": "g1-067",
+    "grade": 1,
+    "unit": "",
+    "kanji": "入る",
+    "reading": "はいる",
+    "type": "okurigana",
+    "example": "へやに {}る。",
+    "meaning": "そとから なかへ いく"
+  },
+  {
+    "id": "g1-068",
+    "grade": 1,
+    "unit": "",
+    "kanji": "年",
+    "reading": "とし",
+    "type": "single",
+    "example": "あたらしい {}。",
+    "meaning": "じかんの ながい たんい"
+  },
+  {
+    "id": "g1-069",
+    "grade": 1,
+    "unit": "",
+    "kanji": "白い",
+    "reading": "しろい",
+    "type": "okurigana",
+    "example": "{}い ゆき。",
+    "meaning": "ゆきの ような いろ"
+  },
+  {
+    "id": "g1-070",
+    "grade": 1,
+    "unit": "",
+    "kanji": "八",
+    "reading": "はち",
+    "type": "single",
+    "example": "{}じに ねる。",
+    "meaning": "数の やっつ"
+  },
+  {
+    "id": "g1-071",
+    "grade": 1,
+    "unit": "",
+    "kanji": "百",
+    "reading": "ひゃく",
+    "type": "single",
+    "example": "{}えんを はらう。",
+    "meaning": "数の 十の十ばい"
+  },
+  {
+    "id": "g1-072",
+    "grade": 1,
+    "unit": "",
+    "kanji": "文",
+    "reading": "ぶん",
+    "type": "single",
+    "example": "{}を 書く。",
+    "meaning": "ことばを ならべた もの"
+  },
+  {
+    "id": "g1-073",
+    "grade": 1,
+    "unit": "",
+    "kanji": "木",
+    "reading": "き",
+    "type": "single",
+    "example": "おおきな {}。",
+    "meaning": "もりに ある せいぶつ"
+  },
+  {
+    "id": "g1-074",
+    "grade": 1,
+    "unit": "",
+    "kanji": "本",
+    "reading": "ほん",
+    "type": "single",
+    "example": "{}を よむ。",
+    "meaning": "じが かいて ある かみの たば"
+  },
+  {
+    "id": "g1-075",
+    "grade": 1,
+    "unit": "",
+    "kanji": "名前",
+    "reading": "なまえ",
+    "type": "jukugo",
+    "example": "ノートに {}を 書く。",
+    "meaning": "ひとや ものを よぶ ことば"
+  },
+  {
+    "id": "g1-076",
+    "grade": 1,
+    "unit": "",
+    "kanji": "目",
+    "reading": "め",
+    "type": "single",
+    "example": "{}を あける。",
+    "meaning": "ものを 見る ところ"
+  },
+  {
+    "id": "g1-077",
+    "grade": 1,
+    "unit": "",
+    "kanji": "立つ",
+    "reading": "たつ",
+    "type": "okurigana",
+    "example": "いすから {}つ。",
+    "meaning": "あしで まっすぐに する"
+  },
+  {
+    "id": "g1-078",
+    "grade": 1,
+    "unit": "",
+    "kanji": "力",
+    "reading": "ちから",
+    "type": "single",
+    "example": "{}を 入れる。",
+    "meaning": "ものを うごかす はたらき"
+  },
+  {
+    "id": "g1-079",
+    "grade": 1,
+    "unit": "",
+    "kanji": "林",
+    "reading": "はやし",
+    "type": "single",
+    "example": "{}の中を 歩く。",
+    "meaning": "きが ならんで はえている ところ"
+  },
+  {
+    "id": "g1-080",
+    "grade": 1,
+    "unit": "",
+    "kanji": "六",
+    "reading": "ろく",
+    "type": "single",
+    "example": "{}じに おきる。",
+    "meaning": "数の むっつ"
+  }
+]
