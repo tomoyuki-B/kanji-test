@@ -303,6 +303,7 @@ export default function QuizWritingPage() {
               size={CANVAS_SIZE}
               readingHint={slot.readingHint}
               recognitionType="kanji"
+              gradeLimit={currentQuestion.grade as 1 | 2 | 3 | 4 | 5 | 6}
               onRecognized={handleRecognized(i)}
             />
           </div>

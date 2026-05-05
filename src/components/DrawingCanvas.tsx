@@ -11,11 +11,12 @@ interface Props {
   readingHint?: string
   showClearButton?: boolean
   recognitionType?: 'kanji' | 'hiragana'
+  gradeLimit?: 1 | 2 | 3 | 4 | 5 | 6
   onRecognized?: (results: RecognitionCandidate[]) => void
 }
 
 const DrawingCanvas = forwardRef<DrawingCanvasHandle, Props>(function DrawingCanvas(
-  { size = 240, label, readingHint, showClearButton = true, recognitionType = 'kanji', onRecognized },
+  { size = 240, label, readingHint, showClearButton = true, recognitionType = 'kanji', gradeLimit, onRecognized },
   ref,
 ) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -130,8 +131,9 @@ const DrawingCanvas = forwardRef<DrawingCanvasHandle, Props>(function DrawingCan
     setIsRecognizing(true)
     try {
       const { recognizeKanji, recognizeHiragana } = await import('../lib/recognizer')
-      const fn = recognitionType === 'hiragana' ? recognizeHiragana : recognizeKanji
-      const results = await fn(allStrokes.current)
+      const results = recognitionType === 'hiragana'
+        ? await recognizeHiragana(allStrokes.current)
+        : await recognizeKanji(allStrokes.current, gradeLimit !== undefined ? { gradeLimit } : undefined)
       onRecognized(results)
     } finally {
       setIsRecognizing(false)

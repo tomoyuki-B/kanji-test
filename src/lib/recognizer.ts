@@ -1,3 +1,5 @@
+import { getKanjiUpToGrade } from '../data/grade-kanji-list'
+
 export interface RecognitionCandidate {
   char: string
   confidence: number
@@ -5,6 +7,10 @@ export interface RecognitionCandidate {
 
 // DrawingCanvas が記録するストローク形式: [[x,y], ...] の配列
 export type RawStroke = [number, number][]
+
+interface RecognizeOptions {
+  gradeLimit?: 1 | 2 | 3 | 4 | 5 | 6
+}
 
 const HIDDEN_ID = 'kc_recognizer'
 
@@ -53,7 +59,19 @@ function runRecognition(
 }
 
 /** 漢字認識（U+4E00–U+9FFF + 拡張漢字 U+3400–U+4DBF） */
-export async function recognizeKanji(strokes: RawStroke[]): Promise<RecognitionCandidate[]> {
+export async function recognizeKanji(
+  strokes: RawStroke[],
+  options?: RecognizeOptions,
+): Promise<RecognitionCandidate[]> {
+  if (options?.gradeLimit !== undefined) {
+    const allowed = new Set(getKanjiUpToGrade(options.gradeLimit))
+    const results = runRecognition(strokes, (cp) => allowed.has(String.fromCodePoint(cp)))
+    // フィルタ後に0件なら全漢字でリトライ
+    if (results.length === 0) {
+      return runRecognition(strokes, (cp) => (cp >= 0x4e00 && cp <= 0x9fff) || (cp >= 0x3400 && cp <= 0x4dbf))
+    }
+    return results
+  }
   return runRecognition(strokes, (cp) => (cp >= 0x4e00 && cp <= 0x9fff) || (cp >= 0x3400 && cp <= 0x4dbf))
 }
 
