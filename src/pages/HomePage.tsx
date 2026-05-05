@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { getStats, type Stats } from '../lib/db'
 import { loadKanjiData } from '../lib/kanjiLoader'
 
-type Grade = 5 | 6
+type Grade = 1 | 2 | 3 | 4 | 5 | 6
 type Mode = 'writing' | 'reading'
 type RangeType = 'random' | 'unit' | 'weak'
 type QuestionCount = 5 | 10 | 20
@@ -31,10 +31,15 @@ export default function HomePage() {
     loadKanjiData(grade)
       .then((data) => {
         const unique = [...new Set(data.map((q) => q.unit))]
+          .filter((u) => u.trim() !== '')
         setUnits(unique)
         setSelectedUnit(unique[0] ?? '')
+        if (unique.length === 0 && rangeType === 'unit') {
+          setRangeType('random')
+        }
       })
       .catch(() => setUnits([]))
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [grade])
 
   const handleStart = () => {
@@ -96,8 +101,8 @@ export default function HomePage() {
 
         {/* 学年選択 */}
         <Section title="学年">
-          <div className="flex gap-3">
-            {([5, 6] as Grade[]).map((g) => (
+          <div className="grid grid-cols-3 gap-3">
+            {([1, 2, 3, 4, 5, 6] as Grade[]).map((g) => (
               <ChoiceButton
                 key={g}
                 active={grade === g}
@@ -119,9 +124,12 @@ export default function HomePage() {
             />
             <RangeOption
               active={rangeType === 'unit'}
-              onClick={() => setRangeType('unit')}
+              onClick={() => {
+                if (units.length > 0) setRangeType('unit')
+              }}
               label="単元別"
-              description="単元を選んで出題"
+              description={units.length > 0 ? "単元を選んで出題" : "(この学年には単元情報がありません)"}
+              disabled={units.length === 0}
             />
             <RangeOption
               active={rangeType === 'weak'}
