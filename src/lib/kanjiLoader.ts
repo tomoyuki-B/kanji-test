@@ -13,7 +13,7 @@ let cache: Record<number, KanjiQuestion[]> = {}
 
 export async function loadKanjiData(grade: 1 | 2 | 3 | 4 | 5 | 6): Promise<KanjiQuestion[]> {
   if (cache[grade]) return cache[grade]
-  const res = await fetch(`/data/kanji-grade${grade}.json`)
+  const res = await fetch(`${import.meta.env.BASE_URL}data/kanji-grade${grade}.json`)
   if (!res.ok) throw new Error(`Failed to load kanji data for grade ${grade}`)
   const data: KanjiQuestion[] = await res.json()
   cache[grade] = data
