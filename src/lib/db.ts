@@ -15,7 +15,7 @@ export interface AnswerRecord {
 export interface SessionRecord {
   sessionId: string
   mode: 'writing' | 'reading'
-  grade: 5 | 6
+  grade: 1 | 2 | 3 | 4 | 5 | 6
   questionCount: number
   correctCount: number
   startedAt: number

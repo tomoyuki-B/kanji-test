@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from 'react-router-dom'
 import DrawingCanvas, { type DrawingCanvasHandle } from '../components/DrawingCanvas'
 import KanaKeyboard from '../components/KanaKeyboard'
 import ResultOverlay from '../components/ResultOverlay'
+import Toast from '../components/Toast'
 import { loadKanjiData, type KanjiQuestion } from '../lib/kanjiLoader'
 import { type RecognitionCandidate } from '../lib/recognizer'
 import { getWeakKanji } from '../lib/db'
@@ -11,7 +12,7 @@ import { type QuizAnswer, type ResultNavState } from '../lib/types'
 const ACCENT = '#534AB7'
 
 interface LocationState {
-  grade: 5 | 6
+  grade: 1 | 2 | 3 | 4 | 5 | 6
   range: { type: 'random' | 'unit' | 'weak'; unit?: string }
   questionCount: 5 | 10 | 20
 }
@@ -40,6 +41,9 @@ export default function QuizReadingPage() {
   const [overlayState, setOverlayState] = useState<OverlayState | null>(null)
   const [answers, setAnswers] = useState<QuizAnswer[]>([])
   const [startedAt] = useState(() => Date.now())
+  const [failCount, setFailCount] = useState(0)
+  const [toastMessage, setToastMessage] = useState('')
+  const [toastVisible, setToastVisible] = useState(false)
 
   const canvasRef = useRef<DrawingCanvasHandle>(null)
 
@@ -75,6 +79,8 @@ export default function QuizReadingPage() {
     if (!currentQuestion) return
     setCells(new Array(currentQuestion.reading.length).fill(''))
     setCandidates([])
+    setFailCount(0)
+    setToastVisible(false)
     canvasRef.current?.clear()
   }, [currentIndex]) // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -130,7 +136,19 @@ export default function QuizReadingPage() {
   }
 
   const handleRecognized = (results: RecognitionCandidate[]) => {
-    if (results.length === 0) return
+    if (results.length === 0) {
+      const newCount = failCount + 1
+      setFailCount(newCount)
+      if (newCount >= 2) {
+        setInputMode('keyboard')
+        setToastMessage('キーボードに切りかえたよ。キーボードでこたえてみよう')
+      } else {
+        setToastMessage('うまく認識できなかったよ。もう一度書いてみよう')
+      }
+      setToastVisible(true)
+      return
+    }
+    setFailCount(0)
     if (results.length === 1 || results[0].confidence >= 0.9) {
       appendChar(results[0].char)
     } else {
@@ -225,6 +243,12 @@ export default function QuizReadingPage() {
       className="min-h-screen bg-sky-50 flex flex-col"
       style={{ WebkitUserSelect: 'none', userSelect: 'none', WebkitTouchCallout: 'none' } as React.CSSProperties}
     >
+      <Toast
+        message={toastMessage}
+        visible={toastVisible}
+        onClose={() => setToastVisible(false)}
+      />
+
       {overlayState && (
         <ResultOverlay
           isCorrect={overlayState.isCorrect}

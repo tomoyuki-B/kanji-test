@@ -2,6 +2,7 @@ import { useRef, useState, useEffect } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import DrawingCanvas, { type DrawingCanvasHandle } from '../components/DrawingCanvas'
 import ResultOverlay from '../components/ResultOverlay'
+import Toast from '../components/Toast'
 import { type RecognitionCandidate } from '../lib/recognizer'
 import { loadKanjiData, type KanjiQuestion } from '../lib/kanjiLoader'
 import { getWeakKanji } from '../lib/db'
@@ -12,7 +13,7 @@ const CANVAS_SIZE = 240
 
 interface LocationState {
   mode: 'writing' | 'reading'
-  grade: 5 | 6
+  grade: 1 | 2 | 3 | 4 | 5 | 6
   range: { type: 'random' | 'unit' | 'weak'; unit?: string }
   questionCount: 5 | 10 | 20
 }
@@ -89,6 +90,9 @@ export default function QuizWritingPage() {
   const [overlayState, setOverlayState] = useState<OverlayState | null>(null)
   const [answers, setAnswers] = useState<QuizAnswer[]>([])
   const [startedAt] = useState(() => Date.now())
+  const [failCounts, setFailCounts] = useState<number[]>([])
+  const [toastMessage, setToastMessage] = useState('')
+  const [toastVisible, setToastVisible] = useState(false)
 
   const canvasRefs = useRef<(DrawingCanvasHandle | null)[]>([])
 
@@ -117,6 +121,7 @@ export default function QuizWritingPage() {
           const firstSlots = buildSlots(picked[0].kanji, picked[0].reading, picked[0].type)
           setRecognizedChars(new Array(firstSlots.length).fill(null))
           setCandidatesPerSlot(new Array(firstSlots.length).fill([]))
+          setFailCounts(new Array(firstSlots.length).fill(0))
         }
       } finally {
         setLoading(false)
@@ -130,11 +135,32 @@ export default function QuizWritingPage() {
     const s = buildSlots(currentQuestion.kanji, currentQuestion.reading, currentQuestion.type)
     setRecognizedChars(new Array(s.length).fill(null))
     setCandidatesPerSlot(new Array(s.length).fill([]))
+    setFailCounts(new Array(s.length).fill(0))
+    setToastVisible(false)
     canvasRefs.current.forEach((ref) => ref?.clear())
   }, [currentIndex]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleRecognized = (slotIndex: number) => (results: RecognitionCandidate[]) => {
-    if (results.length === 0) return
+    if (results.length === 0) {
+      const newCount = (failCounts[slotIndex] ?? 0) + 1
+      setFailCounts((prev) => {
+        const next = [...prev]
+        next[slotIndex] = newCount
+        return next
+      })
+      setToastMessage(
+        newCount >= 2
+          ? 'うまくいかないときは、「答えを見る」ボタンを使ってみてね'
+          : 'うまく認識できなかったよ。もう一度書いてみよう'
+      )
+      setToastVisible(true)
+      return
+    }
+    setFailCounts((prev) => {
+      const next = [...prev]
+      next[slotIndex] = 0
+      return next
+    })
     setRecognizedChars((prev) => {
       const next = [...prev]
       next[slotIndex] = results[0].char
@@ -146,6 +172,30 @@ export default function QuizWritingPage() {
       return next
     })
   }
+
+  const handleShowAnswer = () => {
+    if (!currentQuestion) return
+    const newAnswer: QuizAnswer = {
+      questionId: currentQuestion.id,
+      kanji: currentQuestion.kanji,
+      reading: currentQuestion.reading,
+      userAnswer: '',
+      isCorrect: false,
+      example: currentQuestion.example,
+      meaning: currentQuestion.meaning,
+    }
+    const newAnswers = [...answers, newAnswer]
+    setAnswers(newAnswers)
+    setOverlayState({
+      isCorrect: false,
+      kanji: currentQuestion.kanji,
+      reading: currentQuestion.reading,
+      answersSnapshot: newAnswers,
+      nextIndex: currentIndex + 1,
+    })
+  }
+
+  const showAnswerProminent = failCounts.some((c) => c >= 2)
 
   const handleSelectCandidate = (slotIndex: number, char: string) => {
     setRecognizedChars((prev) => {
@@ -235,6 +285,12 @@ export default function QuizWritingPage() {
       className="min-h-screen bg-sky-50 flex flex-col items-center p-5 gap-5"
       style={{ WebkitUserSelect: 'none', userSelect: 'none', WebkitTouchCallout: 'none' } as React.CSSProperties}
     >
+      <Toast
+        message={toastMessage}
+        visible={toastVisible}
+        onClose={() => setToastVisible(false)}
+      />
+
       {overlayState && (
         <ResultOverlay
           isCorrect={overlayState.isCorrect}
@@ -328,6 +384,18 @@ export default function QuizWritingPage() {
         }}
       >
         こたえる
+      </button>
+
+      <button
+        onClick={handleShowAnswer}
+        style={{ touchAction: 'manipulation' }}
+        className={`w-full max-w-2xl py-4 rounded-2xl text-lg font-bold border-2 transition-all
+          ${showAnswerProminent
+            ? 'border-amber-400 bg-amber-50 text-amber-700'
+            : 'border-gray-200 bg-white text-gray-400'
+          }`}
+      >
+        答えを見る
       </button>
     </div>
   )
