@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/kanji-test/',
   plugins: [
     react(),
     VitePWA({
@@ -21,8 +22,8 @@ export default defineConfig({
         display: 'standalone',
         orientation: 'portrait',
         lang: 'ja',
-        scope: '/',
-        start_url: '/',
+        scope: '/kanji-test/',
+        start_url: '/kanji-test/',
         icons: [
           {
             src: 'pwa-192x192.png',
@@ -47,7 +48,7 @@ export default defineConfig({
           '**/*.{js,css,html,ico,png,svg,json,woff,woff2}',
         ],
         maximumFileSizeToCacheInBytes: 10 * 1024 * 1024,
-        navigateFallback: '/index.html',
+        navigateFallback: '/kanji-test/index.html',
       },
       devOptions: {
         enabled: false,
