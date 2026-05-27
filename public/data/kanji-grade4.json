@@ -2,7 +2,7 @@
   {
     "id": "g4-001",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "愛",
     "reading": "あい",
     "type": "single",
@@ -12,7 +12,7 @@
   {
     "id": "g4-002",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "案内",
     "reading": "あんない",
     "type": "jukugo",
@@ -22,7 +22,7 @@
   {
     "id": "g4-003",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 お礼の気持ちを伝えよう",
     "kanji": "以上",
     "reading": "いじょう",
     "type": "jukugo",
@@ -32,7 +32,7 @@
   {
     "id": "g4-004",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "衣服",
     "reading": "いふく",
     "type": "jukugo",
@@ -42,7 +42,7 @@
   {
     "id": "g4-005",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "位置",
     "reading": "いち",
     "type": "jukugo",
@@ -52,7 +52,7 @@
   {
     "id": "g4-006",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅1",
     "kanji": "茨城",
     "reading": "いばらき",
     "type": "jukugo",
@@ -62,7 +62,7 @@
   {
     "id": "g4-007",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "印",
     "reading": "しるし",
     "type": "single",
@@ -72,7 +72,7 @@
   {
     "id": "g4-008",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "英語",
     "reading": "えいご",
     "type": "jukugo",
@@ -82,7 +82,7 @@
   {
     "id": "g4-009",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "栄える",
     "reading": "さかえる",
     "type": "okurigana",
@@ -92,7 +92,7 @@
   {
     "id": "g4-010",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "愛媛",
     "reading": "えひめ",
     "type": "jukugo",
@@ -102,7 +102,7 @@
   {
     "id": "g4-011",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "塩",
     "reading": "しお",
     "type": "single",
@@ -112,7 +112,7 @@
   {
     "id": "g4-012",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅2",
     "kanji": "岡山",
     "reading": "おかやま",
     "type": "jukugo",
@@ -122,7 +122,7 @@
   {
     "id": "g4-013",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 つながりに気をつけよう",
     "kanji": "億",
     "reading": "おく",
     "type": "single",
@@ -132,7 +132,7 @@
   {
     "id": "g4-014",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "加える",
     "reading": "くわえる",
     "type": "okurigana",
@@ -142,7 +142,7 @@
   {
     "id": "g4-015",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "果物",
     "reading": "くだもの",
     "type": "jukugo",
@@ -152,7 +152,7 @@
   {
     "id": "g4-016",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 短歌・俳句に親しもう(一)",
     "kanji": "貨物",
     "reading": "かもつ",
     "type": "jukugo",
@@ -162,7 +162,7 @@
   {
     "id": "g4-017",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 お礼の気持ちを伝えよう",
     "kanji": "課題",
     "reading": "かだい",
     "type": "jukugo",
@@ -172,7 +172,7 @@
   {
     "id": "g4-018",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 短歌・俳句に親しもう(一)",
     "kanji": "芽",
     "reading": "め",
     "type": "single",
@@ -182,7 +182,7 @@
   {
     "id": "g4-019",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅2",
     "kanji": "賀",
     "reading": "が",
     "type": "single",
@@ -192,7 +192,7 @@
   {
     "id": "g4-020",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "改める",
     "reading": "あらためる",
     "type": "okurigana",
@@ -202,7 +202,7 @@
   {
     "id": "g4-021",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "機械",
     "reading": "きかい",
     "type": "jukugo",
@@ -212,7 +212,7 @@
   {
     "id": "g4-022",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "害",
     "reading": "がい",
     "type": "single",
@@ -222,7 +222,7 @@
   {
     "id": "g4-023",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "街",
     "reading": "まち",
     "type": "single",
@@ -232,7 +232,7 @@
   {
     "id": "g4-024",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 聞き取りメモのくふう",
     "kanji": "各",
     "reading": "かく",
     "type": "single",
@@ -242,7 +242,7 @@
   {
     "id": "g4-025",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 心が動いたことを言葉に",
     "kanji": "覚える",
     "reading": "おぼえる",
     "type": "okurigana",
@@ -252,7 +252,7 @@
   {
     "id": "g4-026",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅1",
     "kanji": "新潟",
     "reading": "にいがた",
     "type": "jukugo",
@@ -262,7 +262,7 @@
   {
     "id": "g4-027",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅2",
     "kanji": "完成",
     "reading": "かんせい",
     "type": "jukugo",
@@ -272,7 +272,7 @@
   {
     "id": "g4-028",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 短歌・俳句に親しもう(一)",
     "kanji": "官",
     "reading": "かん",
     "type": "single",
@@ -282,7 +282,7 @@
   {
     "id": "g4-029",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "管",
     "reading": "くだ",
     "type": "single",
@@ -292,7 +292,7 @@
   {
     "id": "g4-030",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "関心",
     "reading": "かんしん",
     "type": "jukugo",
@@ -302,7 +302,7 @@
   {
     "id": "g4-031",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "観察",
     "reading": "かんさつ",
     "type": "jukugo",
@@ -312,7 +312,7 @@
   {
     "id": "g4-032",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "願う",
     "reading": "ねがう",
     "type": "okurigana",
@@ -322,7 +322,7 @@
   {
     "id": "g4-033",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅1",
     "kanji": "岐阜",
     "reading": "ぎふ",
     "type": "jukugo",
@@ -332,7 +332,7 @@
   {
     "id": "g4-034",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 風船でうちゅうへ",
     "kanji": "希望",
     "reading": "きぼう",
     "type": "jukugo",
@@ -342,7 +342,7 @@
   {
     "id": "g4-035",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 お礼の気持ちを伝えよう",
     "kanji": "季節",
     "reading": "きせつ",
     "type": "jukugo",
@@ -352,7 +352,7 @@
   {
     "id": "g4-036",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "旗",
     "reading": "はた",
     "type": "single",
@@ -362,7 +362,7 @@
   {
     "id": "g4-037",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 短歌・俳句に親しもう(一)",
     "kanji": "食器",
     "reading": "しょっき",
     "type": "jukugo",
@@ -372,7 +372,7 @@
   {
     "id": "g4-038",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "機会",
     "reading": "きかい",
     "type": "jukugo",
@@ -382,7 +382,7 @@
   {
     "id": "g4-039",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 ごんぎつね",
     "kanji": "会議",
     "reading": "かいぎ",
     "type": "jukugo",
@@ -392,7 +392,7 @@
   {
     "id": "g4-040",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 聞き取りメモのくふう",
     "kanji": "求める",
     "reading": "もとめる",
     "type": "okurigana",
@@ -402,7 +402,7 @@
   {
     "id": "g4-041",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "泣く",
     "reading": "なく",
     "type": "okurigana",
@@ -412,7 +412,7 @@
   {
     "id": "g4-042",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "給食",
     "reading": "きゅうしょく",
     "type": "jukugo",
@@ -422,7 +422,7 @@
   {
     "id": "g4-043",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "挙げる",
     "reading": "あげる",
     "type": "okurigana",
@@ -432,7 +432,7 @@
   {
     "id": "g4-044",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "漁",
     "reading": "りょう",
     "type": "single",
@@ -442,7 +442,7 @@
   {
     "id": "g4-045",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "共通",
     "reading": "きょうつう",
     "type": "jukugo",
@@ -452,7 +452,7 @@
   {
     "id": "g4-046",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 聞き取りメモのくふう",
     "kanji": "協力",
     "reading": "きょうりょく",
     "type": "jukugo",
@@ -462,7 +462,7 @@
   {
     "id": "g4-047",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 つながりに気をつけよう",
     "kanji": "鏡",
     "reading": "かがみ",
     "type": "single",
@@ -472,7 +472,7 @@
   {
     "id": "g4-048",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 短歌・俳句に親しもう(一)",
     "kanji": "競争",
     "reading": "きょうそう",
     "type": "jukugo",
@@ -482,7 +482,7 @@
   {
     "id": "g4-049",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 聞き取りメモのくふう",
     "kanji": "極",
     "reading": "きょく",
     "type": "single",
@@ -492,7 +492,7 @@
   {
     "id": "g4-050",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅2",
     "kanji": "熊本",
     "reading": "くまもと",
     "type": "jukugo",
@@ -502,7 +502,7 @@
   {
     "id": "g4-051",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "訓",
     "reading": "くん",
     "type": "single",
@@ -512,7 +512,7 @@
   {
     "id": "g4-052",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "軍",
     "reading": "ぐん",
     "type": "single",
@@ -522,7 +522,7 @@
   {
     "id": "g4-053",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 お礼の気持ちを伝えよう",
     "kanji": "郡",
     "reading": "ぐん",
     "type": "single",
@@ -532,7 +532,7 @@
   {
     "id": "g4-054",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "群れ",
     "reading": "むれ",
     "type": "okurigana",
@@ -542,7 +542,7 @@
   {
     "id": "g4-055",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "半径",
     "reading": "はんけい",
     "type": "jukugo",
@@ -552,7 +552,7 @@
   {
     "id": "g4-056",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "景色",
     "reading": "けしき",
     "type": "jukugo",
@@ -562,7 +562,7 @@
   {
     "id": "g4-057",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 聞き取りメモのくふう",
     "kanji": "芸",
     "reading": "げい",
     "type": "single",
@@ -572,7 +572,7 @@
   {
     "id": "g4-058",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "欠ける",
     "reading": "かける",
     "type": "okurigana",
@@ -582,7 +582,7 @@
   {
     "id": "g4-059",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "結ぶ",
     "reading": "むすぶ",
     "type": "okurigana",
@@ -592,7 +592,7 @@
   {
     "id": "g4-060",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 白いぼうし",
     "kanji": "建てる",
     "reading": "たてる",
     "type": "okurigana",
@@ -602,7 +602,7 @@
   {
     "id": "g4-061",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 短歌・俳句に親しもう(一)",
     "kanji": "健康",
     "reading": "けんこう",
     "type": "jukugo",
@@ -612,7 +612,7 @@
   {
     "id": "g4-062",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅2",
     "kanji": "実験",
     "reading": "じっけん",
     "type": "jukugo",
@@ -622,7 +622,7 @@
   {
     "id": "g4-063",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 ごんぎつね",
     "kanji": "固い",
     "reading": "かたい",
     "type": "okurigana",
@@ -632,7 +632,7 @@
   {
     "id": "g4-064",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "功",
     "reading": "こう",
     "type": "single",
@@ -642,7 +642,7 @@
   {
     "id": "g4-065",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "好き",
     "reading": "すき",
     "type": "okurigana",
@@ -652,7 +652,7 @@
   {
     "id": "g4-066",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 つながりに気をつけよう",
     "kanji": "天候",
     "reading": "てんこう",
     "type": "jukugo",
@@ -662,7 +662,7 @@
   {
     "id": "g4-067",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "航海",
     "reading": "こうかい",
     "type": "jukugo",
@@ -672,7 +672,7 @@
   {
     "id": "g4-068",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 短歌・俳句に親しもう(一)",
     "kanji": "康",
     "reading": "こう",
     "type": "single",
@@ -682,7 +682,7 @@
   {
     "id": "g4-069",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "告げる",
     "reading": "つげる",
     "type": "okurigana",
@@ -692,7 +692,7 @@
   {
     "id": "g4-070",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 ごんぎつね",
     "kanji": "差",
     "reading": "さ",
     "type": "single",
@@ -702,7 +702,7 @@
   {
     "id": "g4-071",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "野菜",
     "reading": "やさい",
     "type": "jukugo",
@@ -712,7 +712,7 @@
   {
     "id": "g4-072",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 お礼の気持ちを伝えよう",
     "kanji": "最後",
     "reading": "さいご",
     "type": "jukugo",
@@ -722,7 +722,7 @@
   {
     "id": "g4-073",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅1",
     "kanji": "埼玉",
     "reading": "さいたま",
     "type": "jukugo",
@@ -732,7 +732,7 @@
   {
     "id": "g4-074",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "材料",
     "reading": "ざいりょう",
     "type": "jukugo",
@@ -742,7 +742,7 @@
   {
     "id": "g4-075",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅2",
     "kanji": "宮崎",
     "reading": "みやざき",
     "type": "jukugo",
@@ -752,7 +752,7 @@
   {
     "id": "g4-076",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "昨日",
     "reading": "きのう",
     "type": "jukugo",
@@ -762,7 +762,7 @@
   {
     "id": "g4-077",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 漢字を正しく使おう",
     "kanji": "札",
     "reading": "ふだ",
     "type": "single",
@@ -772,7 +772,7 @@
   {
     "id": "g4-078",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "印刷",
     "reading": "いんさつ",
     "type": "jukugo",
@@ -782,7 +782,7 @@
   {
     "id": "g4-079",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "殺",
     "reading": "さつ",
     "type": "single",
@@ -792,7 +792,7 @@
   {
     "id": "g4-080",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "参加",
     "reading": "さんか",
     "type": "jukugo",
@@ -802,7 +802,7 @@
   {
     "id": "g4-081",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 つながりに気をつけよう",
     "kanji": "産業",
     "reading": "さんぎょう",
     "type": "jukugo",
@@ -812,7 +812,7 @@
   {
     "id": "g4-082",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 心が動いたことを言葉に",
     "kanji": "散歩",
     "reading": "さんぽ",
     "type": "jukugo",
@@ -822,7 +822,7 @@
   {
     "id": "g4-083",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "残る",
     "reading": "のこる",
     "type": "okurigana",
@@ -832,7 +832,7 @@
   {
     "id": "g4-084",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "兵士",
     "reading": "へいし",
     "type": "jukugo",
@@ -842,7 +842,7 @@
   {
     "id": "g4-085",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 短歌・俳句に親しもう(一)",
     "kanji": "氏名",
     "reading": "しめい",
     "type": "jukugo",
@@ -852,7 +852,7 @@
   {
     "id": "g4-086",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "歴史",
     "reading": "れきし",
     "type": "jukugo",
@@ -862,7 +862,7 @@
   {
     "id": "g4-087",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "司会",
     "reading": "しかい",
     "type": "jukugo",
@@ -872,7 +872,7 @@
   {
     "id": "g4-088",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "試合",
     "reading": "しあい",
     "type": "jukugo",
@@ -882,7 +882,7 @@
   {
     "id": "g4-089",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 短歌・俳句に親しもう(一)",
     "kanji": "児童",
     "reading": "じどう",
     "type": "jukugo",
@@ -892,7 +892,7 @@
   {
     "id": "g4-090",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "治る",
     "reading": "なおる",
     "type": "okurigana",
@@ -902,7 +902,7 @@
   {
     "id": "g4-091",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅2",
     "kanji": "滋賀",
     "reading": "しが",
     "type": "jukugo",
@@ -912,7 +912,7 @@
   {
     "id": "g4-092",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "辞書",
     "reading": "じしょ",
     "type": "jukugo",
@@ -922,7 +922,7 @@
   {
     "id": "g4-093",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅2",
     "kanji": "鹿",
     "reading": "しか",
     "type": "single",
@@ -932,7 +932,7 @@
   {
     "id": "g4-094",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "失う",
     "reading": "うしなう",
     "type": "okurigana",
@@ -942,7 +942,7 @@
   {
     "id": "g4-095",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 聞き取りメモのくふう",
     "kanji": "借りる",
     "reading": "かりる",
     "type": "okurigana",
@@ -952,7 +952,7 @@
   {
     "id": "g4-096",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 ごんぎつね",
     "kanji": "種",
     "reading": "たね",
     "type": "single",
@@ -962,7 +962,7 @@
   {
     "id": "g4-097",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "周り",
     "reading": "まわり",
     "type": "okurigana",
@@ -972,7 +972,7 @@
   {
     "id": "g4-098",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "祝う",
     "reading": "いわう",
     "type": "okurigana",
@@ -982,7 +982,7 @@
   {
     "id": "g4-099",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "順番",
     "reading": "じゅんばん",
     "type": "jukugo",
@@ -992,7 +992,7 @@
   {
     "id": "g4-100",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 お礼の気持ちを伝えよう",
     "kanji": "最初",
     "reading": "さいしょ",
     "type": "jukugo",
@@ -1002,7 +1002,7 @@
   {
     "id": "g4-101",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 ごんぎつね",
     "kanji": "松",
     "reading": "まつ",
     "type": "single",
@@ -1012,7 +1012,7 @@
   {
     "id": "g4-102",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 心が動いたことを言葉に",
     "kanji": "笑う",
     "reading": "わらう",
     "type": "okurigana",
@@ -1022,7 +1022,7 @@
   {
     "id": "g4-103",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "合唱",
     "reading": "がっしょう",
     "type": "jukugo",
@@ -1032,7 +1032,7 @@
   {
     "id": "g4-104",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "焼く",
     "reading": "やく",
     "type": "okurigana",
@@ -1042,7 +1042,7 @@
   {
     "id": "g4-105",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "印象",
     "reading": "いんしょう",
     "type": "jukugo",
@@ -1052,7 +1052,7 @@
   {
     "id": "g4-106",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "照らす",
     "reading": "てらす",
     "type": "okurigana",
@@ -1062,7 +1062,7 @@
   {
     "id": "g4-107",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "賞",
     "reading": "しょう",
     "type": "single",
@@ -1072,7 +1072,7 @@
   {
     "id": "g4-108",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "大臣",
     "reading": "だいじん",
     "type": "jukugo",
@@ -1082,7 +1082,7 @@
   {
     "id": "g4-109",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 白いぼうし",
     "kanji": "信じる",
     "reading": "しんじる",
     "type": "okurigana",
@@ -1092,7 +1092,7 @@
   {
     "id": "g4-110",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "井戸",
     "reading": "いど",
     "type": "jukugo",
@@ -1102,7 +1102,7 @@
   {
     "id": "g4-111",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "成功",
     "reading": "せいこう",
     "type": "jukugo",
@@ -1112,7 +1112,7 @@
   {
     "id": "g4-112",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 お礼の気持ちを伝えよう",
     "kanji": "反省",
     "reading": "はんせい",
     "type": "jukugo",
@@ -1122,7 +1122,7 @@
   {
     "id": "g4-113",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 自分だけの詩集を作ろう",
     "kanji": "清い",
     "reading": "きよい",
     "type": "okurigana",
@@ -1132,7 +1132,7 @@
   {
     "id": "g4-114",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "静か",
     "reading": "しずか",
     "type": "okurigana",
@@ -1142,7 +1142,7 @@
   {
     "id": "g4-115",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 白いぼうし",
     "kanji": "出席",
     "reading": "しゅっせき",
     "type": "jukugo",
@@ -1152,7 +1152,7 @@
   {
     "id": "g4-116",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 ごんぎつね",
     "kanji": "面積",
     "reading": "めんせき",
     "type": "jukugo",
@@ -1162,7 +1162,7 @@
   {
     "id": "g4-117",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 ごんぎつね",
     "kanji": "折る",
     "reading": "おる",
     "type": "okurigana",
@@ -1172,7 +1172,7 @@
   {
     "id": "g4-118",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "説明",
     "reading": "せつめい",
     "type": "jukugo",
@@ -1182,7 +1182,7 @@
   {
     "id": "g4-119",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 漢字を正しく使おう",
     "kanji": "浅い",
     "reading": "あさい",
     "type": "okurigana",
@@ -1192,7 +1192,7 @@
   {
     "id": "g4-120",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 もしものときにそなえよう",
     "kanji": "作戦",
     "reading": "さくせん",
     "type": "jukugo",
@@ -1202,7 +1202,7 @@
   {
     "id": "g4-121",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "選ぶ",
     "reading": "えらぶ",
     "type": "okurigana",
@@ -1212,7 +1212,7 @@
   {
     "id": "g4-122",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅1",
     "kanji": "自然",
     "reading": "しぜん",
     "type": "jukugo",
@@ -1222,7 +1222,7 @@
   {
     "id": "g4-123",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "争う",
     "reading": "あらそう",
     "type": "okurigana",
@@ -1232,7 +1232,7 @@
   {
     "id": "g4-124",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 漢字を正しく使おう",
     "kanji": "倉庫",
     "reading": "そうこ",
     "type": "jukugo",
@@ -1242,7 +1242,7 @@
   {
     "id": "g4-125",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 つながりに気をつけよう",
     "kanji": "巣",
     "reading": "す",
     "type": "single",
@@ -1252,7 +1252,7 @@
   {
     "id": "g4-126",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 つながりに気をつけよう",
     "kanji": "花束",
     "reading": "はなたば",
     "type": "jukugo",
@@ -1262,7 +1262,7 @@
   {
     "id": "g4-127",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 お礼の気持ちを伝えよう",
     "kanji": "両側",
     "reading": "りょうがわ",
     "type": "jukugo",
@@ -1272,7 +1272,7 @@
   {
     "id": "g4-128",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 ごんぎつね",
     "kanji": "続く",
     "reading": "つづく",
     "type": "okurigana",
@@ -1282,7 +1282,7 @@
   {
     "id": "g4-129",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "卒業",
     "reading": "そつぎょう",
     "type": "jukugo",
@@ -1292,7 +1292,7 @@
   {
     "id": "g4-130",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 漢字を正しく使おう",
     "kanji": "孫",
     "reading": "まご",
     "type": "single",
@@ -1302,7 +1302,7 @@
   {
     "id": "g4-131",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "包帯",
     "reading": "ほうたい",
     "type": "jukugo",
@@ -1312,7 +1312,7 @@
   {
     "id": "g4-132",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "軍隊",
     "reading": "ぐんたい",
     "type": "jukugo",
@@ -1322,7 +1322,7 @@
   {
     "id": "g4-133",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 白いぼうし",
     "kanji": "達する",
     "reading": "たっする",
     "type": "okurigana",
@@ -1332,7 +1332,7 @@
   {
     "id": "g4-134",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "単",
     "reading": "たん",
     "type": "single",
@@ -1342,7 +1342,7 @@
   {
     "id": "g4-135",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "置く",
     "reading": "おく",
     "type": "okurigana",
@@ -1352,7 +1352,7 @@
   {
     "id": "g4-136",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "仲間",
     "reading": "なかま",
     "type": "jukugo",
@@ -1362,7 +1362,7 @@
   {
     "id": "g4-137",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅2",
     "kanji": "沖",
     "reading": "おき",
     "type": "single",
@@ -1372,7 +1372,7 @@
   {
     "id": "g4-138",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 つながりに気をつけよう",
     "kanji": "兆",
     "reading": "ちょう",
     "type": "single",
@@ -1382,7 +1382,7 @@
   {
     "id": "g4-139",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "低い",
     "reading": "ひくい",
     "type": "okurigana",
@@ -1392,7 +1392,7 @@
   {
     "id": "g4-140",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "海底",
     "reading": "かいてい",
     "type": "jukugo",
@@ -1402,7 +1402,7 @@
   {
     "id": "g4-141",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 聞き取りメモのくふう",
     "kanji": "目的",
     "reading": "もくてき",
     "type": "jukugo",
@@ -1412,7 +1412,7 @@
   {
     "id": "g4-142",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "古典",
     "reading": "こてん",
     "type": "jukugo",
@@ -1422,7 +1422,7 @@
   {
     "id": "g4-143",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "伝える",
     "reading": "つたえる",
     "type": "okurigana",
@@ -1432,7 +1432,7 @@
   {
     "id": "g4-144",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 短歌・俳句に親しもう(一)",
     "kanji": "生徒",
     "reading": "せいと",
     "type": "jukugo",
@@ -1442,7 +1442,7 @@
   {
     "id": "g4-145",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 風船でうちゅうへ",
     "kanji": "努力",
     "reading": "どりょく",
     "type": "jukugo",
@@ -1452,7 +1452,7 @@
   {
     "id": "g4-146",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "電灯",
     "reading": "でんとう",
     "type": "jukugo",
@@ -1462,7 +1462,7 @@
   {
     "id": "g4-147",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "働く",
     "reading": "はたらく",
     "type": "okurigana",
@@ -1472,7 +1472,7 @@
   {
     "id": "g4-148",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 つながりに気をつけよう",
     "kanji": "特別",
     "reading": "とくべつ",
     "type": "jukugo",
@@ -1482,7 +1482,7 @@
   {
     "id": "g4-149",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅1",
     "kanji": "栃木",
     "reading": "とちぎ",
     "type": "jukugo",
@@ -1492,7 +1492,7 @@
   {
     "id": "g4-150",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅1",
     "kanji": "奈良",
     "reading": "なら",
     "type": "jukugo",
@@ -1502,7 +1502,7 @@
   {
     "id": "g4-151",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅1",
     "kanji": "山梨",
     "reading": "やまなし",
     "type": "jukugo",
@@ -1512,7 +1512,7 @@
   {
     "id": "g4-152",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "熱い",
     "reading": "あつい",
     "type": "okurigana",
@@ -1522,7 +1522,7 @@
   {
     "id": "g4-153",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 ごんぎつね",
     "kanji": "記念",
     "reading": "きねん",
     "type": "jukugo",
@@ -1532,7 +1532,7 @@
   {
     "id": "g4-154",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "失敗",
     "reading": "しっぱい",
     "type": "jukugo",
@@ -1542,7 +1542,7 @@
   {
     "id": "g4-155",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 短歌・俳句に親しもう(一)",
     "kanji": "梅",
     "reading": "うめ",
     "type": "single",
@@ -1552,7 +1552,7 @@
   {
     "id": "g4-156",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 漢字を正しく使おう",
     "kanji": "博物館",
     "reading": "はくぶつかん",
     "type": "jukugo",
@@ -1562,7 +1562,7 @@
   {
     "id": "g4-157",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "夕飯",
     "reading": "ゆうはん",
     "type": "jukugo",
@@ -1572,7 +1572,7 @@
   {
     "id": "g4-158",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 白いぼうし",
     "kanji": "飛ぶ",
     "reading": "とぶ",
     "type": "okurigana",
@@ -1582,7 +1582,7 @@
   {
     "id": "g4-159",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 聞き取りメモのくふう",
     "kanji": "必ず",
     "reading": "かならず",
     "type": "okurigana",
@@ -1592,7 +1592,7 @@
   {
     "id": "g4-160",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "投票",
     "reading": "とうひょう",
     "type": "jukugo",
@@ -1602,7 +1602,7 @@
   {
     "id": "g4-161",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 白いぼうし",
     "kanji": "目標",
     "reading": "もくひょう",
     "type": "jukugo",
@@ -1612,7 +1612,7 @@
   {
     "id": "g4-162",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 ごんぎつね",
     "kanji": "不安",
     "reading": "ふあん",
     "type": "jukugo",
@@ -1622,7 +1622,7 @@
   {
     "id": "g4-163",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 短歌・俳句に親しもう(一)",
     "kanji": "工夫",
     "reading": "くふう",
     "type": "jukugo",
@@ -1632,7 +1632,7 @@
   {
     "id": "g4-164",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 漢字を正しく使おう",
     "kanji": "付ける",
     "reading": "つける",
     "type": "okurigana",
@@ -1642,7 +1642,7 @@
   {
     "id": "g4-165",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅2",
     "kanji": "大阪府",
     "reading": "おおさかふ",
     "type": "jukugo",
@@ -1652,7 +1652,7 @@
   {
     "id": "g4-166",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅1",
     "kanji": "富山",
     "reading": "とやま",
     "type": "jukugo",
@@ -1662,7 +1662,7 @@
   {
     "id": "g4-167",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "副",
     "reading": "ふく",
     "type": "single",
@@ -1672,7 +1672,7 @@
   {
     "id": "g4-168",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "兵隊",
     "reading": "へいたい",
     "type": "jukugo",
@@ -1682,7 +1682,7 @@
   {
     "id": "g4-169",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 カンジー博士の都道府県の旅2",
     "kanji": "別れる",
     "reading": "わかれる",
     "type": "okurigana",
@@ -1692,7 +1692,7 @@
   {
     "id": "g4-170",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "海辺",
     "reading": "うみべ",
     "type": "jukugo",
@@ -1702,7 +1702,7 @@
   {
     "id": "g4-171",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 ごんぎつね",
     "kanji": "変わる",
     "reading": "かわる",
     "type": "okurigana",
@@ -1712,7 +1712,7 @@
   {
     "id": "g4-172",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 漢字を正しく使おう",
     "kanji": "便利",
     "reading": "べんり",
     "type": "jukugo",
@@ -1722,7 +1722,7 @@
   {
     "id": "g4-173",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "包む",
     "reading": "つつむ",
     "type": "okurigana",
@@ -1732,7 +1732,7 @@
   {
     "id": "g4-174",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "方法",
     "reading": "ほうほう",
     "type": "jukugo",
@@ -1742,7 +1742,7 @@
   {
     "id": "g4-175",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 図書館の達人になろう",
     "kanji": "牧場",
     "reading": "ぼくじょう",
     "type": "jukugo",
@@ -1752,7 +1752,7 @@
   {
     "id": "g4-176",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 ごんぎつね",
     "kanji": "週末",
     "reading": "しゅうまつ",
     "type": "jukugo",
@@ -1762,7 +1762,7 @@
   {
     "id": "g4-177",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "満ちる",
     "reading": "みちる",
     "type": "okurigana",
@@ -1772,7 +1772,7 @@
   {
     "id": "g4-178",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 聞き取りメモのくふう",
     "kanji": "未来",
     "reading": "みらい",
     "type": "jukugo",
@@ -1782,7 +1782,7 @@
   {
     "id": "g4-179",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 心が動いたことを言葉に",
     "kanji": "国民",
     "reading": "こくみん",
     "type": "jukugo",
@@ -1792,7 +1792,7 @@
   {
     "id": "g4-180",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 お礼の気持ちを伝えよう",
     "kanji": "無理",
     "reading": "むり",
     "type": "jukugo",
@@ -1802,7 +1802,7 @@
   {
     "id": "g4-181",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 短歌・俳句に親しもう(一)",
     "kanji": "約束",
     "reading": "やくそく",
     "type": "jukugo",
@@ -1812,7 +1812,7 @@
   {
     "id": "g4-182",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 心が動いたことを言葉に",
     "kanji": "勇気",
     "reading": "ゆうき",
     "type": "jukugo",
@@ -1822,7 +1822,7 @@
   {
     "id": "g4-183",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 漢字を正しく使おう",
     "kanji": "重要",
     "reading": "じゅうよう",
     "type": "jukugo",
@@ -1832,7 +1832,7 @@
   {
     "id": "g4-184",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "養う",
     "reading": "やしなう",
     "type": "okurigana",
@@ -1842,7 +1842,7 @@
   {
     "id": "g4-185",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "海水浴",
     "reading": "かいすいよく",
     "type": "jukugo",
@@ -1852,7 +1852,7 @@
   {
     "id": "g4-186",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "陸",
     "reading": "りく",
     "type": "single",
@@ -1862,7 +1862,7 @@
   {
     "id": "g4-187",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 短歌・俳句に親しもう(一)",
     "kanji": "良い",
     "reading": "よい",
     "type": "okurigana",
@@ -1872,7 +1872,7 @@
   {
     "id": "g4-188",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 漢字を正しく使おう",
     "kanji": "重さ",
     "reading": "おもさ",
     "type": "okurigana",
@@ -1882,7 +1882,7 @@
   {
     "id": "g4-189",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 一つの花",
     "kanji": "車輪",
     "reading": "しゃりん",
     "type": "jukugo",
@@ -1892,7 +1892,7 @@
   {
     "id": "g4-190",
     "grade": 4,
-    "unit": "",
+    "unit": "国語下 ごんぎつね",
     "kanji": "種類",
     "reading": "しゅるい",
     "type": "jukugo",
@@ -1902,7 +1902,7 @@
   {
     "id": "g4-191",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 神様の階段",
     "kanji": "命令",
     "reading": "めいれい",
     "type": "jukugo",
@@ -1912,7 +1912,7 @@
   {
     "id": "g4-192",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 お礼の気持ちを伝えよう",
     "kanji": "冷たい",
     "reading": "つめたい",
     "type": "okurigana",
@@ -1922,7 +1922,7 @@
   {
     "id": "g4-193",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 白いぼうし",
     "kanji": "例",
     "reading": "れい",
     "type": "single",
@@ -1932,7 +1932,7 @@
   {
     "id": "g4-194",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "連続",
     "reading": "れんぞく",
     "type": "jukugo",
@@ -1942,7 +1942,7 @@
   {
     "id": "g4-195",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 新聞を作ろう",
     "kanji": "老人",
     "reading": "ろうじん",
     "type": "jukugo",
@@ -1952,7 +1952,7 @@
   {
     "id": "g4-196",
     "grade": 4,
-    "unit": "",
+    "unit": "国語上 アップとルーズで伝える",
     "kanji": "労働",
     "reading": "ろうどう",
     "type": "jukugo",
